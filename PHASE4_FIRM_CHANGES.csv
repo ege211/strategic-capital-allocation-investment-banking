@@ -1,0 +1,109 @@
+panel,ticker,firm_name,variable,variable_label,unit,val_2020,val_2021,val_2022,val_2023,val_2024,abs_change_2020_2024,pct_change_2020_2024,notes
+PANEL_A,GS,"Goldman Sachs Group, Inc.",net_revenue,Total Net Revenues,USD Millions,44560.0,59339.0,47365.0,46253.0,53510.0,8950.0,20.09,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",investment_banking_revenue,Investment Banking Revenue,USD Millions,9420.0,14877.0,7360.0,6218.0,7738.0,-1682.0,-17.86,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",dividends_paid,Cash Dividends Paid,USD Millions,2336.0,2725.0,3682.0,4189.0,4497.0,2161.0,92.51,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",share_repurchases,Share Repurchases,USD Millions,1928.0,5200.0,3500.0,5796.0,8000.0,6072.0,314.94,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",total_cash_returned,Total Cash Returned,USD Millions,4264.0,7925.0,7182.0,9985.0,12497.0,8233.0,193.08,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",shareholder_distribution_ratio,Shareholder Distribution Ratio (% of Net Revenue),%,9.57,13.36,15.16,21.59,23.35,13.78,143.99,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",roe,Return on Common Equity (ROE),%,11.1,23.0,10.2,7.5,11.0,-0.1,-0.9,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",rotce_or_rote,Return on Tangible Common Equity (ROTCE / ROTE),%,11.9,24.3,11.0,8.1,11.9,0.0,0.0,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",efficiency_or_overhead_ratio,Efficiency / Overhead Ratio,%,65.0,53.8,65.8,74.7,64.9,-0.1,-0.15,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",cet1_standardized,Standardized CET1 Capital Ratio,%,14.7,14.2,15.0,14.4,15.0,0.3,2.04,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",tier1_leverage_ratio,Tier 1 Leverage Ratio,%,7.2,7.3,7.3,7.0,6.9,-0.3,-4.17,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",supplementary_leverage_ratio,Supplementary Leverage Ratio (SLR),%,7.0,6.2,5.8,5.4,5.4,-1.6,-22.86,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",tangible_common_equity,Tangible Common Equity,USD Millions,80430.0,95015.0,99824.0,102170.0,108480.0,28050.0,34.88,Factual within-firm longitudinal change.
+PANEL_A,GS,"Goldman Sachs Group, Inc.",technology_or_business_investment,Communications & Technology Expense,USD Millions,1370.0,1559.0,1723.0,1777.0,1850.0,480.0,35.04,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,net_revenue,Total Net Revenues,USD Millions,48197.0,59755.0,53668.0,54187.0,61814.0,13617.0,28.25,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,investment_banking_revenue,Investment Banking Revenue,USD Millions,7674.0,10994.0,5599.0,4948.0,6705.0,-969.0,-12.63,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,dividends_paid,Cash Dividends Paid,USD Millions,2739.0,4171.0,5401.0,5763.0,6138.0,3399.0,124.1,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,share_repurchases,Share Repurchases,USD Millions,1347.0,11464.0,9865.0,5300.0,3250.0,1903.0,141.28,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,total_cash_returned,Total Cash Returned,USD Millions,4086.0,15635.0,15266.0,11063.0,9388.0,5302.0,129.76,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,shareholder_distribution_ratio,Shareholder Distribution Ratio (% of Net Revenue),%,8.48,26.17,28.45,20.42,15.19,6.71,79.13,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,roe,Return on Common Equity (ROE),%,15.2,19.8,15.3,12.8,14.5,-0.7,-4.61,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,rotce_or_rote,Return on Tangible Common Equity (ROTCE / ROTE),%,20.0,20.2,15.3,12.8,14.5,-5.5,-27.5,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,efficiency_or_overhead_ratio,Efficiency / Overhead Ratio,%,70.0,67.0,73.0,77.0,72.0,2.0,2.86,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,cet1_standardized,Standardized CET1 Capital Ratio,%,17.4,16.0,15.3,15.2,15.2,-2.2,-12.64,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,tier1_leverage_ratio,Tier 1 Leverage Ratio,%,7.6,6.8,6.8,6.9,6.9,-0.7,-9.21,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,supplementary_leverage_ratio,Supplementary Leverage Ratio (SLR),%,7.4,5.7,5.4,5.4,5.4,-2.0,-27.03,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,tangible_common_equity,Tangible Common Equity,USD Millions,65420.0,69850.0,72140.0,74510.0,78900.0,13480.0,20.61,Factual within-firm longitudinal change.
+PANEL_A,MS,Morgan Stanley,technology_or_business_investment,Communications & Technology Expense,USD Millions,2104.0,2450.0,2580.0,2720.0,2850.0,746.0,35.46,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,net_revenue,Total Net Revenues,USD Millions,119543.0,121649.0,128695.0,158104.0,170154.0,50611.0,42.34,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,investment_banking_revenue,Investment Banking Revenue,USD Millions,9486.0,13216.0,6686.0,6519.0,8910.0,-576.0,-6.07,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,dividends_paid,Cash Dividends Paid,USD Millions,12690.0,12858.0,13562.0,13463.0,14783.0,2093.0,16.49,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,share_repurchases,Share Repurchases,USD Millions,6517.0,18408.0,3162.0,9824.0,18830.0,12313.0,188.94,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,total_cash_returned,Total Cash Returned,USD Millions,19207.0,31266.0,16724.0,23287.0,33613.0,14406.0,75.0,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,shareholder_distribution_ratio,Shareholder Distribution Ratio (% of Net Revenue),%,16.07,25.7,13.0,14.73,19.75,3.68,22.9,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,roe,Return on Common Equity (ROE),%,12.0,19.0,14.0,17.0,18.0,6.0,50.0,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,rotce_or_rote,Return on Tangible Common Equity (ROTCE / ROTE),%,14.0,23.0,18.0,21.0,22.0,8.0,57.14,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,efficiency_or_overhead_ratio,Efficiency / Overhead Ratio,%,56.0,59.0,62.0,54.0,53.0,-3.0,-5.36,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,cet1_standardized,Standardized CET1 Capital Ratio,%,13.1,13.0,13.2,15.0,15.3,2.2,16.79,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,tier1_leverage_ratio,Tier 1 Leverage Ratio,%,6.8,7.1,7.2,7.6,7.7,0.9,13.24,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,supplementary_leverage_ratio,Supplementary Leverage Ratio (SLR),%,6.9,5.4,5.5,6.0,6.0,-0.9,-13.04,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,tangible_common_equity,Tangible Common Equity,USD Millions,209040.0,225000.0,233000.0,256000.0,278000.0,68960.0,32.99,Factual within-firm longitudinal change.
+PANEL_A,JPM,JPMorgan Chase & Co.,technology_or_business_investment,Communications & Technology Expense,USD Millions,10300.0,11800.0,13000.0,14200.0,15500.0,5200.0,50.49,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,net_revenue,Total Net Revenues,USD Millions,3817.8,4783.1,4592.8,5159.3,5951.7,2133.9,55.89,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,investment_banking_revenue,Investment Banking Revenue,USD Millions,952.3,1565.4,971.5,731.3,994.8,42.5,4.46,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,dividends_paid,Cash Dividends Paid,USD Millions,73.8,101.9,171.0,200.3,227.3,153.5,207.99,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,share_repurchases,Share Repurchases,USD Millions,58.3,172.7,105.8,443.9,144.1,85.8,147.17,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,total_cash_returned,Total Cash Returned,USD Millions,132.1,274.6,276.8,644.2,371.4,239.3,181.15,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,shareholder_distribution_ratio,Shareholder Distribution Ratio (% of Net Revenue),%,3.46,5.74,6.03,12.49,6.24,2.78,80.35,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,roe,Return on Common Equity (ROE),%,13.1,17.5,14.3,11.1,11.8,-1.3,-9.92,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,rotce_or_rote,Return on Tangible Common Equity (ROTCE / ROTE),%,19.5,24.2,19.8,15.6,16.5,-3.0,-15.38,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,efficiency_or_overhead_ratio,Efficiency / Overhead Ratio,%,64.7,61.2,65.4,69.8,68.1,3.4,5.26,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,cet1_standardized,Standardized CET1 Capital Ratio,%,10.9,11.2,11.3,11.4,11.4,0.5,4.59,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,tier1_leverage_ratio,Tier 1 Leverage Ratio,%,8.5,8.8,8.6,8.9,8.9,0.4,4.71,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,supplementary_leverage_ratio,Supplementary Leverage Ratio (SLR),%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Observation status: NOT_APPLICABLE (not numerical or unavailable).
+PANEL_A,SF,Stifel Financial Corp.,tangible_common_equity,Tangible Common Equity,USD Millions,2750.0,3200.0,3450.0,3700.0,3950.0,1200.0,43.64,Factual within-firm longitudinal change.
+PANEL_A,SF,Stifel Financial Corp.,technology_or_business_investment,Communications & Technology Expense,USD Millions,210.0,245.0,270.0,295.0,320.0,110.0,52.38,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,net_revenue,Total Net Revenues,USD Millions,2285.3,3307.1,2778.9,2442.7,2996.4,711.1,31.12,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,investment_banking_revenue,Investment Banking Revenue,USD Millions,2225.0,3240.0,2710.0,2375.0,2920.0,695.0,31.24,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,dividends_paid,Cash Dividends Paid,USD Millions,106.6,118.8,127.3,127.9,135.8,29.2,27.39,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,share_repurchases,Share Repurchases,USD Millions,146.6,720.7,520.5,387.3,448.2,301.6,205.73,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,total_cash_returned,Total Cash Returned,USD Millions,253.2,839.5,647.8,515.2,584.0,330.8,130.65,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,shareholder_distribution_ratio,Shareholder Distribution Ratio (% of Net Revenue),%,11.08,25.38,23.31,21.09,19.49,8.41,75.9,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,compensation_expense,Compensation and Benefits Expense,USD Millions,1475.2,2008.7,1671.5,1612.2,1977.7,502.5,34.06,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,compensation_ratio,Compensation Expense Ratio,%,64.5,60.7,60.1,66.0,66.0,1.5,2.33,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,operating_income,Operating Income,USD Millions,444.6,923.6,701.3,366.4,495.2,50.6,11.38,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,operating_margin,Operating Margin,%,19.45,27.93,25.24,15.0,16.53,-2.92,-15.01,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,cash,Balance Sheet Cash & Cash Equivalents,USD Millions,577.8,590.2,588.6,596.1,687.4,109.6,18.97,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,debt,Funded Long-Term Debt,USD Millions,0.0,0.0,0.0,0.0,0.0,0.0,N/A,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,net_cash_or_net_debt,Net Cash / Net Debt Cushion,USD Millions,577.8,590.2,588.6,596.1,687.4,109.6,18.97,Factual within-firm longitudinal change.
+PANEL_B,EVR,Evercore Inc.,technology_or_business_investment_if_available,Communications & Market Data Expense,USD Millions,102.0,115.0,128.0,135.0,145.0,43.0,42.16,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",net_revenue,Total Net Revenues,USD Millions,2646.8,3273.8,2855.1,2593.2,3139.9,493.1,18.63,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",investment_banking_revenue,Investment Banking Revenue,USD Millions,1404.0,1927.0,1685.0,1378.0,1765.0,361.0,25.71,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",dividends_paid,Cash Dividends Paid,USD Millions,196.6,195.9,181.9,173.1,179.0,-17.6,-8.95,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",share_repurchases,Share Repurchases,USD Millions,95.2,406.1,691.7,102.1,59.5,-35.7,-37.5,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",total_cash_returned,Total Cash Returned,USD Millions,291.8,602.0,873.6,275.2,238.5,-53.3,-18.27,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",shareholder_distribution_ratio,Shareholder Distribution Ratio (% of Net Revenue),%,11.02,18.39,30.6,10.61,7.6,-3.42,-31.03,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",compensation_expense,Compensation and Benefits Expense,USD Millions,1732.1,2001.2,1745.3,1855.9,2040.9,308.8,17.83,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",compensation_ratio,Compensation Expense Ratio,%,61.3,61.1,61.1,71.6,65.0,3.7,6.04,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",operating_income,Operating Income,USD Millions,485.4,656.7,474.3,-87.7,341.2,-144.2,-29.71,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",operating_margin,Operating Margin,%,18.34,20.06,16.61,-3.38,10.87,-7.47,-40.73,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",cash,Balance Sheet Cash & Cash Equivalents,USD Millions,1349.5,1476.3,1213.6,917.4,1155.6,-193.9,-14.37,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",debt,Funded Long-Term Debt,USD Millions,1691.0,1686.0,1682.0,1678.0,1674.0,-17.0,-1.01,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",net_cash_or_net_debt,Net Cash / Net Debt Cushion,USD Millions,-341.5,-209.7,-468.4,-760.6,-518.4,-176.9,-51.8,Factual within-firm longitudinal change.
+PANEL_B,LAZ,"Lazard, Inc.",technology_or_business_investment_if_available,Communications & Market Data Expense,USD Millions,135.0,148.0,155.0,160.0,165.0,30.0,22.22,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,net_revenue,Total Net Revenues,USD Millions,943.3,1540.6,985.3,854.7,1194.5,251.2,26.63,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,investment_banking_revenue,Investment Banking Revenue,USD Millions,943.3,1540.6,985.3,854.7,1194.5,251.2,26.63,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,dividends_paid,Cash Dividends Paid,USD Millions,282.9,479.9,174.7,182.2,184.2,-98.7,-34.89,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,share_repurchases,Share Repurchases,USD Millions,44.3,104.2,147.5,47.0,10.8,-33.5,-75.62,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,total_cash_returned,Total Cash Returned,USD Millions,327.2,584.1,322.2,229.2,195.0,-132.2,-40.4,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,shareholder_distribution_ratio,Shareholder Distribution Ratio (% of Net Revenue),%,34.69,37.91,32.7,26.82,16.32,-18.37,-52.95,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,compensation_expense,Compensation and Benefits Expense,USD Millions,594.3,986.0,640.4,598.3,776.5,182.2,30.66,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,compensation_ratio,Compensation Expense Ratio,%,63.0,64.0,65.0,70.0,65.0,2.0,3.17,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,operating_income,Operating Income,USD Millions,232.0,464.7,213.9,90.9,235.1,3.1,1.34,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,operating_margin,Operating Margin,%,24.59,30.16,21.71,10.64,19.68,-4.91,-19.97,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,cash,Balance Sheet Cash & Cash Equivalents,USD Millions,336.8,597.5,454.1,363.5,432.8,96.0,28.5,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,debt,Funded Long-Term Debt,USD Millions,0.0,0.0,0.0,0.0,0.0,0.0,N/A,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,net_cash_or_net_debt,Net Cash / Net Debt Cushion,USD Millions,336.8,597.5,454.1,363.5,432.8,96.0,28.5,Factual within-firm longitudinal change.
+PANEL_B,MC,Moelis & Company,technology_or_business_investment_if_available,Communications & Market Data Expense,USD Millions,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Observation status: UNAVAILABLE (not numerical or unavailable).
+SENSITIVITY,JEF,Jefferies Financial Group Inc.,net_revenue,Total Net Revenues,USD Millions,6880.4,8945.5,7149.3,7441.4,10515.1,3634.7,52.83,Factual within-firm longitudinal change.
+SENSITIVITY,JEF,Jefferies Financial Group Inc.,investment_banking_revenue,Investment Banking Revenue,USD Millions,3923.2,6141.8,4742.9,3233.2,4858.0,934.8,23.83,Factual within-firm longitudinal change.
+SENSITIVITY,JEF,Jefferies Financial Group Inc.,dividends_paid,Cash Dividends Paid,USD Millions,160.9,222.8,280.1,278.6,303.0,142.1,88.32,Factual within-firm longitudinal change.
+SENSITIVITY,JEF,Jefferies Financial Group Inc.,share_repurchases,Share Repurchases,USD Millions,816.9,269.4,859.6,169.4,44.3,-772.6,-94.58,Factual within-firm longitudinal change.
+SENSITIVITY,JEF,Jefferies Financial Group Inc.,total_cash_returned,Total Cash Returned,USD Millions,977.8,492.2,1139.7,448.0,347.3,-630.5,-64.48,Factual within-firm longitudinal change.
+SENSITIVITY,JEF,Jefferies Financial Group Inc.,shareholder_distribution_ratio,Shareholder Distribution Ratio (% of Net Revenue),%,14.21,5.5,15.94,6.02,3.3,-10.91,-76.78,Factual within-firm longitudinal change.
+SENSITIVITY,JEF,Jefferies Financial Group Inc.,compensation_expense,Compensation and Benefits Expense,USD Millions,3550.0,4550.0,4100.0,4300.0,5250.0,1700.0,47.89,Factual within-firm longitudinal change.
+SENSITIVITY,JEF,Jefferies Financial Group Inc.,compensation_ratio,Compensation Expense Ratio,%,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Observation status: DIRECT (not numerical or unavailable).
+SENSITIVITY,JEF,Jefferies Financial Group Inc.,operating_income,Income before Taxes (Operating Proxy),USD Millions,N/A,N/A,N/A,N/A,N/A,N/A,N/A,Observation status: DIRECT (not numerical or unavailable).
+SENSITIVITY,JEF,Jefferies Financial Group Inc.,tangible_common_equity,Tangible Book Value / Common Equity,USD Millions,6500.0,7800.0,7200.0,7400.0,8200.0,1700.0,26.15,Factual within-firm longitudinal change.

@@ -1,0 +1,541 @@
+firm,ticker,fiscal_year,period_end,variable,reported_term,value,unit,status,source_observation_id
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,net_revenue,Total net revenues,44560.0,USD Millions,DIRECT,RAW_GS_2020_net_revenue
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,investment_banking_revenue,Investment banking,9420.0,USD Millions,DIRECT,RAW_GS_2020_investment_banking_revenue
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,dividends_paid,Dividends paid,2336.0,USD Millions,DIRECT,RAW_GS_2020_dividends_paid
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,share_repurchases,Repurchase of common stock,1928.0,USD Millions,DIRECT,RAW_GS_2020_share_repurchases
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,roe,Return on average common shareholders' equity (ROE),11.1,%,DIRECT,RAW_GS_2020_roe
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,rotce_or_rote,Return on average tangible common shareholders' equity (ROTE),11.9,%,DIRECT,RAW_GS_2020_rotce_or_rote
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,efficiency_or_overhead_ratio,Efficiency ratio,65.0,%,DIRECT,RAW_GS_2020_efficiency_or_overhead_ratio
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,14.7,%,DIRECT,RAW_GS_2020_cet1_standardized
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,7.2,%,DIRECT,RAW_GS_2020_tier1_leverage_ratio
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),7.0,%,DIRECT,RAW_GS_2020_supplementary_leverage_ratio
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,tangible_common_equity,Tangible common shareholders' equity,80430.0,USD Millions,DIRECT,RAW_GS_2020_tangible_common_equity
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,technology_or_business_investment,Communications and technology,1370.0,USD Millions,DIRECT,RAW_GS_2020_technology_or_business_investment
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,compensation_expense,Compensation and benefits,13309.0,USD Millions,DIRECT,RAW_GS_2020_compensation_expense
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,cash,Cash and cash equivalents,155986.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_GS_2020_cash
+"Goldman Sachs Group, Inc.",GS,2020,2020-12-31,debt,Unsecured long-term borrowings,250684.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_GS_2020_debt
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,net_revenue,Total net revenues,59339.0,USD Millions,DIRECT,RAW_GS_2021_net_revenue
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,investment_banking_revenue,Investment banking,14877.0,USD Millions,DIRECT,RAW_GS_2021_investment_banking_revenue
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,dividends_paid,Dividends paid,2725.0,USD Millions,DIRECT,RAW_GS_2021_dividends_paid
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,share_repurchases,Repurchase of common stock,5200.0,USD Millions,DIRECT,RAW_GS_2021_share_repurchases
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,roe,Return on average common shareholders' equity (ROE),23.0,%,DIRECT,RAW_GS_2021_roe
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,rotce_or_rote,Return on average tangible common shareholders' equity (ROTE),24.3,%,DIRECT,RAW_GS_2021_rotce_or_rote
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,efficiency_or_overhead_ratio,Efficiency ratio,53.8,%,DIRECT,RAW_GS_2021_efficiency_or_overhead_ratio
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,14.2,%,DIRECT,RAW_GS_2021_cet1_standardized
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,7.3,%,DIRECT,RAW_GS_2021_tier1_leverage_ratio
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),6.2,%,DIRECT,RAW_GS_2021_supplementary_leverage_ratio
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,tangible_common_equity,Tangible common shareholders' equity,95015.0,USD Millions,DIRECT,RAW_GS_2021_tangible_common_equity
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,technology_or_business_investment,Communications and technology,1559.0,USD Millions,DIRECT,RAW_GS_2021_technology_or_business_investment
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,compensation_expense,Compensation and benefits,17715.0,USD Millions,DIRECT,RAW_GS_2021_compensation_expense
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,cash,Cash and cash equivalents,261019.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_GS_2021_cash
+"Goldman Sachs Group, Inc.",GS,2021,2021-12-31,debt,Unsecured long-term borrowings,284687.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_GS_2021_debt
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,net_revenue,Total net revenues,47365.0,USD Millions,DIRECT,RAW_GS_2022_net_revenue
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,investment_banking_revenue,Investment banking,7360.0,USD Millions,DIRECT,RAW_GS_2022_investment_banking_revenue
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,dividends_paid,Dividends paid,3682.0,USD Millions,DIRECT,RAW_GS_2022_dividends_paid
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,share_repurchases,Repurchase of common stock,3500.0,USD Millions,DIRECT,RAW_GS_2022_share_repurchases
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,roe,Return on average common shareholders' equity (ROE),10.2,%,DIRECT,RAW_GS_2022_roe
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,rotce_or_rote,Return on average tangible common shareholders' equity (ROTE),11.0,%,DIRECT,RAW_GS_2022_rotce_or_rote
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,efficiency_or_overhead_ratio,Efficiency ratio,65.8,%,DIRECT,RAW_GS_2022_efficiency_or_overhead_ratio
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,15.0,%,DIRECT,RAW_GS_2022_cet1_standardized
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,7.3,%,DIRECT,RAW_GS_2022_tier1_leverage_ratio
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),5.8,%,DIRECT,RAW_GS_2022_supplementary_leverage_ratio
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,tangible_common_equity,Tangible common shareholders' equity,99824.0,USD Millions,DIRECT,RAW_GS_2022_tangible_common_equity
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,technology_or_business_investment,Communications and technology,1723.0,USD Millions,DIRECT,RAW_GS_2022_technology_or_business_investment
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,compensation_expense,Compensation and benefits,15150.0,USD Millions,DIRECT,RAW_GS_2022_compensation_expense
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,cash,Cash and cash equivalents,240582.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_GS_2022_cash
+"Goldman Sachs Group, Inc.",GS,2022,2022-12-31,debt,Unsecured long-term borrowings,294711.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_GS_2022_debt
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,net_revenue,Total net revenues,46253.0,USD Millions,DIRECT,RAW_GS_2023_net_revenue
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,investment_banking_revenue,Investment banking,6218.0,USD Millions,DIRECT,RAW_GS_2023_investment_banking_revenue
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,dividends_paid,Dividends paid,4189.0,USD Millions,DIRECT,RAW_GS_2023_dividends_paid
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,share_repurchases,Repurchase of common stock,5796.0,USD Millions,DIRECT,RAW_GS_2023_share_repurchases
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,roe,Return on average common shareholders' equity (ROE),7.5,%,DIRECT,RAW_GS_2023_roe
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,rotce_or_rote,Return on average tangible common shareholders' equity (ROTE),8.1,%,DIRECT,RAW_GS_2023_rotce_or_rote
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,efficiency_or_overhead_ratio,Efficiency ratio,74.7,%,DIRECT,RAW_GS_2023_efficiency_or_overhead_ratio
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,14.4,%,DIRECT,RAW_GS_2023_cet1_standardized
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,7.0,%,DIRECT,RAW_GS_2023_tier1_leverage_ratio
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),5.4,%,DIRECT,RAW_GS_2023_supplementary_leverage_ratio
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,tangible_common_equity,Tangible common shareholders' equity,102170.0,USD Millions,DIRECT,RAW_GS_2023_tangible_common_equity
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,technology_or_business_investment,Communications and technology,1777.0,USD Millions,DIRECT,RAW_GS_2023_technology_or_business_investment
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,compensation_expense,Compensation and benefits,15414.0,USD Millions,DIRECT,RAW_GS_2023_compensation_expense
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,cash,Cash and cash equivalents,244589.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_GS_2023_cash
+"Goldman Sachs Group, Inc.",GS,2023,2023-12-31,debt,Unsecured long-term borrowings,302835.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_GS_2023_debt
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,net_revenue,Total net revenues,53510.0,USD Millions,DIRECT,RAW_GS_2024_net_revenue
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,investment_banking_revenue,Investment banking,7738.0,USD Millions,DIRECT,RAW_GS_2024_investment_banking_revenue
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,dividends_paid,Dividends paid,4497.0,USD Millions,DIRECT,RAW_GS_2024_dividends_paid
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,share_repurchases,Repurchase of common stock,8000.0,USD Millions,DIRECT,RAW_GS_2024_share_repurchases
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,roe,Return on average common shareholders' equity (ROE),11.0,%,DIRECT,RAW_GS_2024_roe
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,rotce_or_rote,Return on average tangible common shareholders' equity (ROTE),11.9,%,DIRECT,RAW_GS_2024_rotce_or_rote
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,efficiency_or_overhead_ratio,Efficiency ratio,64.9,%,DIRECT,RAW_GS_2024_efficiency_or_overhead_ratio
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,15.0,%,DIRECT,RAW_GS_2024_cet1_standardized
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,6.9,%,DIRECT,RAW_GS_2024_tier1_leverage_ratio
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),5.4,%,DIRECT,RAW_GS_2024_supplementary_leverage_ratio
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,tangible_common_equity,Tangible common shareholders' equity,108480.0,USD Millions,DIRECT,RAW_GS_2024_tangible_common_equity
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,technology_or_business_investment,Communications and technology,1850.0,USD Millions,DIRECT,RAW_GS_2024_technology_or_business_investment
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,compensation_expense,Compensation and benefits,17436.0,USD Millions,DIRECT,RAW_GS_2024_compensation_expense
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,cash,Cash and cash equivalents,255470.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_GS_2024_cash
+"Goldman Sachs Group, Inc.",GS,2024,2024-12-31,debt,Unsecured long-term borrowings,315200.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_GS_2024_debt
+Morgan Stanley,MS,2020,2020-12-31,net_revenue,Net revenues,48197.0,USD Millions,DIRECT,RAW_MS_2020_net_revenue
+Morgan Stanley,MS,2020,2020-12-31,investment_banking_revenue,Investment banking,7674.0,USD Millions,DIRECT,RAW_MS_2020_investment_banking_revenue
+Morgan Stanley,MS,2020,2020-12-31,dividends_paid,Dividends,2739.0,USD Millions,DIRECT,RAW_MS_2020_dividends_paid
+Morgan Stanley,MS,2020,2020-12-31,share_repurchases,Common stock repurchases,1347.0,USD Millions,DIRECT,RAW_MS_2020_share_repurchases
+Morgan Stanley,MS,2020,2020-12-31,roe,Return on average common equity (ROE),15.2,%,DIRECT,RAW_MS_2020_roe
+Morgan Stanley,MS,2020,2020-12-31,rotce_or_rote,Return on average tangible common equity (ROTCE),20.0,%,DIRECT,RAW_MS_2020_rotce_or_rote
+Morgan Stanley,MS,2020,2020-12-31,efficiency_or_overhead_ratio,Expense efficiency ratio,70.0,%,DIRECT,RAW_MS_2020_efficiency_or_overhead_ratio
+Morgan Stanley,MS,2020,2020-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,17.4,%,DIRECT,RAW_MS_2020_cet1_standardized
+Morgan Stanley,MS,2020,2020-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,7.6,%,DIRECT,RAW_MS_2020_tier1_leverage_ratio
+Morgan Stanley,MS,2020,2020-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),7.4,%,DIRECT,RAW_MS_2020_supplementary_leverage_ratio
+Morgan Stanley,MS,2020,2020-12-31,tangible_common_equity,Tangible common equity,65420.0,USD Millions,DIRECT,RAW_MS_2020_tangible_common_equity
+Morgan Stanley,MS,2020,2020-12-31,technology_or_business_investment,Information processing and communications,2104.0,USD Millions,DIRECT,RAW_MS_2020_technology_or_business_investment
+Morgan Stanley,MS,2020,2020-12-31,compensation_expense,Compensation and benefits,22115.0,USD Millions,DIRECT,RAW_MS_2020_compensation_expense
+Morgan Stanley,MS,2020,2020-12-31,cash,Cash and cash equivalents,130395.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_MS_2020_cash
+Morgan Stanley,MS,2020,2020-12-31,debt,Long-term borrowings,222684.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_MS_2020_debt
+Morgan Stanley,MS,2021,2021-12-31,net_revenue,Net revenues,59755.0,USD Millions,DIRECT,RAW_MS_2021_net_revenue
+Morgan Stanley,MS,2021,2021-12-31,investment_banking_revenue,Investment banking,10994.0,USD Millions,DIRECT,RAW_MS_2021_investment_banking_revenue
+Morgan Stanley,MS,2021,2021-12-31,dividends_paid,Dividends,4171.0,USD Millions,DIRECT,RAW_MS_2021_dividends_paid
+Morgan Stanley,MS,2021,2021-12-31,share_repurchases,Common stock repurchases,11464.0,USD Millions,DIRECT,RAW_MS_2021_share_repurchases
+Morgan Stanley,MS,2021,2021-12-31,roe,Return on average common equity (ROE),19.8,%,DIRECT,RAW_MS_2021_roe
+Morgan Stanley,MS,2021,2021-12-31,rotce_or_rote,Return on average tangible common equity (ROTCE),20.2,%,DIRECT,RAW_MS_2021_rotce_or_rote
+Morgan Stanley,MS,2021,2021-12-31,efficiency_or_overhead_ratio,Expense efficiency ratio,67.0,%,DIRECT,RAW_MS_2021_efficiency_or_overhead_ratio
+Morgan Stanley,MS,2021,2021-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,16.0,%,DIRECT,RAW_MS_2021_cet1_standardized
+Morgan Stanley,MS,2021,2021-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,6.8,%,DIRECT,RAW_MS_2021_tier1_leverage_ratio
+Morgan Stanley,MS,2021,2021-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),5.7,%,DIRECT,RAW_MS_2021_supplementary_leverage_ratio
+Morgan Stanley,MS,2021,2021-12-31,tangible_common_equity,Tangible common equity,69850.0,USD Millions,DIRECT,RAW_MS_2021_tangible_common_equity
+Morgan Stanley,MS,2021,2021-12-31,technology_or_business_investment,Information processing and communications,2450.0,USD Millions,DIRECT,RAW_MS_2021_technology_or_business_investment
+Morgan Stanley,MS,2021,2021-12-31,compensation_expense,Compensation and benefits,24606.0,USD Millions,DIRECT,RAW_MS_2021_compensation_expense
+Morgan Stanley,MS,2021,2021-12-31,cash,Cash and cash equivalents,132470.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_MS_2021_cash
+Morgan Stanley,MS,2021,2021-12-31,debt,Long-term borrowings,244580.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_MS_2021_debt
+Morgan Stanley,MS,2022,2022-12-31,net_revenue,Net revenues,53668.0,USD Millions,DIRECT,RAW_MS_2022_net_revenue
+Morgan Stanley,MS,2022,2022-12-31,investment_banking_revenue,Investment banking,5599.0,USD Millions,DIRECT,RAW_MS_2022_investment_banking_revenue
+Morgan Stanley,MS,2022,2022-12-31,dividends_paid,Dividends,5401.0,USD Millions,DIRECT,RAW_MS_2022_dividends_paid
+Morgan Stanley,MS,2022,2022-12-31,share_repurchases,Common stock repurchases,9865.0,USD Millions,DIRECT,RAW_MS_2022_share_repurchases
+Morgan Stanley,MS,2022,2022-12-31,roe,Return on average common equity (ROE),15.3,%,DIRECT,RAW_MS_2022_roe
+Morgan Stanley,MS,2022,2022-12-31,rotce_or_rote,Return on average tangible common equity (ROTCE),15.3,%,DIRECT,RAW_MS_2022_rotce_or_rote
+Morgan Stanley,MS,2022,2022-12-31,efficiency_or_overhead_ratio,Expense efficiency ratio,73.0,%,DIRECT,RAW_MS_2022_efficiency_or_overhead_ratio
+Morgan Stanley,MS,2022,2022-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,15.3,%,DIRECT,RAW_MS_2022_cet1_standardized
+Morgan Stanley,MS,2022,2022-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,6.8,%,DIRECT,RAW_MS_2022_tier1_leverage_ratio
+Morgan Stanley,MS,2022,2022-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),5.4,%,DIRECT,RAW_MS_2022_supplementary_leverage_ratio
+Morgan Stanley,MS,2022,2022-12-31,tangible_common_equity,Tangible common equity,72140.0,USD Millions,DIRECT,RAW_MS_2022_tangible_common_equity
+Morgan Stanley,MS,2022,2022-12-31,technology_or_business_investment,Information processing and communications,2580.0,USD Millions,DIRECT,RAW_MS_2022_technology_or_business_investment
+Morgan Stanley,MS,2022,2022-12-31,compensation_expense,Compensation and benefits,23500.0,USD Millions,DIRECT,RAW_MS_2022_compensation_expense
+Morgan Stanley,MS,2022,2022-12-31,cash,Cash and cash equivalents,128910.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_MS_2022_cash
+Morgan Stanley,MS,2022,2022-12-31,debt,Long-term borrowings,251400.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_MS_2022_debt
+Morgan Stanley,MS,2023,2023-12-31,net_revenue,Net revenues,54187.0,USD Millions,DIRECT,RAW_MS_2023_net_revenue
+Morgan Stanley,MS,2023,2023-12-31,investment_banking_revenue,Investment banking,4948.0,USD Millions,DIRECT,RAW_MS_2023_investment_banking_revenue
+Morgan Stanley,MS,2023,2023-12-31,dividends_paid,Dividends,5763.0,USD Millions,DIRECT,RAW_MS_2023_dividends_paid
+Morgan Stanley,MS,2023,2023-12-31,share_repurchases,Common stock repurchases,5300.0,USD Millions,DIRECT,RAW_MS_2023_share_repurchases
+Morgan Stanley,MS,2023,2023-12-31,roe,Return on average common equity (ROE),12.8,%,DIRECT,RAW_MS_2023_roe
+Morgan Stanley,MS,2023,2023-12-31,rotce_or_rote,Return on average tangible common equity (ROTCE),12.8,%,DIRECT,RAW_MS_2023_rotce_or_rote
+Morgan Stanley,MS,2023,2023-12-31,efficiency_or_overhead_ratio,Expense efficiency ratio,77.0,%,DIRECT,RAW_MS_2023_efficiency_or_overhead_ratio
+Morgan Stanley,MS,2023,2023-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,15.2,%,DIRECT,RAW_MS_2023_cet1_standardized
+Morgan Stanley,MS,2023,2023-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,6.9,%,DIRECT,RAW_MS_2023_tier1_leverage_ratio
+Morgan Stanley,MS,2023,2023-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),5.4,%,DIRECT,RAW_MS_2023_supplementary_leverage_ratio
+Morgan Stanley,MS,2023,2023-12-31,tangible_common_equity,Tangible common equity,74510.0,USD Millions,DIRECT,RAW_MS_2023_tangible_common_equity
+Morgan Stanley,MS,2023,2023-12-31,technology_or_business_investment,Information processing and communications,2720.0,USD Millions,DIRECT,RAW_MS_2023_technology_or_business_investment
+Morgan Stanley,MS,2023,2023-12-31,compensation_expense,Compensation and benefits,24100.0,USD Millions,DIRECT,RAW_MS_2023_compensation_expense
+Morgan Stanley,MS,2023,2023-12-31,cash,Cash and cash equivalents,131200.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_MS_2023_cash
+Morgan Stanley,MS,2023,2023-12-31,debt,Long-term borrowings,258900.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_MS_2023_debt
+Morgan Stanley,MS,2024,2024-12-31,net_revenue,Net revenues,61814.0,USD Millions,DIRECT,RAW_MS_2024_net_revenue
+Morgan Stanley,MS,2024,2024-12-31,investment_banking_revenue,Investment banking,6705.0,USD Millions,DIRECT,RAW_MS_2024_investment_banking_revenue
+Morgan Stanley,MS,2024,2024-12-31,dividends_paid,Dividends,6138.0,USD Millions,DIRECT,RAW_MS_2024_dividends_paid
+Morgan Stanley,MS,2024,2024-12-31,share_repurchases,Common stock repurchases,3250.0,USD Millions,DIRECT,RAW_MS_2024_share_repurchases
+Morgan Stanley,MS,2024,2024-12-31,roe,Return on average common equity (ROE),14.5,%,DIRECT,RAW_MS_2024_roe
+Morgan Stanley,MS,2024,2024-12-31,rotce_or_rote,Return on average tangible common equity (ROTCE),14.5,%,DIRECT,RAW_MS_2024_rotce_or_rote
+Morgan Stanley,MS,2024,2024-12-31,efficiency_or_overhead_ratio,Expense efficiency ratio,72.0,%,DIRECT,RAW_MS_2024_efficiency_or_overhead_ratio
+Morgan Stanley,MS,2024,2024-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,15.2,%,DIRECT,RAW_MS_2024_cet1_standardized
+Morgan Stanley,MS,2024,2024-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,6.9,%,DIRECT,RAW_MS_2024_tier1_leverage_ratio
+Morgan Stanley,MS,2024,2024-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),5.4,%,DIRECT,RAW_MS_2024_supplementary_leverage_ratio
+Morgan Stanley,MS,2024,2024-12-31,tangible_common_equity,Tangible common equity,78900.0,USD Millions,DIRECT,RAW_MS_2024_tangible_common_equity
+Morgan Stanley,MS,2024,2024-12-31,technology_or_business_investment,Information processing and communications,2850.0,USD Millions,DIRECT,RAW_MS_2024_technology_or_business_investment
+Morgan Stanley,MS,2024,2024-12-31,compensation_expense,Compensation and benefits,26800.0,USD Millions,DIRECT,RAW_MS_2024_compensation_expense
+Morgan Stanley,MS,2024,2024-12-31,cash,Cash and cash equivalents,135600.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_MS_2024_cash
+Morgan Stanley,MS,2024,2024-12-31,debt,Long-term borrowings,268400.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_MS_2024_debt
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,net_revenue,Total net revenue,119543.0,USD Millions,DIRECT,RAW_JPM_2020_net_revenue
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,investment_banking_revenue,Investment banking fees,9486.0,USD Millions,DIRECT,RAW_JPM_2020_investment_banking_revenue
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,dividends_paid,Dividends paid,12690.0,USD Millions,DIRECT,RAW_JPM_2020_dividends_paid
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,share_repurchases,Treasury stock purchased,6517.0,USD Millions,DIRECT,RAW_JPM_2020_share_repurchases
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,roe,Return on common equity (ROE),12.0,%,DIRECT,RAW_JPM_2020_roe
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,rotce_or_rote,Return on tangible common equity (ROTCE),14.0,%,DIRECT,RAW_JPM_2020_rotce_or_rote
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,efficiency_or_overhead_ratio,Overhead ratio,56.0,%,DIRECT,RAW_JPM_2020_efficiency_or_overhead_ratio
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,13.1,%,DIRECT,RAW_JPM_2020_cet1_standardized
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,6.8,%,DIRECT,RAW_JPM_2020_tier1_leverage_ratio
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),6.9,%,DIRECT,RAW_JPM_2020_supplementary_leverage_ratio
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,tangible_common_equity,Tangible common equity (TCE),209040.0,USD Millions,DIRECT,RAW_JPM_2020_tangible_common_equity
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,technology_or_business_investment,"Technology, communications and equipment",10300.0,USD Millions,DIRECT,RAW_JPM_2020_technology_or_business_investment
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,compensation_expense,Compensation expense,33215.0,USD Millions,DIRECT,RAW_JPM_2020_compensation_expense
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,cash,Deposits with banks / cash,539498.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JPM_2020_cash
+JPMorgan Chase & Co.,JPM,2020,2020-12-31,debt,Long-term debt,304746.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JPM_2020_debt
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,net_revenue,Total net revenue,121649.0,USD Millions,DIRECT,RAW_JPM_2021_net_revenue
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,investment_banking_revenue,Investment banking fees,13216.0,USD Millions,DIRECT,RAW_JPM_2021_investment_banking_revenue
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,dividends_paid,Dividends paid,12858.0,USD Millions,DIRECT,RAW_JPM_2021_dividends_paid
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,share_repurchases,Treasury stock purchased,18408.0,USD Millions,DIRECT,RAW_JPM_2021_share_repurchases
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,roe,Return on common equity (ROE),19.0,%,DIRECT,RAW_JPM_2021_roe
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,rotce_or_rote,Return on tangible common equity (ROTCE),23.0,%,DIRECT,RAW_JPM_2021_rotce_or_rote
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,efficiency_or_overhead_ratio,Overhead ratio,59.0,%,DIRECT,RAW_JPM_2021_efficiency_or_overhead_ratio
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,13.0,%,DIRECT,RAW_JPM_2021_cet1_standardized
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,7.1,%,DIRECT,RAW_JPM_2021_tier1_leverage_ratio
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),5.4,%,DIRECT,RAW_JPM_2021_supplementary_leverage_ratio
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,tangible_common_equity,Tangible common equity (TCE),225000.0,USD Millions,DIRECT,RAW_JPM_2021_tangible_common_equity
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,technology_or_business_investment,"Technology, communications and equipment",11800.0,USD Millions,DIRECT,RAW_JPM_2021_technology_or_business_investment
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,compensation_expense,Compensation expense,35500.0,USD Millions,DIRECT,RAW_JPM_2021_compensation_expense
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,cash,Deposits with banks / cash,714300.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JPM_2021_cash
+JPMorgan Chase & Co.,JPM,2021,2021-12-31,debt,Long-term debt,311500.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JPM_2021_debt
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,net_revenue,Total net revenue,128695.0,USD Millions,DIRECT,RAW_JPM_2022_net_revenue
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,investment_banking_revenue,Investment banking fees,6686.0,USD Millions,DIRECT,RAW_JPM_2022_investment_banking_revenue
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,dividends_paid,Dividends paid,13562.0,USD Millions,DIRECT,RAW_JPM_2022_dividends_paid
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,share_repurchases,Treasury stock purchased,3162.0,USD Millions,DIRECT,RAW_JPM_2022_share_repurchases
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,roe,Return on common equity (ROE),14.0,%,DIRECT,RAW_JPM_2022_roe
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,rotce_or_rote,Return on tangible common equity (ROTCE),18.0,%,DIRECT,RAW_JPM_2022_rotce_or_rote
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,efficiency_or_overhead_ratio,Overhead ratio,62.0,%,DIRECT,RAW_JPM_2022_efficiency_or_overhead_ratio
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,13.2,%,DIRECT,RAW_JPM_2022_cet1_standardized
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,7.2,%,DIRECT,RAW_JPM_2022_tier1_leverage_ratio
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),5.5,%,DIRECT,RAW_JPM_2022_supplementary_leverage_ratio
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,tangible_common_equity,Tangible common equity (TCE),233000.0,USD Millions,DIRECT,RAW_JPM_2022_tangible_common_equity
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,technology_or_business_investment,"Technology, communications and equipment",13000.0,USD Millions,DIRECT,RAW_JPM_2022_technology_or_business_investment
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,compensation_expense,Compensation expense,38000.0,USD Millions,DIRECT,RAW_JPM_2022_compensation_expense
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,cash,Deposits with banks / cash,567000.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JPM_2022_cash
+JPMorgan Chase & Co.,JPM,2022,2022-12-31,debt,Long-term debt,324000.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JPM_2022_debt
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,net_revenue,Total net revenue,158104.0,USD Millions,DIRECT,RAW_JPM_2023_net_revenue
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,investment_banking_revenue,Investment banking fees,6519.0,USD Millions,DIRECT,RAW_JPM_2023_investment_banking_revenue
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,dividends_paid,Dividends paid,13463.0,USD Millions,DIRECT,RAW_JPM_2023_dividends_paid
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,share_repurchases,Treasury stock purchased,9824.0,USD Millions,DIRECT,RAW_JPM_2023_share_repurchases
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,roe,Return on common equity (ROE),17.0,%,DIRECT,RAW_JPM_2023_roe
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,rotce_or_rote,Return on tangible common equity (ROTCE),21.0,%,DIRECT,RAW_JPM_2023_rotce_or_rote
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,efficiency_or_overhead_ratio,Overhead ratio,54.0,%,DIRECT,RAW_JPM_2023_efficiency_or_overhead_ratio
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,15.0,%,DIRECT,RAW_JPM_2023_cet1_standardized
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,7.6,%,DIRECT,RAW_JPM_2023_tier1_leverage_ratio
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),6.0,%,DIRECT,RAW_JPM_2023_supplementary_leverage_ratio
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,tangible_common_equity,Tangible common equity (TCE),256000.0,USD Millions,DIRECT,RAW_JPM_2023_tangible_common_equity
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,technology_or_business_investment,"Technology, communications and equipment",14200.0,USD Millions,DIRECT,RAW_JPM_2023_technology_or_business_investment
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,compensation_expense,Compensation expense,41000.0,USD Millions,DIRECT,RAW_JPM_2023_compensation_expense
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,cash,Deposits with banks / cash,550000.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JPM_2023_cash
+JPMorgan Chase & Co.,JPM,2023,2023-12-31,debt,Long-term debt,340000.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JPM_2023_debt
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,net_revenue,Total net revenue,170154.0,USD Millions,DIRECT,RAW_JPM_2024_net_revenue
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,investment_banking_revenue,Investment banking fees,8910.0,USD Millions,DIRECT,RAW_JPM_2024_investment_banking_revenue
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,dividends_paid,Dividends paid,14783.0,USD Millions,DIRECT,RAW_JPM_2024_dividends_paid
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,share_repurchases,Treasury stock purchased,18830.0,USD Millions,DIRECT,RAW_JPM_2024_share_repurchases
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,roe,Return on common equity (ROE),18.0,%,DIRECT,RAW_JPM_2024_roe
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,rotce_or_rote,Return on tangible common equity (ROTCE),22.0,%,DIRECT,RAW_JPM_2024_rotce_or_rote
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,efficiency_or_overhead_ratio,Overhead ratio,53.0,%,DIRECT,RAW_JPM_2024_efficiency_or_overhead_ratio
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,cet1_standardized,Standardized Common Equity Tier 1 capital ratio,15.3,%,DIRECT,RAW_JPM_2024_cet1_standardized
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,7.7,%,DIRECT,RAW_JPM_2024_tier1_leverage_ratio
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,supplementary_leverage_ratio,Supplementary leverage ratio (SLR),6.0,%,DIRECT,RAW_JPM_2024_supplementary_leverage_ratio
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,tangible_common_equity,Tangible common equity (TCE),278000.0,USD Millions,DIRECT,RAW_JPM_2024_tangible_common_equity
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,technology_or_business_investment,"Technology, communications and equipment",15500.0,USD Millions,DIRECT,RAW_JPM_2024_technology_or_business_investment
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,compensation_expense,Compensation expense,45000.0,USD Millions,DIRECT,RAW_JPM_2024_compensation_expense
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,cash,Deposits with banks / cash,575000.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JPM_2024_cash
+JPMorgan Chase & Co.,JPM,2024,2024-12-31,debt,Long-term debt,355000.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JPM_2024_debt
+Stifel Financial Corp.,SF,2020,2020-12-31,net_revenue,Total revenues,3817.8,USD Millions,DIRECT,RAW_SF_2020_net_revenue
+Stifel Financial Corp.,SF,2020,2020-12-31,investment_banking_revenue,Investment banking revenues,952.3,USD Millions,DIRECT,RAW_SF_2020_investment_banking_revenue
+Stifel Financial Corp.,SF,2020,2020-12-31,dividends_paid,Dividends paid (common + preferred),73.8,USD Millions,DIRECT,RAW_SF_2020_dividends_paid
+Stifel Financial Corp.,SF,2020,2020-12-31,share_repurchases,Repurchase of common stock,58.3,USD Millions,DIRECT,RAW_SF_2020_share_repurchases
+Stifel Financial Corp.,SF,2020,2020-12-31,roe,Return on average common equity,13.1,%,DIRECT,RAW_SF_2020_roe
+Stifel Financial Corp.,SF,2020,2020-12-31,rotce_or_rote,Return on tangible common equity (ROTE),19.5,%,DIRECT,RAW_SF_2020_rotce_or_rote
+Stifel Financial Corp.,SF,2020,2020-12-31,efficiency_or_overhead_ratio,Non-GAAP Efficiency ratio,64.7,%,DIRECT,RAW_SF_2020_efficiency_or_overhead_ratio
+Stifel Financial Corp.,SF,2020,2020-12-31,cet1_standardized,Tier 1 Common / CET1 capital ratio,10.9,%,DIRECT,RAW_SF_2020_cet1_standardized
+Stifel Financial Corp.,SF,2020,2020-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,8.5,%,DIRECT,RAW_SF_2020_tier1_leverage_ratio
+Stifel Financial Corp.,SF,2020,2020-12-31,supplementary_leverage_ratio,N/A (Category IV exempt from SLR),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_SF_2020_supplementary_leverage_ratio
+Stifel Financial Corp.,SF,2020,2020-12-31,tangible_common_equity,Tangible common equity,2750.0,USD Millions,DIRECT,RAW_SF_2020_tangible_common_equity
+Stifel Financial Corp.,SF,2020,2020-12-31,technology_or_business_investment,Communications and technology,210.0,USD Millions,DIRECT,RAW_SF_2020_technology_or_business_investment
+Stifel Financial Corp.,SF,2020,2020-12-31,compensation_expense,Compensation and benefits,2240.0,USD Millions,DIRECT,RAW_SF_2020_compensation_expense
+Stifel Financial Corp.,SF,2020,2020-12-31,cash,Cash and cash equivalents,2400.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_SF_2020_cash
+Stifel Financial Corp.,SF,2020,2020-12-31,debt,Long-term debt,1100.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_SF_2020_debt
+Stifel Financial Corp.,SF,2021,2021-12-31,net_revenue,Total revenues,4783.1,USD Millions,DIRECT,RAW_SF_2021_net_revenue
+Stifel Financial Corp.,SF,2021,2021-12-31,investment_banking_revenue,Investment banking revenues,1565.4,USD Millions,DIRECT,RAW_SF_2021_investment_banking_revenue
+Stifel Financial Corp.,SF,2021,2021-12-31,dividends_paid,Dividends paid (common + preferred),101.9,USD Millions,DIRECT,RAW_SF_2021_dividends_paid
+Stifel Financial Corp.,SF,2021,2021-12-31,share_repurchases,Repurchase of common stock,172.7,USD Millions,DIRECT,RAW_SF_2021_share_repurchases
+Stifel Financial Corp.,SF,2021,2021-12-31,roe,Return on average common equity,17.5,%,DIRECT,RAW_SF_2021_roe
+Stifel Financial Corp.,SF,2021,2021-12-31,rotce_or_rote,Return on tangible common equity (ROTE),24.2,%,DIRECT,RAW_SF_2021_rotce_or_rote
+Stifel Financial Corp.,SF,2021,2021-12-31,efficiency_or_overhead_ratio,Non-GAAP Efficiency ratio,61.2,%,DIRECT,RAW_SF_2021_efficiency_or_overhead_ratio
+Stifel Financial Corp.,SF,2021,2021-12-31,cet1_standardized,Tier 1 Common / CET1 capital ratio,11.2,%,DIRECT,RAW_SF_2021_cet1_standardized
+Stifel Financial Corp.,SF,2021,2021-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,8.8,%,DIRECT,RAW_SF_2021_tier1_leverage_ratio
+Stifel Financial Corp.,SF,2021,2021-12-31,supplementary_leverage_ratio,N/A (Category IV exempt from SLR),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_SF_2021_supplementary_leverage_ratio
+Stifel Financial Corp.,SF,2021,2021-12-31,tangible_common_equity,Tangible common equity,3200.0,USD Millions,DIRECT,RAW_SF_2021_tangible_common_equity
+Stifel Financial Corp.,SF,2021,2021-12-31,technology_or_business_investment,Communications and technology,245.0,USD Millions,DIRECT,RAW_SF_2021_technology_or_business_investment
+Stifel Financial Corp.,SF,2021,2021-12-31,compensation_expense,Compensation and benefits,2780.0,USD Millions,DIRECT,RAW_SF_2021_compensation_expense
+Stifel Financial Corp.,SF,2021,2021-12-31,cash,Cash and cash equivalents,2800.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_SF_2021_cash
+Stifel Financial Corp.,SF,2021,2021-12-31,debt,Long-term debt,1250.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_SF_2021_debt
+Stifel Financial Corp.,SF,2022,2022-12-31,net_revenue,Total revenues,4592.8,USD Millions,DIRECT,RAW_SF_2022_net_revenue
+Stifel Financial Corp.,SF,2022,2022-12-31,investment_banking_revenue,Investment banking revenues,971.5,USD Millions,DIRECT,RAW_SF_2022_investment_banking_revenue
+Stifel Financial Corp.,SF,2022,2022-12-31,dividends_paid,Dividends paid (common + preferred),171.0,USD Millions,DIRECT,RAW_SF_2022_dividends_paid
+Stifel Financial Corp.,SF,2022,2022-12-31,share_repurchases,Repurchase of common stock,105.8,USD Millions,DIRECT,RAW_SF_2022_share_repurchases
+Stifel Financial Corp.,SF,2022,2022-12-31,roe,Return on average common equity,14.3,%,DIRECT,RAW_SF_2022_roe
+Stifel Financial Corp.,SF,2022,2022-12-31,rotce_or_rote,Return on tangible common equity (ROTE),19.8,%,DIRECT,RAW_SF_2022_rotce_or_rote
+Stifel Financial Corp.,SF,2022,2022-12-31,efficiency_or_overhead_ratio,Non-GAAP Efficiency ratio,65.4,%,DIRECT,RAW_SF_2022_efficiency_or_overhead_ratio
+Stifel Financial Corp.,SF,2022,2022-12-31,cet1_standardized,Tier 1 Common / CET1 capital ratio,11.3,%,DIRECT,RAW_SF_2022_cet1_standardized
+Stifel Financial Corp.,SF,2022,2022-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,8.6,%,DIRECT,RAW_SF_2022_tier1_leverage_ratio
+Stifel Financial Corp.,SF,2022,2022-12-31,supplementary_leverage_ratio,N/A (Category IV exempt from SLR),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_SF_2022_supplementary_leverage_ratio
+Stifel Financial Corp.,SF,2022,2022-12-31,tangible_common_equity,Tangible common equity,3450.0,USD Millions,DIRECT,RAW_SF_2022_tangible_common_equity
+Stifel Financial Corp.,SF,2022,2022-12-31,technology_or_business_investment,Communications and technology,270.0,USD Millions,DIRECT,RAW_SF_2022_technology_or_business_investment
+Stifel Financial Corp.,SF,2022,2022-12-31,compensation_expense,Compensation and benefits,2690.0,USD Millions,DIRECT,RAW_SF_2022_compensation_expense
+Stifel Financial Corp.,SF,2022,2022-12-31,cash,Cash and cash equivalents,2650.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_SF_2022_cash
+Stifel Financial Corp.,SF,2022,2022-12-31,debt,Long-term debt,1350.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_SF_2022_debt
+Stifel Financial Corp.,SF,2023,2023-12-31,net_revenue,Total revenues,5159.3,USD Millions,DIRECT,RAW_SF_2023_net_revenue
+Stifel Financial Corp.,SF,2023,2023-12-31,investment_banking_revenue,Investment banking revenues,731.3,USD Millions,DIRECT,RAW_SF_2023_investment_banking_revenue
+Stifel Financial Corp.,SF,2023,2023-12-31,dividends_paid,Dividends paid (common + preferred),200.3,USD Millions,DIRECT,RAW_SF_2023_dividends_paid
+Stifel Financial Corp.,SF,2023,2023-12-31,share_repurchases,Repurchase of common stock,443.9,USD Millions,DIRECT,RAW_SF_2023_share_repurchases
+Stifel Financial Corp.,SF,2023,2023-12-31,roe,Return on average common equity,11.1,%,DIRECT,RAW_SF_2023_roe
+Stifel Financial Corp.,SF,2023,2023-12-31,rotce_or_rote,Return on tangible common equity (ROTE),15.6,%,DIRECT,RAW_SF_2023_rotce_or_rote
+Stifel Financial Corp.,SF,2023,2023-12-31,efficiency_or_overhead_ratio,Non-GAAP Efficiency ratio,69.8,%,DIRECT,RAW_SF_2023_efficiency_or_overhead_ratio
+Stifel Financial Corp.,SF,2023,2023-12-31,cet1_standardized,Tier 1 Common / CET1 capital ratio,11.4,%,DIRECT,RAW_SF_2023_cet1_standardized
+Stifel Financial Corp.,SF,2023,2023-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,8.9,%,DIRECT,RAW_SF_2023_tier1_leverage_ratio
+Stifel Financial Corp.,SF,2023,2023-12-31,supplementary_leverage_ratio,N/A (Category IV exempt from SLR),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_SF_2023_supplementary_leverage_ratio
+Stifel Financial Corp.,SF,2023,2023-12-31,tangible_common_equity,Tangible common equity,3700.0,USD Millions,DIRECT,RAW_SF_2023_tangible_common_equity
+Stifel Financial Corp.,SF,2023,2023-12-31,technology_or_business_investment,Communications and technology,295.0,USD Millions,DIRECT,RAW_SF_2023_technology_or_business_investment
+Stifel Financial Corp.,SF,2023,2023-12-31,compensation_expense,Compensation and benefits,3050.0,USD Millions,DIRECT,RAW_SF_2023_compensation_expense
+Stifel Financial Corp.,SF,2023,2023-12-31,cash,Cash and cash equivalents,2900.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_SF_2023_cash
+Stifel Financial Corp.,SF,2023,2023-12-31,debt,Long-term debt,1450.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_SF_2023_debt
+Stifel Financial Corp.,SF,2024,2024-12-31,net_revenue,Total revenues,5951.7,USD Millions,DIRECT,RAW_SF_2024_net_revenue
+Stifel Financial Corp.,SF,2024,2024-12-31,investment_banking_revenue,Investment banking revenues,994.8,USD Millions,DIRECT,RAW_SF_2024_investment_banking_revenue
+Stifel Financial Corp.,SF,2024,2024-12-31,dividends_paid,Dividends paid (common + preferred),227.3,USD Millions,DIRECT,RAW_SF_2024_dividends_paid
+Stifel Financial Corp.,SF,2024,2024-12-31,share_repurchases,Repurchase of common stock,144.1,USD Millions,DIRECT,RAW_SF_2024_share_repurchases
+Stifel Financial Corp.,SF,2024,2024-12-31,roe,Return on average common equity,11.8,%,DIRECT,RAW_SF_2024_roe
+Stifel Financial Corp.,SF,2024,2024-12-31,rotce_or_rote,Return on tangible common equity (ROTE),16.5,%,DIRECT,RAW_SF_2024_rotce_or_rote
+Stifel Financial Corp.,SF,2024,2024-12-31,efficiency_or_overhead_ratio,Non-GAAP Efficiency ratio,68.1,%,DIRECT,RAW_SF_2024_efficiency_or_overhead_ratio
+Stifel Financial Corp.,SF,2024,2024-12-31,cet1_standardized,Tier 1 Common / CET1 capital ratio,11.4,%,DIRECT,RAW_SF_2024_cet1_standardized
+Stifel Financial Corp.,SF,2024,2024-12-31,tier1_leverage_ratio,Tier 1 leverage ratio,8.9,%,DIRECT,RAW_SF_2024_tier1_leverage_ratio
+Stifel Financial Corp.,SF,2024,2024-12-31,supplementary_leverage_ratio,N/A (Category IV exempt from SLR),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_SF_2024_supplementary_leverage_ratio
+Stifel Financial Corp.,SF,2024,2024-12-31,tangible_common_equity,Tangible common equity,3950.0,USD Millions,DIRECT,RAW_SF_2024_tangible_common_equity
+Stifel Financial Corp.,SF,2024,2024-12-31,technology_or_business_investment,Communications and technology,320.0,USD Millions,DIRECT,RAW_SF_2024_technology_or_business_investment
+Stifel Financial Corp.,SF,2024,2024-12-31,compensation_expense,Compensation and benefits,3550.0,USD Millions,DIRECT,RAW_SF_2024_compensation_expense
+Stifel Financial Corp.,SF,2024,2024-12-31,cash,Cash and cash equivalents,3100.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_SF_2024_cash
+Stifel Financial Corp.,SF,2024,2024-12-31,debt,Long-term debt,1500.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_SF_2024_debt
+Evercore Inc.,EVR,2020,2020-12-31,net_revenue,"Total revenues, net of interest expense",2285.3,USD Millions,DIRECT,RAW_EVR_2020_net_revenue
+Evercore Inc.,EVR,2020,2020-12-31,investment_banking_revenue,Investment banking,2225.0,USD Millions,DIRECT,RAW_EVR_2020_investment_banking_revenue
+Evercore Inc.,EVR,2020,2020-12-31,compensation_expense,Employee compensation and benefits,1475.2,USD Millions,DIRECT,RAW_EVR_2020_compensation_expense
+Evercore Inc.,EVR,2020,2020-12-31,compensation_ratio,Compensation ratio,64.5,%,DIRECT,RAW_EVR_2020_compensation_ratio
+Evercore Inc.,EVR,2020,2020-12-31,operating_income,Operating income,444.6,USD Millions,DIRECT,RAW_EVR_2020_operating_income
+Evercore Inc.,EVR,2020,2020-12-31,operating_margin,Operating margin,19.5,%,DERIVED,RAW_EVR_2020_operating_margin
+Evercore Inc.,EVR,2020,2020-12-31,dividends_paid,Dividends and non-controlling interest distributions paid,106.6,USD Millions,DIRECT,RAW_EVR_2020_dividends_paid
+Evercore Inc.,EVR,2020,2020-12-31,share_repurchases,Treasury stock acquired and Class A common stock repurchased,146.6,USD Millions,DIRECT,RAW_EVR_2020_share_repurchases
+Evercore Inc.,EVR,2020,2020-12-31,cash,Cash and cash equivalents,577.8,USD Millions,DIRECT,RAW_EVR_2020_cash
+Evercore Inc.,EVR,2020,2020-12-31,debt,Notes payable / Long-term debt (0 reported),0.0,USD Millions,DIRECT,RAW_EVR_2020_debt
+Evercore Inc.,EVR,2020,2020-12-31,technology_or_business_investment_if_available,Communications and information services,102.0,USD Millions,DIRECT,RAW_EVR_2020_technology_or_business_investment_if_available
+Evercore Inc.,EVR,2021,2021-12-31,net_revenue,"Total revenues, net of interest expense",3307.1,USD Millions,DIRECT,RAW_EVR_2021_net_revenue
+Evercore Inc.,EVR,2021,2021-12-31,investment_banking_revenue,Investment banking,3240.0,USD Millions,DIRECT,RAW_EVR_2021_investment_banking_revenue
+Evercore Inc.,EVR,2021,2021-12-31,compensation_expense,Employee compensation and benefits,2008.7,USD Millions,DIRECT,RAW_EVR_2021_compensation_expense
+Evercore Inc.,EVR,2021,2021-12-31,compensation_ratio,Compensation ratio,60.7,%,DIRECT,RAW_EVR_2021_compensation_ratio
+Evercore Inc.,EVR,2021,2021-12-31,operating_income,Operating income,923.6,USD Millions,DIRECT,RAW_EVR_2021_operating_income
+Evercore Inc.,EVR,2021,2021-12-31,operating_margin,Operating margin,27.9,%,DERIVED,RAW_EVR_2021_operating_margin
+Evercore Inc.,EVR,2021,2021-12-31,dividends_paid,Dividends and non-controlling interest distributions paid,118.8,USD Millions,DIRECT,RAW_EVR_2021_dividends_paid
+Evercore Inc.,EVR,2021,2021-12-31,share_repurchases,Treasury stock acquired and Class A common stock repurchased,720.7,USD Millions,DIRECT,RAW_EVR_2021_share_repurchases
+Evercore Inc.,EVR,2021,2021-12-31,cash,Cash and cash equivalents,590.2,USD Millions,DIRECT,RAW_EVR_2021_cash
+Evercore Inc.,EVR,2021,2021-12-31,debt,Notes payable / Long-term debt (0 reported),0.0,USD Millions,DIRECT,RAW_EVR_2021_debt
+Evercore Inc.,EVR,2021,2021-12-31,technology_or_business_investment_if_available,Communications and information services,115.0,USD Millions,DIRECT,RAW_EVR_2021_technology_or_business_investment_if_available
+Evercore Inc.,EVR,2022,2022-12-31,net_revenue,"Total revenues, net of interest expense",2778.9,USD Millions,DIRECT,RAW_EVR_2022_net_revenue
+Evercore Inc.,EVR,2022,2022-12-31,investment_banking_revenue,Investment banking,2710.0,USD Millions,DIRECT,RAW_EVR_2022_investment_banking_revenue
+Evercore Inc.,EVR,2022,2022-12-31,compensation_expense,Employee compensation and benefits,1671.5,USD Millions,DIRECT,RAW_EVR_2022_compensation_expense
+Evercore Inc.,EVR,2022,2022-12-31,compensation_ratio,Compensation ratio,60.1,%,DIRECT,RAW_EVR_2022_compensation_ratio
+Evercore Inc.,EVR,2022,2022-12-31,operating_income,Operating income,701.3,USD Millions,DIRECT,RAW_EVR_2022_operating_income
+Evercore Inc.,EVR,2022,2022-12-31,operating_margin,Operating margin,25.2,%,DERIVED,RAW_EVR_2022_operating_margin
+Evercore Inc.,EVR,2022,2022-12-31,dividends_paid,Dividends and non-controlling interest distributions paid,127.3,USD Millions,DIRECT,RAW_EVR_2022_dividends_paid
+Evercore Inc.,EVR,2022,2022-12-31,share_repurchases,Treasury stock acquired and Class A common stock repurchased,520.5,USD Millions,DIRECT,RAW_EVR_2022_share_repurchases
+Evercore Inc.,EVR,2022,2022-12-31,cash,Cash and cash equivalents,588.6,USD Millions,DIRECT,RAW_EVR_2022_cash
+Evercore Inc.,EVR,2022,2022-12-31,debt,Notes payable / Long-term debt (0 reported),0.0,USD Millions,DIRECT,RAW_EVR_2022_debt
+Evercore Inc.,EVR,2022,2022-12-31,technology_or_business_investment_if_available,Communications and information services,128.0,USD Millions,DIRECT,RAW_EVR_2022_technology_or_business_investment_if_available
+Evercore Inc.,EVR,2023,2023-12-31,net_revenue,"Total revenues, net of interest expense",2442.7,USD Millions,DIRECT,RAW_EVR_2023_net_revenue
+Evercore Inc.,EVR,2023,2023-12-31,investment_banking_revenue,Investment banking,2375.0,USD Millions,DIRECT,RAW_EVR_2023_investment_banking_revenue
+Evercore Inc.,EVR,2023,2023-12-31,compensation_expense,Employee compensation and benefits,1612.2,USD Millions,DIRECT,RAW_EVR_2023_compensation_expense
+Evercore Inc.,EVR,2023,2023-12-31,compensation_ratio,Compensation ratio,66.0,%,DIRECT,RAW_EVR_2023_compensation_ratio
+Evercore Inc.,EVR,2023,2023-12-31,operating_income,Operating income,366.4,USD Millions,DIRECT,RAW_EVR_2023_operating_income
+Evercore Inc.,EVR,2023,2023-12-31,operating_margin,Operating margin,15.0,%,DERIVED,RAW_EVR_2023_operating_margin
+Evercore Inc.,EVR,2023,2023-12-31,dividends_paid,Dividends and non-controlling interest distributions paid,127.9,USD Millions,DIRECT,RAW_EVR_2023_dividends_paid
+Evercore Inc.,EVR,2023,2023-12-31,share_repurchases,Treasury stock acquired and Class A common stock repurchased,387.3,USD Millions,DIRECT,RAW_EVR_2023_share_repurchases
+Evercore Inc.,EVR,2023,2023-12-31,cash,Cash and cash equivalents,596.1,USD Millions,DIRECT,RAW_EVR_2023_cash
+Evercore Inc.,EVR,2023,2023-12-31,debt,Notes payable / Long-term debt (0 reported),0.0,USD Millions,DIRECT,RAW_EVR_2023_debt
+Evercore Inc.,EVR,2023,2023-12-31,technology_or_business_investment_if_available,Communications and information services,135.0,USD Millions,DIRECT,RAW_EVR_2023_technology_or_business_investment_if_available
+Evercore Inc.,EVR,2024,2024-12-31,net_revenue,"Total revenues, net of interest expense",2996.4,USD Millions,DIRECT,RAW_EVR_2024_net_revenue
+Evercore Inc.,EVR,2024,2024-12-31,investment_banking_revenue,Investment banking,2920.0,USD Millions,DIRECT,RAW_EVR_2024_investment_banking_revenue
+Evercore Inc.,EVR,2024,2024-12-31,compensation_expense,Employee compensation and benefits,1977.7,USD Millions,DIRECT,RAW_EVR_2024_compensation_expense
+Evercore Inc.,EVR,2024,2024-12-31,compensation_ratio,Compensation ratio,66.0,%,DIRECT,RAW_EVR_2024_compensation_ratio
+Evercore Inc.,EVR,2024,2024-12-31,operating_income,Operating income,495.2,USD Millions,DIRECT,RAW_EVR_2024_operating_income
+Evercore Inc.,EVR,2024,2024-12-31,operating_margin,Operating margin,16.5,%,DERIVED,RAW_EVR_2024_operating_margin
+Evercore Inc.,EVR,2024,2024-12-31,dividends_paid,Dividends and non-controlling interest distributions paid,135.8,USD Millions,DIRECT,RAW_EVR_2024_dividends_paid
+Evercore Inc.,EVR,2024,2024-12-31,share_repurchases,Treasury stock acquired and Class A common stock repurchased,448.2,USD Millions,DIRECT,RAW_EVR_2024_share_repurchases
+Evercore Inc.,EVR,2024,2024-12-31,cash,Cash and cash equivalents,687.4,USD Millions,DIRECT,RAW_EVR_2024_cash
+Evercore Inc.,EVR,2024,2024-12-31,debt,Notes payable / Long-term debt (0 reported),0.0,USD Millions,DIRECT,RAW_EVR_2024_debt
+Evercore Inc.,EVR,2024,2024-12-31,technology_or_business_investment_if_available,Communications and information services,145.0,USD Millions,DIRECT,RAW_EVR_2024_technology_or_business_investment_if_available
+"Lazard, Inc.",LAZ,2020,2020-12-31,net_revenue,Net revenue,2646.8,USD Millions,DIRECT,RAW_LAZ_2020_net_revenue
+"Lazard, Inc.",LAZ,2020,2020-12-31,investment_banking_revenue,Financial advisory,1404.0,USD Millions,DIRECT,RAW_LAZ_2020_investment_banking_revenue
+"Lazard, Inc.",LAZ,2020,2020-12-31,compensation_expense,Compensation and benefits,1732.1,USD Millions,DIRECT,RAW_LAZ_2020_compensation_expense
+"Lazard, Inc.",LAZ,2020,2020-12-31,compensation_ratio,Compensation ratio,61.3,%,DIRECT,RAW_LAZ_2020_compensation_ratio
+"Lazard, Inc.",LAZ,2020,2020-12-31,operating_income,Operating income,485.4,USD Millions,DIRECT,RAW_LAZ_2020_operating_income
+"Lazard, Inc.",LAZ,2020,2020-12-31,operating_margin,Operating margin,18.3,%,DERIVED,RAW_LAZ_2020_operating_margin
+"Lazard, Inc.",LAZ,2020,2020-12-31,dividends_paid,Dividends paid,196.6,USD Millions,DIRECT,RAW_LAZ_2020_dividends_paid
+"Lazard, Inc.",LAZ,2020,2020-12-31,share_repurchases,Repurchases of Class A common stock,95.2,USD Millions,DIRECT,RAW_LAZ_2020_share_repurchases
+"Lazard, Inc.",LAZ,2020,2020-12-31,cash,Cash and cash equivalents,1349.5,USD Millions,DIRECT,RAW_LAZ_2020_cash
+"Lazard, Inc.",LAZ,2020,2020-12-31,debt,Senior notes,1691.0,USD Millions,DIRECT,RAW_LAZ_2020_debt
+"Lazard, Inc.",LAZ,2020,2020-12-31,technology_or_business_investment_if_available,Information technology and market data,135.0,USD Millions,DIRECT,RAW_LAZ_2020_technology_or_business_investment_if_available
+"Lazard, Inc.",LAZ,2021,2021-12-31,net_revenue,Net revenue,3273.8,USD Millions,DIRECT,RAW_LAZ_2021_net_revenue
+"Lazard, Inc.",LAZ,2021,2021-12-31,investment_banking_revenue,Financial advisory,1927.0,USD Millions,DIRECT,RAW_LAZ_2021_investment_banking_revenue
+"Lazard, Inc.",LAZ,2021,2021-12-31,compensation_expense,Compensation and benefits,2001.2,USD Millions,DIRECT,RAW_LAZ_2021_compensation_expense
+"Lazard, Inc.",LAZ,2021,2021-12-31,compensation_ratio,Compensation ratio,61.1,%,DIRECT,RAW_LAZ_2021_compensation_ratio
+"Lazard, Inc.",LAZ,2021,2021-12-31,operating_income,Operating income,656.7,USD Millions,DIRECT,RAW_LAZ_2021_operating_income
+"Lazard, Inc.",LAZ,2021,2021-12-31,operating_margin,Operating margin,20.1,%,DERIVED,RAW_LAZ_2021_operating_margin
+"Lazard, Inc.",LAZ,2021,2021-12-31,dividends_paid,Dividends paid,195.9,USD Millions,DIRECT,RAW_LAZ_2021_dividends_paid
+"Lazard, Inc.",LAZ,2021,2021-12-31,share_repurchases,Repurchases of Class A common stock,406.1,USD Millions,DIRECT,RAW_LAZ_2021_share_repurchases
+"Lazard, Inc.",LAZ,2021,2021-12-31,cash,Cash and cash equivalents,1476.3,USD Millions,DIRECT,RAW_LAZ_2021_cash
+"Lazard, Inc.",LAZ,2021,2021-12-31,debt,Senior notes,1686.0,USD Millions,DIRECT,RAW_LAZ_2021_debt
+"Lazard, Inc.",LAZ,2021,2021-12-31,technology_or_business_investment_if_available,Information technology and market data,148.0,USD Millions,DIRECT,RAW_LAZ_2021_technology_or_business_investment_if_available
+"Lazard, Inc.",LAZ,2022,2022-12-31,net_revenue,Net revenue,2855.1,USD Millions,DIRECT,RAW_LAZ_2022_net_revenue
+"Lazard, Inc.",LAZ,2022,2022-12-31,investment_banking_revenue,Financial advisory,1685.0,USD Millions,DIRECT,RAW_LAZ_2022_investment_banking_revenue
+"Lazard, Inc.",LAZ,2022,2022-12-31,compensation_expense,Compensation and benefits,1745.3,USD Millions,DIRECT,RAW_LAZ_2022_compensation_expense
+"Lazard, Inc.",LAZ,2022,2022-12-31,compensation_ratio,Compensation ratio,61.1,%,DIRECT,RAW_LAZ_2022_compensation_ratio
+"Lazard, Inc.",LAZ,2022,2022-12-31,operating_income,Operating income,474.3,USD Millions,DIRECT,RAW_LAZ_2022_operating_income
+"Lazard, Inc.",LAZ,2022,2022-12-31,operating_margin,Operating margin,16.6,%,DERIVED,RAW_LAZ_2022_operating_margin
+"Lazard, Inc.",LAZ,2022,2022-12-31,dividends_paid,Dividends paid,181.9,USD Millions,DIRECT,RAW_LAZ_2022_dividends_paid
+"Lazard, Inc.",LAZ,2022,2022-12-31,share_repurchases,Repurchases of Class A common stock,691.7,USD Millions,DIRECT,RAW_LAZ_2022_share_repurchases
+"Lazard, Inc.",LAZ,2022,2022-12-31,cash,Cash and cash equivalents,1213.6,USD Millions,DIRECT,RAW_LAZ_2022_cash
+"Lazard, Inc.",LAZ,2022,2022-12-31,debt,Senior notes,1682.0,USD Millions,DIRECT,RAW_LAZ_2022_debt
+"Lazard, Inc.",LAZ,2022,2022-12-31,technology_or_business_investment_if_available,Information technology and market data,155.0,USD Millions,DIRECT,RAW_LAZ_2022_technology_or_business_investment_if_available
+"Lazard, Inc.",LAZ,2023,2023-12-31,net_revenue,Net revenue,2593.2,USD Millions,DIRECT,RAW_LAZ_2023_net_revenue
+"Lazard, Inc.",LAZ,2023,2023-12-31,investment_banking_revenue,Financial advisory,1378.0,USD Millions,DIRECT,RAW_LAZ_2023_investment_banking_revenue
+"Lazard, Inc.",LAZ,2023,2023-12-31,compensation_expense,Compensation and benefits,1855.9,USD Millions,DIRECT,RAW_LAZ_2023_compensation_expense
+"Lazard, Inc.",LAZ,2023,2023-12-31,compensation_ratio,Compensation ratio,71.6,%,DIRECT,RAW_LAZ_2023_compensation_ratio
+"Lazard, Inc.",LAZ,2023,2023-12-31,operating_income,Operating income (loss),-87.7,USD Millions,DIRECT,RAW_LAZ_2023_operating_income
+"Lazard, Inc.",LAZ,2023,2023-12-31,operating_margin,Operating margin,-3.4,%,DERIVED,RAW_LAZ_2023_operating_margin
+"Lazard, Inc.",LAZ,2023,2023-12-31,dividends_paid,Dividends paid,173.1,USD Millions,DIRECT,RAW_LAZ_2023_dividends_paid
+"Lazard, Inc.",LAZ,2023,2023-12-31,share_repurchases,Repurchases of Class A common stock,102.1,USD Millions,DIRECT,RAW_LAZ_2023_share_repurchases
+"Lazard, Inc.",LAZ,2023,2023-12-31,cash,Cash and cash equivalents,917.4,USD Millions,DIRECT,RAW_LAZ_2023_cash
+"Lazard, Inc.",LAZ,2023,2023-12-31,debt,Senior notes,1678.0,USD Millions,DIRECT,RAW_LAZ_2023_debt
+"Lazard, Inc.",LAZ,2023,2023-12-31,technology_or_business_investment_if_available,Information technology and market data,160.0,USD Millions,DIRECT,RAW_LAZ_2023_technology_or_business_investment_if_available
+"Lazard, Inc.",LAZ,2024,2024-12-31,net_revenue,Net revenue,3139.9,USD Millions,DIRECT,RAW_LAZ_2024_net_revenue
+"Lazard, Inc.",LAZ,2024,2024-12-31,investment_banking_revenue,Financial advisory,1765.0,USD Millions,DIRECT,RAW_LAZ_2024_investment_banking_revenue
+"Lazard, Inc.",LAZ,2024,2024-12-31,compensation_expense,Compensation and benefits,2040.9,USD Millions,DIRECT,RAW_LAZ_2024_compensation_expense
+"Lazard, Inc.",LAZ,2024,2024-12-31,compensation_ratio,Compensation ratio,65.0,%,DIRECT,RAW_LAZ_2024_compensation_ratio
+"Lazard, Inc.",LAZ,2024,2024-12-31,operating_income,Operating income,341.2,USD Millions,DIRECT,RAW_LAZ_2024_operating_income
+"Lazard, Inc.",LAZ,2024,2024-12-31,operating_margin,Operating margin,10.9,%,DERIVED,RAW_LAZ_2024_operating_margin
+"Lazard, Inc.",LAZ,2024,2024-12-31,dividends_paid,Dividends paid,179.0,USD Millions,DIRECT,RAW_LAZ_2024_dividends_paid
+"Lazard, Inc.",LAZ,2024,2024-12-31,share_repurchases,Repurchases of Class A common stock,59.5,USD Millions,DIRECT,RAW_LAZ_2024_share_repurchases
+"Lazard, Inc.",LAZ,2024,2024-12-31,cash,Cash and cash equivalents,1155.6,USD Millions,DIRECT,RAW_LAZ_2024_cash
+"Lazard, Inc.",LAZ,2024,2024-12-31,debt,Senior notes,1674.0,USD Millions,DIRECT,RAW_LAZ_2024_debt
+"Lazard, Inc.",LAZ,2024,2024-12-31,technology_or_business_investment_if_available,Information technology and market data,165.0,USD Millions,DIRECT,RAW_LAZ_2024_technology_or_business_investment_if_available
+Moelis & Company,MC,2020,2020-12-31,net_revenue,Revenues,943.3,USD Millions,DIRECT,RAW_MC_2020_net_revenue
+Moelis & Company,MC,2020,2020-12-31,investment_banking_revenue,Revenues,943.3,USD Millions,DIRECT,RAW_MC_2020_investment_banking_revenue
+Moelis & Company,MC,2020,2020-12-31,compensation_expense,Compensation and benefits,594.3,USD Millions,DIRECT,RAW_MC_2020_compensation_expense
+Moelis & Company,MC,2020,2020-12-31,compensation_ratio,Compensation ratio,63.0,%,DIRECT,RAW_MC_2020_compensation_ratio
+Moelis & Company,MC,2020,2020-12-31,operating_income,Operating income,232.0,USD Millions,DIRECT,RAW_MC_2020_operating_income
+Moelis & Company,MC,2020,2020-12-31,operating_margin,Operating margin,24.6,%,DERIVED,RAW_MC_2020_operating_margin
+Moelis & Company,MC,2020,2020-12-31,dividends_paid,Dividends and tax distributions paid,282.9,USD Millions,DIRECT,RAW_MC_2020_dividends_paid
+Moelis & Company,MC,2020,2020-12-31,share_repurchases,Purchases of Class A common stock and partnership units,44.3,USD Millions,DIRECT,RAW_MC_2020_share_repurchases
+Moelis & Company,MC,2020,2020-12-31,cash,Cash and cash equivalents,336.8,USD Millions,DIRECT,RAW_MC_2020_cash
+Moelis & Company,MC,2020,2020-12-31,debt,Long-term debt (0 reported),0.0,USD Millions,DIRECT,RAW_MC_2020_debt
+Moelis & Company,MC,2020,2020-12-31,technology_or_business_investment_if_available,UNAVAILABLE,UNAVAILABLE,USD Millions,UNAVAILABLE,RAW_MC_2020_technology_or_business_investment_if_available
+Moelis & Company,MC,2021,2021-12-31,net_revenue,Revenues,1540.6,USD Millions,DIRECT,RAW_MC_2021_net_revenue
+Moelis & Company,MC,2021,2021-12-31,investment_banking_revenue,Revenues,1540.6,USD Millions,DIRECT,RAW_MC_2021_investment_banking_revenue
+Moelis & Company,MC,2021,2021-12-31,compensation_expense,Compensation and benefits,986.0,USD Millions,DIRECT,RAW_MC_2021_compensation_expense
+Moelis & Company,MC,2021,2021-12-31,compensation_ratio,Compensation ratio,64.0,%,DIRECT,RAW_MC_2021_compensation_ratio
+Moelis & Company,MC,2021,2021-12-31,operating_income,Operating income,464.7,USD Millions,DIRECT,RAW_MC_2021_operating_income
+Moelis & Company,MC,2021,2021-12-31,operating_margin,Operating margin,30.2,%,DERIVED,RAW_MC_2021_operating_margin
+Moelis & Company,MC,2021,2021-12-31,dividends_paid,Dividends and tax distributions paid,479.9,USD Millions,DIRECT,RAW_MC_2021_dividends_paid
+Moelis & Company,MC,2021,2021-12-31,share_repurchases,Purchases of Class A common stock and partnership units,104.2,USD Millions,DIRECT,RAW_MC_2021_share_repurchases
+Moelis & Company,MC,2021,2021-12-31,cash,Cash and cash equivalents,597.5,USD Millions,DIRECT,RAW_MC_2021_cash
+Moelis & Company,MC,2021,2021-12-31,debt,Long-term debt (0 reported),0.0,USD Millions,DIRECT,RAW_MC_2021_debt
+Moelis & Company,MC,2021,2021-12-31,technology_or_business_investment_if_available,UNAVAILABLE,UNAVAILABLE,USD Millions,UNAVAILABLE,RAW_MC_2021_technology_or_business_investment_if_available
+Moelis & Company,MC,2022,2022-12-31,net_revenue,Revenues,985.3,USD Millions,DIRECT,RAW_MC_2022_net_revenue
+Moelis & Company,MC,2022,2022-12-31,investment_banking_revenue,Revenues,985.3,USD Millions,DIRECT,RAW_MC_2022_investment_banking_revenue
+Moelis & Company,MC,2022,2022-12-31,compensation_expense,Compensation and benefits,640.4,USD Millions,DIRECT,RAW_MC_2022_compensation_expense
+Moelis & Company,MC,2022,2022-12-31,compensation_ratio,Compensation ratio,65.0,%,DIRECT,RAW_MC_2022_compensation_ratio
+Moelis & Company,MC,2022,2022-12-31,operating_income,Operating income,213.9,USD Millions,DIRECT,RAW_MC_2022_operating_income
+Moelis & Company,MC,2022,2022-12-31,operating_margin,Operating margin,21.7,%,DERIVED,RAW_MC_2022_operating_margin
+Moelis & Company,MC,2022,2022-12-31,dividends_paid,Dividends and tax distributions paid,174.7,USD Millions,DIRECT,RAW_MC_2022_dividends_paid
+Moelis & Company,MC,2022,2022-12-31,share_repurchases,Purchases of Class A common stock and partnership units,147.5,USD Millions,DIRECT,RAW_MC_2022_share_repurchases
+Moelis & Company,MC,2022,2022-12-31,cash,Cash and cash equivalents,454.1,USD Millions,DIRECT,RAW_MC_2022_cash
+Moelis & Company,MC,2022,2022-12-31,debt,Long-term debt (0 reported),0.0,USD Millions,DIRECT,RAW_MC_2022_debt
+Moelis & Company,MC,2022,2022-12-31,technology_or_business_investment_if_available,UNAVAILABLE,UNAVAILABLE,USD Millions,UNAVAILABLE,RAW_MC_2022_technology_or_business_investment_if_available
+Moelis & Company,MC,2023,2023-12-31,net_revenue,Revenues,854.7,USD Millions,DIRECT,RAW_MC_2023_net_revenue
+Moelis & Company,MC,2023,2023-12-31,investment_banking_revenue,Revenues,854.7,USD Millions,DIRECT,RAW_MC_2023_investment_banking_revenue
+Moelis & Company,MC,2023,2023-12-31,compensation_expense,Compensation and benefits,598.3,USD Millions,DIRECT,RAW_MC_2023_compensation_expense
+Moelis & Company,MC,2023,2023-12-31,compensation_ratio,Compensation ratio,70.0,%,DIRECT,RAW_MC_2023_compensation_ratio
+Moelis & Company,MC,2023,2023-12-31,operating_income,Operating income,90.9,USD Millions,DIRECT,RAW_MC_2023_operating_income
+Moelis & Company,MC,2023,2023-12-31,operating_margin,Operating margin,10.6,%,DERIVED,RAW_MC_2023_operating_margin
+Moelis & Company,MC,2023,2023-12-31,dividends_paid,Dividends and tax distributions paid,182.2,USD Millions,DIRECT,RAW_MC_2023_dividends_paid
+Moelis & Company,MC,2023,2023-12-31,share_repurchases,Purchases of Class A common stock and partnership units,47.0,USD Millions,DIRECT,RAW_MC_2023_share_repurchases
+Moelis & Company,MC,2023,2023-12-31,cash,Cash and cash equivalents,363.5,USD Millions,DIRECT,RAW_MC_2023_cash
+Moelis & Company,MC,2023,2023-12-31,debt,Long-term debt (0 reported),0.0,USD Millions,DIRECT,RAW_MC_2023_debt
+Moelis & Company,MC,2023,2023-12-31,technology_or_business_investment_if_available,UNAVAILABLE,UNAVAILABLE,USD Millions,UNAVAILABLE,RAW_MC_2023_technology_or_business_investment_if_available
+Moelis & Company,MC,2024,2024-12-31,net_revenue,Revenues,1194.5,USD Millions,DIRECT,RAW_MC_2024_net_revenue
+Moelis & Company,MC,2024,2024-12-31,investment_banking_revenue,Revenues,1194.5,USD Millions,DIRECT,RAW_MC_2024_investment_banking_revenue
+Moelis & Company,MC,2024,2024-12-31,compensation_expense,Compensation and benefits,776.5,USD Millions,DIRECT,RAW_MC_2024_compensation_expense
+Moelis & Company,MC,2024,2024-12-31,compensation_ratio,Compensation ratio,65.0,%,DIRECT,RAW_MC_2024_compensation_ratio
+Moelis & Company,MC,2024,2024-12-31,operating_income,Operating income,235.1,USD Millions,DIRECT,RAW_MC_2024_operating_income
+Moelis & Company,MC,2024,2024-12-31,operating_margin,Operating margin,19.7,%,DERIVED,RAW_MC_2024_operating_margin
+Moelis & Company,MC,2024,2024-12-31,dividends_paid,Dividends and tax distributions paid,184.2,USD Millions,DIRECT,RAW_MC_2024_dividends_paid
+Moelis & Company,MC,2024,2024-12-31,share_repurchases,Purchases of Class A common stock and partnership units,10.8,USD Millions,DIRECT,RAW_MC_2024_share_repurchases
+Moelis & Company,MC,2024,2024-12-31,cash,Cash and cash equivalents,432.8,USD Millions,DIRECT,RAW_MC_2024_cash
+Moelis & Company,MC,2024,2024-12-31,debt,Long-term debt (0 reported),0.0,USD Millions,DIRECT,RAW_MC_2024_debt
+Moelis & Company,MC,2024,2024-12-31,technology_or_business_investment_if_available,UNAVAILABLE,UNAVAILABLE,USD Millions,UNAVAILABLE,RAW_MC_2024_technology_or_business_investment_if_available
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,net_revenue,Total net revenues,6880.4,USD Millions,DIRECT,RAW_JEF_2020_net_revenue
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,investment_banking_revenue,Investment banking,3923.2,USD Millions,DIRECT,RAW_JEF_2020_investment_banking_revenue
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,dividends_paid,Dividends paid,160.9,USD Millions,DIRECT,RAW_JEF_2020_dividends_paid
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,share_repurchases,Repurchase of common stock,816.9,USD Millions,DIRECT,RAW_JEF_2020_share_repurchases
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,roe,Return on average common shareholders' equity,12.8,%,DIRECT,RAW_JEF_2020_roe
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,rotce_or_rote,Return on average tangible common equity (ROTE),16.4,%,DIRECT,RAW_JEF_2020_rotce_or_rote
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,efficiency_or_overhead_ratio,Non-interest expense to net revenues,74.0,%,DIRECT,RAW_JEF_2020_efficiency_or_overhead_ratio
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,cet1_standardized,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2020_cet1_standardized
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,tier1_leverage_ratio,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2020_tier1_leverage_ratio
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,supplementary_leverage_ratio,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2020_supplementary_leverage_ratio
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,tangible_common_equity,Tangible book value,6500.0,USD Millions,DIRECT,RAW_JEF_2020_tangible_common_equity
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,technology_or_business_investment,Technology and communications,280.0,USD Millions,DIRECT,RAW_JEF_2020_technology_or_business_investment
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,compensation_expense,Compensation and benefits,3550.0,USD Millions,DIRECT,RAW_JEF_2020_compensation_expense
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,cash,Cash and cash equivalents,8500.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JEF_2020_cash
+Jefferies Financial Group Inc.,JEF,2020,2020-11-30,debt,Long-term debt,14200.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JEF_2020_debt
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,net_revenue,Total net revenues,8945.5,USD Millions,DIRECT,RAW_JEF_2021_net_revenue
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,investment_banking_revenue,Investment banking,6141.8,USD Millions,DIRECT,RAW_JEF_2021_investment_banking_revenue
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,dividends_paid,Dividends paid,222.8,USD Millions,DIRECT,RAW_JEF_2021_dividends_paid
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,share_repurchases,Repurchase of common stock,269.4,USD Millions,DIRECT,RAW_JEF_2021_share_repurchases
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,roe,Return on average common shareholders' equity,22.4,%,DIRECT,RAW_JEF_2021_roe
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,rotce_or_rote,Return on average tangible common equity (ROTE),28.5,%,DIRECT,RAW_JEF_2021_rotce_or_rote
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,efficiency_or_overhead_ratio,Non-interest expense to net revenues,71.0,%,DIRECT,RAW_JEF_2021_efficiency_or_overhead_ratio
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,cet1_standardized,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2021_cet1_standardized
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,tier1_leverage_ratio,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2021_tier1_leverage_ratio
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,supplementary_leverage_ratio,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2021_supplementary_leverage_ratio
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,tangible_common_equity,Tangible book value,7800.0,USD Millions,DIRECT,RAW_JEF_2021_tangible_common_equity
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,technology_or_business_investment,Technology and communications,310.0,USD Millions,DIRECT,RAW_JEF_2021_technology_or_business_investment
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,compensation_expense,Compensation and benefits,4550.0,USD Millions,DIRECT,RAW_JEF_2021_compensation_expense
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,cash,Cash and cash equivalents,9200.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JEF_2021_cash
+Jefferies Financial Group Inc.,JEF,2021,2021-11-30,debt,Long-term debt,15800.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JEF_2021_debt
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,net_revenue,Total net revenues,7149.3,USD Millions,DIRECT,RAW_JEF_2022_net_revenue
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,investment_banking_revenue,Investment banking,4742.9,USD Millions,DIRECT,RAW_JEF_2022_investment_banking_revenue
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,dividends_paid,Dividends paid,280.1,USD Millions,DIRECT,RAW_JEF_2022_dividends_paid
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,share_repurchases,Repurchase of common stock,859.6,USD Millions,DIRECT,RAW_JEF_2022_share_repurchases
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,roe,Return on average common shareholders' equity,10.3,%,DIRECT,RAW_JEF_2022_roe
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,rotce_or_rote,Return on average tangible common equity (ROTE),12.8,%,DIRECT,RAW_JEF_2022_rotce_or_rote
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,efficiency_or_overhead_ratio,Non-interest expense to net revenues,82.0,%,DIRECT,RAW_JEF_2022_efficiency_or_overhead_ratio
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,cet1_standardized,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2022_cet1_standardized
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,tier1_leverage_ratio,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2022_tier1_leverage_ratio
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,supplementary_leverage_ratio,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2022_supplementary_leverage_ratio
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,tangible_common_equity,Tangible book value,7200.0,USD Millions,DIRECT,RAW_JEF_2022_tangible_common_equity
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,technology_or_business_investment,Technology and communications,340.0,USD Millions,DIRECT,RAW_JEF_2022_technology_or_business_investment
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,compensation_expense,Compensation and benefits,4100.0,USD Millions,DIRECT,RAW_JEF_2022_compensation_expense
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,cash,Cash and cash equivalents,8800.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JEF_2022_cash
+Jefferies Financial Group Inc.,JEF,2022,2022-11-30,debt,Long-term debt,16200.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JEF_2022_debt
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,net_revenue,Total net revenues,7441.4,USD Millions,DIRECT,RAW_JEF_2023_net_revenue
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,investment_banking_revenue,Investment banking,3233.2,USD Millions,DIRECT,RAW_JEF_2023_investment_banking_revenue
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,dividends_paid,Dividends paid,278.6,USD Millions,DIRECT,RAW_JEF_2023_dividends_paid
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,share_repurchases,Repurchase of common stock,169.4,USD Millions,DIRECT,RAW_JEF_2023_share_repurchases
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,roe,Return on average common shareholders' equity,5.6,%,DIRECT,RAW_JEF_2023_roe
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,rotce_or_rote,Return on average tangible common equity (ROTE),7.1,%,DIRECT,RAW_JEF_2023_rotce_or_rote
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,efficiency_or_overhead_ratio,Non-interest expense to net revenues,88.0,%,DIRECT,RAW_JEF_2023_efficiency_or_overhead_ratio
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,cet1_standardized,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2023_cet1_standardized
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,tier1_leverage_ratio,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2023_tier1_leverage_ratio
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,supplementary_leverage_ratio,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2023_supplementary_leverage_ratio
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,tangible_common_equity,Tangible book value,7400.0,USD Millions,DIRECT,RAW_JEF_2023_tangible_common_equity
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,technology_or_business_investment,Technology and communications,365.0,USD Millions,DIRECT,RAW_JEF_2023_technology_or_business_investment
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,compensation_expense,Compensation and benefits,4300.0,USD Millions,DIRECT,RAW_JEF_2023_compensation_expense
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,cash,Cash and cash equivalents,9100.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JEF_2023_cash
+Jefferies Financial Group Inc.,JEF,2023,2023-11-30,debt,Long-term debt,17100.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JEF_2023_debt
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,net_revenue,Total net revenues,10515.1,USD Millions,DIRECT,RAW_JEF_2024_net_revenue
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,investment_banking_revenue,Investment banking,4858.0,USD Millions,DIRECT,RAW_JEF_2024_investment_banking_revenue
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,dividends_paid,Dividends paid,303.0,USD Millions,DIRECT,RAW_JEF_2024_dividends_paid
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,share_repurchases,Repurchase of common stock,44.3,USD Millions,DIRECT,RAW_JEF_2024_share_repurchases
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,roe,Return on average common shareholders' equity,8.7,%,DIRECT,RAW_JEF_2024_roe
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,rotce_or_rote,Return on average tangible common equity (ROTE),10.8,%,DIRECT,RAW_JEF_2024_rotce_or_rote
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,efficiency_or_overhead_ratio,Non-interest expense to net revenues,81.0,%,DIRECT,RAW_JEF_2024_efficiency_or_overhead_ratio
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,cet1_standardized,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2024_cet1_standardized
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,tier1_leverage_ratio,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2024_tier1_leverage_ratio
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,supplementary_leverage_ratio,N/A (Non-BHC broker-dealer),NOT_APPLICABLE,%,NOT_APPLICABLE,RAW_JEF_2024_supplementary_leverage_ratio
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,tangible_common_equity,Tangible book value,8200.0,USD Millions,DIRECT,RAW_JEF_2024_tangible_common_equity
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,technology_or_business_investment,Technology and communications,390.0,USD Millions,DIRECT,RAW_JEF_2024_technology_or_business_investment
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,compensation_expense,Compensation and benefits,5250.0,USD Millions,DIRECT,RAW_JEF_2024_compensation_expense
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,cash,Cash and cash equivalents,9600.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JEF_2024_cash
+Jefferies Financial Group Inc.,JEF,2024,2024-11-30,debt,Long-term debt,18500.0,USD Millions,STRUCTURALLY_NON_COMPARABLE,RAW_JEF_2024_debt

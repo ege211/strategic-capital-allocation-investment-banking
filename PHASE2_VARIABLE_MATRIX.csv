@@ -1,0 +1,177 @@
+firm,ticker,variable,2020_available,2021_available,2022_available,2023_available,2024_available,coverage_count,source_consistency,comparability_class,panel_assignment,caveat
+"Goldman Sachs Group, Inc.",GS,net_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,investment_banking_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,dividends_paid,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,share_repurchases,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,total_cash_returned,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,roe,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,rotce_or_rote,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,efficiency_ratio_or_overhead_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,cet1_standardized,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,tier1_leverage_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,supplementary_leverage_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,tangible_common_equity,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,technology_or_business_investment,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,PANEL_A,High-risk expense line; definitions vary across firms; quarantined from pooled statistical models.
+"Goldman Sachs Group, Inc.",GS,relevant_balance_sheet_measure,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,compensation_expense,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,compensation_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+"Goldman Sachs Group, Inc.",GS,operating_income,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+"Goldman Sachs Group, Inc.",GS,operating_margin,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+"Goldman Sachs Group, Inc.",GS,cash,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+"Goldman Sachs Group, Inc.",GS,debt,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+"Goldman Sachs Group, Inc.",GS,net_cash_or_net_debt,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_A,Metric does not apply under firm's regulatory regime or business model.
+"Goldman Sachs Group, Inc.",GS,technology_or_business_investment_if_available,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_A,Metric does not apply under firm's regulatory regime or business model.
+Morgan Stanley,MS,net_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,investment_banking_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,dividends_paid,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,share_repurchases,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,total_cash_returned,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,roe,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,rotce_or_rote,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,efficiency_ratio_or_overhead_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,cet1_standardized,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,tier1_leverage_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,supplementary_leverage_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,tangible_common_equity,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,technology_or_business_investment,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,PANEL_A,High-risk expense line; definitions vary across firms; quarantined from pooled statistical models.
+Morgan Stanley,MS,relevant_balance_sheet_measure,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,compensation_expense,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,compensation_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Morgan Stanley,MS,operating_income,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+Morgan Stanley,MS,operating_margin,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+Morgan Stanley,MS,cash,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+Morgan Stanley,MS,debt,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+Morgan Stanley,MS,net_cash_or_net_debt,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_A,Metric does not apply under firm's regulatory regime or business model.
+Morgan Stanley,MS,technology_or_business_investment_if_available,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_A,Metric does not apply under firm's regulatory regime or business model.
+JPMorgan Chase & Co.,JPM,net_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,investment_banking_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,dividends_paid,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,share_repurchases,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,total_cash_returned,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,roe,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,rotce_or_rote,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,efficiency_ratio_or_overhead_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,cet1_standardized,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,tier1_leverage_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,supplementary_leverage_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,tangible_common_equity,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,technology_or_business_investment,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,PANEL_A,High-risk expense line; definitions vary across firms; quarantined from pooled statistical models.
+JPMorgan Chase & Co.,JPM,relevant_balance_sheet_measure,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,compensation_expense,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,compensation_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+JPMorgan Chase & Co.,JPM,operating_income,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+JPMorgan Chase & Co.,JPM,operating_margin,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+JPMorgan Chase & Co.,JPM,cash,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+JPMorgan Chase & Co.,JPM,debt,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+JPMorgan Chase & Co.,JPM,net_cash_or_net_debt,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_A,Metric does not apply under firm's regulatory regime or business model.
+JPMorgan Chase & Co.,JPM,technology_or_business_investment_if_available,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_A,Metric does not apply under firm's regulatory regime or business model.
+Stifel Financial Corp.,SF,net_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,investment_banking_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,dividends_paid,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,share_repurchases,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,total_cash_returned,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,roe,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,rotce_or_rote,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,efficiency_ratio_or_overhead_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,cet1_standardized,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,tier1_leverage_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,supplementary_leverage_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_A,Metric does not apply under firm's regulatory regime or business model.
+Stifel Financial Corp.,SF,tangible_common_equity,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,technology_or_business_investment,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,PANEL_A,High-risk expense line; definitions vary across firms; quarantined from pooled statistical models.
+Stifel Financial Corp.,SF,relevant_balance_sheet_measure,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,compensation_expense,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,compensation_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_A,Primary-source verified across 10-K filings.
+Stifel Financial Corp.,SF,operating_income,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+Stifel Financial Corp.,SF,operating_margin,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+Stifel Financial Corp.,SF,cash,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+Stifel Financial Corp.,SF,debt,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_A,Accounting or organizational structure mismatch prevents meaningful comparison.
+Stifel Financial Corp.,SF,net_cash_or_net_debt,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_A,Metric does not apply under firm's regulatory regime or business model.
+Stifel Financial Corp.,SF,technology_or_business_investment_if_available,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_A,Metric does not apply under firm's regulatory regime or business model.
+Evercore Inc.,EVR,net_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,investment_banking_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,dividends_paid,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,share_repurchases,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,total_cash_returned,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,roe,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_B,Accounting or organizational structure mismatch prevents meaningful comparison.
+Evercore Inc.,EVR,rotce_or_rote,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Evercore Inc.,EVR,efficiency_ratio_or_overhead_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Evercore Inc.,EVR,cet1_standardized,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Evercore Inc.,EVR,tier1_leverage_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Evercore Inc.,EVR,supplementary_leverage_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Evercore Inc.,EVR,tangible_common_equity,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Evercore Inc.,EVR,technology_or_business_investment,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Evercore Inc.,EVR,relevant_balance_sheet_measure,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Evercore Inc.,EVR,compensation_expense,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,compensation_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,operating_income,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,operating_margin,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,cash,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,debt,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,net_cash_or_net_debt,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Evercore Inc.,EVR,technology_or_business_investment_if_available,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,PANEL_B,High-risk expense line; definitions vary across firms; quarantined from pooled statistical models.
+"Lazard, Inc.",LAZ,net_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,investment_banking_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,dividends_paid,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,share_repurchases,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,total_cash_returned,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,roe,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_B,Accounting or organizational structure mismatch prevents meaningful comparison.
+"Lazard, Inc.",LAZ,rotce_or_rote,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+"Lazard, Inc.",LAZ,efficiency_ratio_or_overhead_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+"Lazard, Inc.",LAZ,cet1_standardized,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+"Lazard, Inc.",LAZ,tier1_leverage_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+"Lazard, Inc.",LAZ,supplementary_leverage_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+"Lazard, Inc.",LAZ,tangible_common_equity,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+"Lazard, Inc.",LAZ,technology_or_business_investment,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+"Lazard, Inc.",LAZ,relevant_balance_sheet_measure,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+"Lazard, Inc.",LAZ,compensation_expense,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,compensation_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,operating_income,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,operating_margin,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,cash,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,debt,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,net_cash_or_net_debt,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+"Lazard, Inc.",LAZ,technology_or_business_investment_if_available,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,PANEL_B,High-risk expense line; definitions vary across firms; quarantined from pooled statistical models.
+Moelis & Company,MC,net_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,investment_banking_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,dividends_paid,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,share_repurchases,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,total_cash_returned,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,roe,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,PANEL_B,Accounting or organizational structure mismatch prevents meaningful comparison.
+Moelis & Company,MC,rotce_or_rote,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Moelis & Company,MC,efficiency_ratio_or_overhead_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Moelis & Company,MC,cet1_standardized,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Moelis & Company,MC,tier1_leverage_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Moelis & Company,MC,supplementary_leverage_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Moelis & Company,MC,tangible_common_equity,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Moelis & Company,MC,technology_or_business_investment,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Moelis & Company,MC,relevant_balance_sheet_measure,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,PANEL_B,Metric does not apply under firm's regulatory regime or business model.
+Moelis & Company,MC,compensation_expense,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,compensation_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,operating_income,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,operating_margin,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,cash,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,debt,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,net_cash_or_net_debt,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,PANEL_B,Primary-source verified across 10-K filings.
+Moelis & Company,MC,technology_or_business_investment_if_available,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,UNAVAILABLE,PANEL_B,Primary-source verified across 10-K filings.
+Jefferies Financial Group Inc.,JEF,net_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,investment_banking_revenue,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,dividends_paid,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,share_repurchases,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,total_cash_returned,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,DIRECT,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,roe,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,rotce_or_rote,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,efficiency_ratio_or_overhead_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,cet1_standardized,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,tier1_leverage_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,supplementary_leverage_ratio,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,tangible_common_equity,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,technology_or_business_investment,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,relevant_balance_sheet_measure,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,compensation_expense,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,SUB_PANEL,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,compensation_ratio,Yes,Yes,Yes,Yes,Yes,5,CONSISTENT_5YR,PARTIAL,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,operating_income,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,operating_margin,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,cash,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,debt,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,STRUCTURALLY_NON_COMPARABLE,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,net_cash_or_net_debt,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.
+Jefferies Financial Group Inc.,JEF,technology_or_business_investment_if_available,No,No,No,No,No,0,NOT_APPLICABLE_OR_UNAVAILABLE,NOT_APPLICABLE,SENSITIVITY,Quarantined sensitivity observation; Nov 30 fiscal year-end; broker-dealer regulatory regime.

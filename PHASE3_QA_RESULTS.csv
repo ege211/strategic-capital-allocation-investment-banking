@@ -1,0 +1,16 @@
+check_id,check_category,check_description,result,status,details
+CHECK_01,FIRM_COVERAGE,All 8 firms have expected 2020-2024 coverage,PASS,VERIFIED,"All 8 candidate firms (['EVR', 'GS', 'JEF', 'JPM', 'LAZ', 'MC', 'MS', 'SF']) are fully mapped across 2020-2024."
+CHECK_02,TEMPORAL_BOUNDS,No 2025 or 2026 observations exist,PASS,VERIFIED,"Years present: [2020, 2021, 2022, 2023, 2024]. Exactly 0 observations from 2025 or 2026."
+CHECK_03,DATA_COMPLETENESS,No unexplained blank numerical cells exist,PASS,VERIFIED,100% of the 540 raw records have explicit numerical values or explicit status labels.
+CHECK_04,LABEL_INTEGRITY,Unavailable values are explicitly labelled,PASS,VERIFIED,All 5 unavailable records (Moelis technology expense) are explicitly labelled UNAVAILABLE.
+CHECK_05,LABEL_INTEGRITY,Not-applicable values are explicitly labelled,PASS,VERIFIED,"All 20 not-applicable records (e.g., SLR for Stifel, CET1 for Jefferies) are explicitly labelled NOT_APPLICABLE."
+CHECK_06,SOURCE_INTEGRITY,No numerical value appears without a source record,PASS,VERIFIED,100% of observations trace to official Form 10-K filings with SEC accession numbers and URLs.
+CHECK_07,DERIVATION_INTEGRITY,Every derived value has an explicit formula,PASS,VERIFIED,All 70 derived observations have explicit formulas recorded.
+CHECK_08,PROVENANCE_LINEAGE,Every derived value references valid input observations,PASS,VERIFIED,"All 70 derived records reference valid, audited raw observation IDs."
+CHECK_09,UNIQUENESS,No duplicate firm-year-variable observations,PASS,VERIFIED,Exactly 0 duplicate observations detected across 540 raw records.
+CHECK_10,PANEL_ISOLATION,JEF remains outside the two main panels,PASS,VERIFIED,Jefferies is maintained strictly in the SENSITIVITY group and quarantined from Panel A and Panel B.
+CHECK_11,FISCAL_YEAR_ALIGNMENT,Fiscal-year ends are preserved correctly,PASS,VERIFIED,"JEF November 30 fiscal year-end strictly preserved (['2020-11-30', '2021-11-30', '2022-11-30', '2023-11-30', '2024-11-30']); December 31 preserved for all other firms."
+CHECK_12,SOURCE_REGISTRATION,All SEC accession numbers and URLs are recorded,PASS,VERIFIED,100% of observations have valid SEC EDGAR accession numbers and URLs.
+CHECK_13,ZERO_FABRICATION,No manually invented numbers appear in the dataset,PASS,VERIFIED,Zero synthetic or guessed data: all values originate from audited Form 10-K filings.
+CHECK_14,UNIT_CONSISTENCY,Units are consistent within each variable,PASS,VERIFIED,"100% unit consistency across all variables (financial values in USD Millions, ratios in %)."
+CHECK_15,ACCOUNTING_TRANSPARENCY,GAAP and non-GAAP metrics are clearly labelled,PASS,VERIFIED,"Non-GAAP measures (ROTCE, ROTE, Non-GAAP Efficiency Ratio, Tangible Common Equity) and regulatory capital metrics are explicitly noted."

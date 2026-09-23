@@ -1,0 +1,15 @@
+check_id,check_category,check_description,result,status,details
+CHECK_01,PROVENANCE_TRACING,Every empirical statement in the discussion can be traced to Phase 4 output,PASS,VERIFIED,100% of numerical figures cited in Phase 5 documents match PHASE4_TABLES.md and Phase 4 CSV files.
+CHECK_02,ZERO_FABRICATION,No invented or fabricated numerical results appear in Phase 5,PASS,VERIFIED,Zero synthetic or altered data points. All calculations and summary figures originate from Phase 4.
+CHECK_03,DATASET_INTEGRITY,No new empirical dataset introduced in Phase 5,PASS,VERIFIED,The analysis relies strictly on the locked Phase 3 dataset and Phase 4 statistical outputs.
+CHECK_04,EVALUATION_NEUTRALITY,Zero subjective firm rankings or evaluative 'best/worst' claims appear,PASS,VERIFIED,All comparisons are strictly factual and objective; subjective rankings or evaluative labels are absent.
+CHECK_05,NON_CAUSAL_INTEGRITY,No causal claims appear in the discussion draft or reports,PASS,VERIFIED,"Language strictly adheres to observational phrasing ('associated with', 'coincided with', 'was observed during'). No causal claims asserted."
+CHECK_06,MOTIVE_NEUTRALITY,No management-motive inference presented as established fact,PASS,VERIFIED,Interpretations regarding management intentions are avoided; observational patterns are described without asserting executive motives.
+CHECK_07,ALTERNATIVE_EXPLANATIONS,Alternative explanations are clearly labelled and discussed,PASS,VERIFIED,"Dedicated sections and matrix columns explicitly detail macro cycle, M&A activity, revenue mix, and regulatory changes."
+CHECK_08,LIMITATIONS_TRANSPARENCY,Study limitations are explicitly discussed in dedicated sections,PASS,VERIFIED,"Dedicated sections in discussion draft and report address small N, observational design, and unobserved variables."
+CHECK_09,SAMPLE_SIZE_DISCLOSURE,Small sample size is explicitly disclosed in all lagged analyses,PASS,VERIFIED,"Maximum lagged samples (N=16 for Panel A, N=12 for Panel B) are highlighted throughout all documents."
+CHECK_10,STUDENT_VOICE_INTEGRITY,Student reflection questions are not answered or ghost-written by the agent,PASS,VERIFIED,PHASE5_RESEARCHER_REFLECTION_TEMPLATE.md and Section 10 of discussion draft contain placeholders for student input.
+CHECK_11,VOICE_ACCESSIBILITY,No inflated academic language or PhD jargon used,PASS,VERIFIED,"Writing maintains an accessible, authentic 12th-grade student voice using clear, precise language."
+CHECK_12,DESIGN_CONSISTENCY,No contradictions with Phase 1 locked design or panel structure,PASS,VERIFIED,"Panel A, Panel B, and JEF sensitivity groupings preserved strictly without collapsing panels."
+CHECK_13,DEAL_TIMING_HYPOTHETICAL,Deal-timing explanation explicitly labelled as hypothetical,PASS,VERIFIED,Advisory deal duration is explicitly framed as an untested hypothesis rather than an established empirical finding.
+CHECK_14,MARKET_SEPARATION_AND_PATH_LEAKS,Zero market-dominance claims and zero local environment path leaks,PASS,VERIFIED,Claims of market conditions masking capital allocation removed; zero absolute local filesystem paths in output files.
