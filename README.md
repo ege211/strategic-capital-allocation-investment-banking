@@ -3,7 +3,6 @@
 
 **Author**: Ege Can  
 **Academic Level**: Independent High-School Student Research (12th Grade)  
-**Target Profile**: Warwick Business & Management BSc (2027 Entry)  
 **Release Version**: `v1.0.0` (Publication Release)  
 **Governing Standard**: Zero-Trust Empirical Research, Primary SEC EDGAR Filings, Non-Causal Observational Design  
 
@@ -61,9 +60,12 @@ To prevent false pooling across fundamentally different corporate balance sheets
 4. **Compensation Flexibility (Panel B)**:
    Advisory boutique compensation expense ratios rose from 60.1%–64.0% during the 2021 market boom to 66.0%–71.6% during the 2023 advisory trough, coinciding with operating margin compression from 20%–28% down to 5.1%–15.0% (and an operating loss at Lazard).
 5. **Exploratory One-Year Lagged Associations ($t 	o t+1$)**:
-   - **Panel A (Repurchases $	o$ Next-Year ROE)**: Near-zero linear association (Pearson $r = -0.049$, $p = 0.858$; Spearman $ho = -0.035$, $p = 0.897$, $N = 16$).
-   - **Panel B (Repurchases $	o$ Next-Year Operating Margin)**: Negative linear association (Pearson $r = -0.403$, $p = 0.194$; Spearman $ho = -0.385$, $p = 0.217$, $N = 12$).
-   - **Panel B (Advisory Fee Revenue $	o$ Next-Year Operating Income)**: Moderate positive association (Pearson $r = +0.470$, $p = 0.123$; Spearman $ho = +0.503$, $p = 0.095$, $N = 12$).
+   - **Panel A (Repurchases $	o$ Next-Year ROE)**: Near-zero linear association (Pearson $r = -0.049$, $p = 0.858$; Spearman $
+ho = -0.035$, $p = 0.897$, $N = 16$).
+   - **Panel B (Repurchases $	o$ Next-Year Operating Margin)**: Negative linear association (Pearson $r = -0.403$, $p = 0.194$; Spearman $
+ho = -0.385$, $p = 0.217$, $N = 12$).
+   - **Panel B (Advisory Fee Revenue $	o$ Next-Year Operating Income)**: Moderate positive association (Pearson $r = +0.470$, $p = 0.123$; Spearman $
+ho = +0.503$, $p = 0.095$, $N = 12$).
 
 ---
 
