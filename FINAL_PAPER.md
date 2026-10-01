@@ -1,7 +1,8 @@
 # Strategic Capital Allocation in Investment Banking: A Comparative Longitudinal Study of Major U.S. Firms, 2020–2024
 
 **Author**: Ege Can  
-**Academic Level**: 12th-Grade Independent Student Research Project  
+**Academic Level**: Independent High-School Student Research Project  
+**School**: FMV Özel Ispartakule Işık High School, Istanbul (Class of 2027)  
 **Date**: September 2026  
 **Research Method**: Observational, Longitudinal, Comparative Financial Analysis  
 **Primary Data Source**: Official SEC Form 10-K Filings (U.S. Securities and Exchange Commission)  
@@ -175,7 +176,7 @@ $$\text{Operating Margin} = \frac{\text{Operating Income}}{\text{Net Revenue}}$$
 $$\text{Net Liquid Cushion} = \text{Cash and Equivalents} - \text{Funded Long-Term Debt}$$
 
 ### 5.4 Missing, Unavailable, and Non-Applicable Data
-To maintain zero-trust data integrity, this project established rigorous classifications for non-standard data:
+To maintain empirical consistency, this project established rigorous classifications for non-standard data:
 - **`DIRECT`**: Fully disclosed and audited in the primary 10-K.
 - **`NOT_APPLICABLE`**: A variable that is legally or structurally non-existent for that entity. For example, Stifel Financial is a Category IV banking organization exempt from Supplementary Leverage Ratio (SLR) calculations under Federal Reserve rules. Marking SLR as `NOT_APPLICABLE` for Stifel correctly reflects regulatory law; it is not treated as zero or missing.
 - **`STRUCTURALLY_NON_COMPARABLE`**: Variables that cannot be compared across panels due to structural definitions. For instance, boutique partnership tax-withholding units were excluded from common share buybacks to ensure semantic comparability with bank corporate repurchases.
@@ -436,7 +437,7 @@ As an independent student researcher, I identified several promising extensions 
 
 ## 12. References
 
-This study relies strictly on verified primary-source financial filings and official regulatory releases. In accordance with zero-trust research standards, no unverified secondary citations or fabricated academic literature are included.
+This study relies strictly on verified primary-source financial filings and official regulatory releases directly from the SEC EDGAR system.
 
 ### Primary Regulatory & Statutory Sources
 1. **U.S. Securities and Exchange Commission (SEC)**:

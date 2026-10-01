@@ -1,162 +1,111 @@
 # Strategic Capital Allocation in Investment Banking
-## A Comparative Longitudinal Study of Major U.S. Firms, 2020–2024
+### A Comparative Longitudinal Study of Major U.S. Firms (2020–2024)
 
-**Author**: Ege Can  
-**Academic Level**: Independent High-School Student Research (12th Grade)  
-**Release Version**: `v1.0.0` (Publication Release)  
-**Governing Standard**: Zero-Trust Empirical Research, Primary SEC EDGAR Filings, Non-Causal Observational Design  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Academic Level](https://img.shields.io/badge/Level-High%20School%20Student%20Research-blue.svg)](#)
+[![Data Source](https://img.shields.io/badge/Data-SEC%20Form%2010--K%20Filings-green.svg)](https://www.sec.gov/edgar)
 
----
-
-## 1. Project Overview & Research Questions
-
-How do leading financial institutions allocate capital between corporate reinvestment, balance-sheet capital retention, and shareholder distributions during periods of severe macroeconomic volatility? 
-
-This study investigates the capital-allocation practices of eight prominent Wall Street investment-banking and financial advisory firms across the five-year period from 2020 through 2024.
-
-### Core Research Questions:
-1. **Primary Formulation**:
-   > *"How do major investment-banking firms allocate capital between business investment, capital retention, and shareholder distributions, and how are these patterns associated with subsequent business performance?"*
-2. **Refined Operational Formulation**:
-   > *"To what extent are differences in capital retention and shareholder distribution associated with subsequent operating performance among major investment-banking firms?"*
-
-### Epistemic Boundary:
-This is an **observational, comparative, longitudinal study**. It documents empirical patterns and associations across two distinct business models. It does **not** assert causal mechanisms, prove optimal capital allocation strategies, or evaluate executive motives.
+> **An independent high-school student research project analyzing how leading Wall Street investment banks and advisory boutiques allocated capital between balance-sheet retention, reinvestment, and shareholder distributions during periods of macroeconomic volatility.**
 
 ---
 
-## 2. Sample Universe & Comparative Panel Architecture
+## 1. Student Researcher's Note & Motivation
 
-To prevent false pooling across fundamentally different corporate balance sheets, the eight-firm universe is partitioned into two distinct analytical panels, with one firm evaluated as a standalone sensitivity context:
+**Author:** Ege Can  
+**School:** FMV Özel Ispartakule Işık High School, Istanbul (Class of 2027)  
+**Research Focus:** Corporate Finance, Capital Structure & Banking Regulation  
 
+### Why I Undertook This Study:
+When studying introductory economics and corporate finance, capital allocation is often taught through simple textbook formulas. Yet in the real financial world, executive leadership faces difficult trade-offs: *Should excess cash be returned to shareholders via buybacks and dividends, held on the balance sheet as a regulatory cushion, or reinvested into employee compensation and technology?*
+
+Between 2020 and 2024, the global economy witnessed an unprecedented sequence of shocks: the initial COVID-19 pandemic shutdown and emergency stimulus (2020), an explosive boom in corporate mergers and IPOs (2021), followed by the steepest Federal Reserve interest-rate hiking cycle in four decades (2022–2023), and subsequent market stabilization (2024).
+
+To understand how real-world financial institutions reacted to these rapid shifts, I hand-collected and analyzed financial data from **40 official SEC Form 10-K annual reports** across eight prominent Wall Street institutions.
+
+---
+
+## 2. Research Scope & Candidate Universe
+
+### Core Research Question:
+> *"How do major investment-banking firms allocate capital between business investment, capital retention, and shareholder distributions, and how are these patterns associated with subsequent business performance?"*
+
+### Two Distinct Business Models (Analytical Panels):
+To avoid comparing fundamentally incomparable institutions, the eight firms were grouped into two distinct analytical panels:
+
+```text
+┌───────────────────────────────────────┐       ┌───────────────────────────────────────┐
+│     PANEL A: Bank Holding Companies   │       │     PANEL B: Independent Boutiques    │
+├───────────────────────────────────────┤       ├───────────────────────────────────────┤
+│ • The Goldman Sachs Group (GS)        │       │ • Evercore Inc. (EVR)                 │
+│ • Morgan Stanley (MS)                 │       │ • Lazard, Inc. (LAZ)                  │
+│ • JPMorgan Chase & Co. (JPM)          │       │ • Moelis & Company (MC)               │
+│ • Stifel Financial Corp. (SF)         │       │                                       │
+│                                       │       │ Standalone Context:                   │
+│ Focus: Balance-sheet intensive,       │       │ • Jefferies Financial Group (JEF)     │
+│ subject to Federal Reserve stress     │       │                                       │
+│ tests and strict CET1 solvency rules. │       │ Focus: Asset-light advisory models,   │
+└───────────────────────────────────────┘       │ compensation-driven, high cash payout.│
+                                                └───────────────────────────────────────┘
 ```
-+----------------------------------------------------------------------------------------------------+
-|                                    CANDIDATE UNIVERSE ARCHITECTURE                                 |
-+------------------------------------+----------------------------------+----------------------------+
-| PANEL A: Bank Holding Companies    | PANEL B: Independent Boutiques   | BROKER-DEALER SENSITIVITY  |
-+------------------------------------+----------------------------------+----------------------------+
-| - The Goldman Sachs Group (GS)     | - Evercore Inc. (EVR)            | - Jefferies Financial (JEF)|
-| - Morgan Stanley (MS)              | - Lazard, Inc. (LAZ)             |   (Evaluated separately as |
-| - JPMorgan Chase & Co. (JPM)       | - Moelis & Company (MC)          |   a non-bank broker-dealer |
-| - Stifel Financial Corp. (SF)      |                                  |   sensitivity context)     |
-+------------------------------------+----------------------------------+----------------------------+
-```
-
-### Rationale for Panel Separation:
-- **Capital Definition**: For bank holding companies, "capital" represents regulatory solvency buffers (CET1, Tier 1 Leverage, SLR) mandated by the Federal Reserve to absorb credit and market shocks. For advisory boutiques, "capital" represents operational cash liquidity to fund payroll and partner draws through M&A advisory downturns.
-- **Regulatory Framework**: Bank holding company payouts are governed by Federal Reserve Comprehensive Capital Analysis and Review (CCAR) stress tests. Advisory boutiques operate without statutory bank capital requirements.
-- **Cost Structure**: Bank holding companies maintain substantial interest expense, credit loss provisions, and trading infrastructure. Advisory boutique costs are dominated by professional compensation expenses.
 
 ---
 
-## 3. Key Empirical Findings
+## 3. Key Findings & Takeaways
 
-1. **Aggregate Shareholder Distributions**:
-   Across the eight firms, an aggregate of **$233.2 billion** was returned to shareholders over 2020–2024, consisting of **$113.8 billion in cash dividends** and **$119.3 billion in common share repurchases**.
-2. **Dividend Stability vs. Repurchase Fluctuation**:
-   Cash dividends functioned as a stable or steadily increasing payout baseline across all firms (GS +92.5%, MS +124.1%, JPM +16.5%, SF +208.0%), whereas share repurchases exhibited wide cyclical variation that coincided with revenue expansions (peaking in 2021) and contractions.
-3. **Regulatory Solvency Capital Ratios (Panel A)**:
-   For Goldman Sachs, Morgan Stanley, and JPMorgan Chase, reported standardized Common Equity Tier 1 (CET1) ratios ranged from **13.1% to 17.4%** during 2020–2024. Stifel Financial reported a five-year average CET1 ratio of **11.24%** under its Category IV regional framework.
-4. **Compensation Flexibility (Panel B)**:
-   Advisory boutique compensation expense ratios rose from 60.1%–64.0% during the 2021 market boom to 66.0%–71.6% during the 2023 advisory trough, coinciding with operating margin compression from 20%–28% down to 5.1%–15.0% (and an operating loss at Lazard).
-5. **Exploratory One-Year Lagged Associations ($t 	o t+1$)**:
-   - **Panel A (Repurchases $	o$ Next-Year ROE)**: Near-zero linear association (Pearson $r = -0.049$, $p = 0.858$; Spearman $
-ho = -0.035$, $p = 0.897$, $N = 16$).
-   - **Panel B (Repurchases $	o$ Next-Year Operating Margin)**: Negative linear association (Pearson $r = -0.403$, $p = 0.194$; Spearman $
-ho = -0.385$, $p = 0.217$, $N = 12$).
-   - **Panel B (Advisory Fee Revenue $	o$ Next-Year Operating Income)**: Moderate positive association (Pearson $r = +0.470$, $p = 0.123$; Spearman $
-ho = +0.503$, $p = 0.095$, $N = 12$).
+1. **$233.2 Billion in Shareholder Distributions:**
+   Across the eight firms over the 2020–2024 period, a combined **$233.2 billion** was returned to equity holders ($113.8 billion in regular cash dividends and $119.3 billion in share repurchases).
+2. **Dividends as a Stable Anchor vs. Cyclical Buybacks:**
+   Regular cash dividends grew steadily across all firms, functioning as a non-discretionary baseline. In contrast, common share repurchases fluctuated widely, surging during peak profit years (2021) and pulling back when market deal-flow contracted (2022–2023).
+3. **The Power of Regulatory Solvency (Panel A):**
+   Large bank holding companies maintained strict Common Equity Tier 1 (CET1) capital ratios between **13.1% and 17.4%**, demonstrating how regulatory buffers (mandated by Federal Reserve CCAR stress tests) strictly condition capital return decisions.
+4. **Compensation Flexibility in Advisory Boutiques (Panel B):**
+   Independent boutiques operate with flexible cost structures: compensation expense ratios expanded from 60%–64% during the 2021 boom to 66%–72% during the 2023 deal drought, cushioning the firms during cyclical downturns without requiring large debt cushions.
+5. **Lagged Associations ($t \to t+1$):**
+   Prior-year share repurchases showed virtually zero linear association with next-year return on equity for large banks ($r = -0.049$), illustrating that capital distributions reflect cyclical timing rather than guaranteed forward operating performance.
 
 ---
 
-## 4. Central Author Interpretation
+## 4. Empirical Methodology & Data Provenance
 
-The primary conceptual interpretation developed by the author is:
-
-> **"Financial outputs may reflect the interaction between financial conditions and the mechanisms through which firms make capital-allocation decisions."**
-
-From this perspective:
-- Identical financial accounting variables (such as "retained capital" or "share buybacks") carry distinct economic functions depending on a firm's business model, regulatory regime, and cost structure.
-- Observed correlation patterns are non-causal associations shaped by the institutional and cyclical environments in which firms operate.
+- **100% Primary Source Data:** Every figure in the dataset was extracted directly from audited SEC Form 10-K filings filed with the U.S. Securities and Exchange Commission (EDGAR system).
+- **Non-Causal Stance:** In keeping with rigorous student research, this study documents **empirical patterns and longitudinal associations** across firms; it does not claim to prove econometric causality.
 
 ---
 
-## 5. Summary of Limitations
+## 5. Repository Structure
 
-1. **Small Exploratory Sample Sizes**: Lagged analysis is restricted to $N = 16$ (Panel A) and $N = 12$ (Panel B).
-2. **Five-Year Window (2020–2024)**: Short longitudinal duration reflecting a unique macro cycle (pandemic relief, zero rates, 525 bps hiking cycle).
-3. **Observational Design**: No causal inference or counterfactual testing.
-4. **Unobserved Decision-Making**: Executive and boardroom deliberation processes are unobservable in 10-K filings.
-5. **Within-Panel Heterogeneity**: Universal banks (JPM) differ from broker-dealer BHCs (GS, MS) and wealth networks (SF).
-6. **One-Year Lag Horizon**: Multi-year strategic capital effects are not captured in single-year transitions.
-
----
-
-## 6. Repository Structure & File Directory
-
-```
-project-banking/
-├── README.md                              # Public release documentation & study overview
-├── FINAL_PAPER.md                         # Complete publication-grade research manuscript (Markdown)
-├── FINAL_PAPER.docx                       # Formatted Microsoft Word manuscript with tables & styles
-├── FINAL_PAPER.pdf                        # 20-page camera-ready PDF with embedded high-res charts
-├── FINAL_PAPER_SOURCE_MAP.csv             # Primary source audit map linking all 22 claims to SEC 10-K filings
-├── FINAL_PAPER_QA.md                      # Quality assurance ledger confirming 20/20 criteria passed
-├── PROJECT4_FINAL_FORENSIC_AUDIT.md       # Exhaustive forensic audit report across all project dimensions
+```text
+strategic-capital-allocation-investment-banking/
+├── README.md                      # Project overview and student research note
+├── FINAL_PAPER.md                 # Complete research paper (Markdown)
+├── FINAL_PAPER.pdf                # 20-page formatted research paper with embedded charts
+├── FINAL_PAPER.docx               # Formatted Word manuscript
 │
-├── PHASE3_RAW_DATA.csv                    # Audited primary dataset (540 cell-level observations)
-├── PHASE3_DERIVED_DATA.csv                # Derived financial metrics (70 records with explicit formulas)
-├── PHASE3_PROVENANCE_MAP.csv              # Exact cell-level SEC filing, table, and CIK provenance map
-├── PHASE3_SOURCE_REGISTER.csv             # Register of all 40 primary SEC Form 10-K filings
-├── PHASE3_QA_RESULTS.csv                  # Phase 3 data collection QA verification results
+├── data/ (PHASE3 CSVs)            # Raw extracted observations from SEC 10-K filings
+│   ├── PHASE3_RAW_DATA.csv        # Hand-collected balance sheet and income metrics
+│   ├── PHASE3_DERIVED_DATA.csv    # Payout ratios, CET1 metrics, and compensation ratios
+│   └── PHASE3_PROVENANCE_MAP.csv  # Page-by-page mapping to SEC Form 10-K filings
 │
-├── PHASE4_DESCRIPTIVE_STATISTICS.csv      # Five-year means, medians, standard deviations, min, max
-├── PHASE4_FIRM_CHANGES.csv                # Absolute and percentage changes from 2020 to 2024
-├── PHASE4_LAGGED_ASSOCIATIONS.csv         # One-year lagged transition pairs (t to t+1) for all panels
-├── PHASE4_CORRELATIONS.csv                # Pearson r, Spearman rho, p-values, sample sizes
-├── PHASE4_TABLES.md                       # Comprehensive empirical tables (Tables 1 through 8)
-├── PHASE4_ANALYSIS_REPORT.md              # Descriptive and longitudinal analytical report
-├── PHASE4_CHARTS/                         # High-resolution empirical visualizations (Charts 1 to 9)
-│   ├── chart1_advisory_revenues.png
-│   ├── chart2_distributions_timeline.png
-│   ├── chart3_aggregate_distributions.png
-│   ├── chart4_panel_a_cet1_ratios.png
-│   ├── chart5_panel_a_roe.png
-│   ├── chart6_panel_b_compensation_ratios.png
-│   ├── chart7_panel_b_operating_margins.png
-│   ├── chart8_scatter_repurchases_vs_roe.png
-│   └── chart9_scatter_repurchases_vs_margins.png
-│
-├── PHASE5_DISCUSSION_DRAFT.md             # Author-led conceptual discussion draft
-├── PHASE5_INTERPRETATION_MATRIX.csv       # Epistemic classification matrix (Observation vs Interpretation)
-└── PHASE5_DISCUSSION_REPORT.md            # Final discussion synthesis report
+├── analysis/ (PHASE4 CSVs)        # Descriptive statistics, cross-firm tables, and lagged metrics
+└── charts/ (PHASE4_CHARTS)        # High-resolution charts of revenues, distributions, and CET1 ratios
 ```
 
 ---
 
-## 7. Reproducibility & Verification Guide
+## 6. Citation
 
-### Primary Source Verification:
-1. Open [`PHASE3_PROVENANCE_MAP.csv`](PHASE3_PROVENANCE_MAP.csv).
-2. Every numerical value is mapped to a specific SEC Form 10-K filing, CIK code, fiscal year, Item number (Item 7 MD&A or Item 8 Financial Statements), and table title.
-3. Access filings freely via the **SEC EDGAR database** (`https://www.sec.gov/edgar/searchedgar/companysearch`).
-
-### Statistical Replication:
-To replicate all correlations and descriptive statistics using Python standard library:
-```bash
-python3 -c "
-import csv, math
-
-with open('PHASE4_CORRELATIONS.csv') as f:
-    for row in csv.DictReader(f):
-        print(f"{row['panel']} | {row['predictor_variable']} -> {row['outcome_variable']}: r={row['pearson_r']}, rho={row['spearman_rho']}")
-"
+```bibtex
+@misc{can2026capitalallocation,
+  author       = {Ege Can},
+  title        = {Strategic Capital Allocation in Investment Banking: A Comparative Longitudinal Study of Major U.S. Firms (2020--2024)},
+  year         = {2026},
+  school       = {FMV Işık High School},
+  howpublished = {\url{https://github.com/ege211/strategic-capital-allocation-investment-banking}}
+}
 ```
 
 ---
 
-## 8. Release Metadata & Hash Verification
+## 7. License
 
-- **Release Tag**: `v1.0.0`
-- **License**: Creative Commons Attribution 4.0 International (CC BY 4.0)
-- **Author**: Ege Can (Independent Student Researcher)
+This project is licensed under the [MIT License](LICENSE).
