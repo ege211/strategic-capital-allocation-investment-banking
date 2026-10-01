@@ -38,7 +38,7 @@ This study investigates this comparative setting through a structured empirical 
 > **Primary Research Question**:  
 > *How do major investment-banking firms allocate capital between business investment, capital retention, and shareholder distributions, and how are these patterns associated with subsequent business performance?*
 
-To maintain research integrity, this investigation is explicitly structured as an **observational, longitudinal, and comparative study**. It does not use experimental controls or econometric instrumental variables, and it makes no causal claims. Its objective is to document what primary financial filings actually show, analyze how patterns compare across business models, and present an author-led interpretive framework for understanding the observed results.
+To maintain analytical discipline, this investigation is structured as an **observational, longitudinal, and comparative study**. It does not attempt to prove causation or run complex econometric regressions. Rather, its objective is to document what primary SEC filings actually show, analyze how capital decisions differ across business models, and present a student framework for understanding the results.
 
 ---
 
@@ -49,7 +49,7 @@ To evaluate the primary research question, the study investigates three interrel
 2. **Capital Bounds and Operating Flexibility**: How did regulatory capital requirements bound bank holding company balance sheets, and how did advisory boutique expense structures (specifically compensation ratios) adjust during industry downturns?
 3. **Exploratory Lagged Associations**: How were capital-allocation decisions in year $t$ associated with operating performance in year $t+1$, and did these relationships differ across business models?
 
-### Author-Led Conceptual Framework
+### Student Conceptual Framework: Understanding Capital Allocation
 
 To interpret the connection between observable financial figures and the external macroeconomic environment, I formulated the following conceptual chain:
 
@@ -82,10 +82,10 @@ To interpret the connection between observable financial figures and the externa
 +-------------------------------------------------------------+
 ```
 
-### Epistemic Status of the Framework
+### Distinguishing Recorded Financial Facts from Student Interpretation
 
 It is vital to state clearly what this framework is and what it is not:
-- **It is an author-led interpretive hypothesis**: It provides a conceptual structure for thinking about how financial outputs relate to external conditions through the lens of organizational decision-making.
+- **It is my analytical perspective**: It provides a conceptual structure for thinking about how financial outputs relate to external conditions through the lens of organizational decision-making.
 - **It is NOT an empirically measured causal mechanism**: The dataset collected in this study observes **financial conditions** (such as interest rates and revenues) and **observable financial outputs** (such as dividends paid, shares repurchased, reported CET1 ratios, and operating margins).
 - **Unobserved internal processes**: The SEC Form 10-K filings used as primary sources record financial amounts; they do not record boardroom deliberations, executive strategy sessions, management risk preferences, or internal debates. 
 
@@ -182,7 +182,7 @@ To maintain empirical consistency, this project established rigorous classificat
 - **`STRUCTURALLY_NON_COMPARABLE`**: Variables that cannot be compared across panels due to structural definitions. For instance, boutique partnership tax-withholding units were excluded from common share buybacks to ensure semantic comparability with bank corporate repurchases.
 
 ### 5.5 Provenance and Quality Assurance
-Every data cell is linked to a permanent record in `PHASE3_PROVENANCE_MAP.csv`, documenting the filing accession number, filing date, statement title, report table, and exact line item. A 15-point quality assurance audit verified that 100% of reported figures reconcile with primary SEC filings.
+Every data cell is cross-referenced to its official SEC filing date, accession number, and statement table. A structured review confirmed that 100% of reported figures reconcile directly with primary SEC Form 10-K filings.
 
 ---
 
@@ -396,7 +396,7 @@ To ensure research transparency and intellectual honesty, this study explicitly 
 1. **Small Exploratory Sample Sizes**: The exploratory lagged analysis ($t \to t+1$) contains only four annual transitions per firm ($N = 16$ for Panel A; $N = 12$ for Panel B). These small sample sizes mean all calculated correlation coefficients are exploratory and cannot support definitive statistical inferences.
 2. **Five-Year Time Period**: The study covers five fiscal years (2020–2024). While this window captured substantial cyclical variation, five years is a comparatively short period that cannot evaluate multi-decade secular trends.
 3. **Exceptional Macroeconomic Context**: The 2020–2024 period featured historically unusual events, including emergency COVID-19 pandemic relief, zero-interest-rate monetary policy, record 2021 capital-markets issuance, and rapid 525-basis-point interest-rate hikes. These conditions may not reflect ordinary market regimes.
-4. **Observational Study Design**: The project is strictly observational. It does not employ randomized experiments or instrumental variables, and it cannot prove causal relationships.
+4. **Observational Study Design**: This project is observational. It tracks financial disclosures across time without controlled experiments, and it does not make claims of causation.
 5. **Unobserved Management Decision-Making**: Audited SEC Form 10-K filings record financial outcomes; they do not document boardroom deliberations, executive debates, or management decision-making processes.
 6. **Unobserved Executive Motives**: The data cannot determine whether share repurchases were executed to signal undervaluation, offset employee stock dilution, or return surplus capital.
 7. **Unobserved Deal Pipelines and Timing**: SEC filings report annual recognized revenues but do not disclose confidential deal backlogs or client transaction milestones. While advisory transactions can span multiple fiscal periods, this study does not contain deal-level timing data to test that explanation.
@@ -430,7 +430,7 @@ As an independent student researcher, I identified several promising extensions 
 2. **Quarterly Data Granularity**: Collecting quarterly Form 10-Q disclosures would enable researchers to track intra-year adjustments in share repurchases, compensation pools, and regulatory capital ratios relative to quarterly earnings surprises.
 3. **Cross-Border Comparative Analysis**: Extending the panel architecture to include major European investment banks (such as Barclays, Deutsche Bank, and UBS) would permit investigation of how different regulatory jurisdictions (such as the European Central Bank and Bank of England) influence capital allocation.
 4. **Deal-Level Transaction Backlog Data**: Incorporating deal-level announcement and completion dates from transaction databases would allow empirical testing of whether transaction duration explains lagged fee recognition across consecutive fiscal years.
-5. **Macroeconomic and Market Controls**: Applying econometric controls for interest-rate spreads, equity market volatility (VIX), and corporate credit default swaps could help isolate firm-specific allocation choices from broad market movements.
+5. **Market Conditions**: Future work could examine market indicators like interest-rate spreads and market volatility (VIX) to separate general economic swings from firm-specific capital choices.
 6. **Detailed Business-Model Segmentation**: Disaggregating investment-banking revenues into discrete product lines (mergers and acquisitions, equity underwriting, debt underwriting, and restructuring) would clarify whether product mix explains performance differences within panels.
 
 ---
