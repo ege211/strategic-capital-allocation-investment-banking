@@ -92,7 +92,12 @@ strategic-capital-allocation-investment-banking/
 
 ---
 
-## 6. Citation
+---
+
+## 6. Research Methodology & Transparency Note
+As an independent 12th-grade student researcher, I formulated the research question, collected and verified the audited SEC Form 10-K disclosures across all eight institutions, and conducted the comparative financial analysis. I used AI coding assistants to assist with data structuring, generating charts, and refining written drafts. All final empirical observations, interpretations, and conclusions are my own.
+
+## 7. Citation
 
 ```bibtex
 @misc{can2026capitalallocation,
@@ -106,6 +111,6 @@ strategic-capital-allocation-investment-banking/
 
 ---
 
-## 7. License
+## 8. License
 
 This project is licensed under the [MIT License](LICENSE).
