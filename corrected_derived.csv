@@ -1,0 +1,96 @@
+ticker,fiscal_year,derived_variable,formula,value,unit
+GS,2020,total_cash_returned,dividends_paid + share_repurchases,4264.0,USD Millions
+GS,2020,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,9.569,%
+GS,2021,total_cash_returned,dividends_paid + share_repurchases,7925.0,USD Millions
+GS,2021,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,13.355,%
+GS,2022,total_cash_returned,dividends_paid + share_repurchases,7182.0,USD Millions
+GS,2022,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,15.163,%
+GS,2023,total_cash_returned,dividends_paid + share_repurchases,9985.0,USD Millions
+GS,2023,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,21.587,%
+GS,2024,total_cash_returned,dividends_paid + share_repurchases,12497.0,USD Millions
+GS,2024,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,23.354,%
+MS,2020,total_cash_returned,dividends_paid + share_repurchases,4086.0,USD Millions
+MS,2020,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,8.478,%
+MS,2021,total_cash_returned,dividends_paid + share_repurchases,15635.0,USD Millions
+MS,2021,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,26.165,%
+MS,2022,total_cash_returned,dividends_paid + share_repurchases,15266.0,USD Millions
+MS,2022,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,28.445,%
+MS,2023,total_cash_returned,dividends_paid + share_repurchases,11063.0,USD Millions
+MS,2023,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,20.433,%
+MS,2024,total_cash_returned,dividends_paid + share_repurchases,9388.0,USD Millions
+MS,2024,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,15.201,%
+JPM,2020,total_cash_returned,dividends_paid + share_repurchases,19207.0,USD Millions
+JPM,2020,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,16.067,%
+JPM,2021,total_cash_returned,dividends_paid + share_repurchases,31266.0,USD Millions
+JPM,2021,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,25.702,%
+JPM,2022,total_cash_returned,dividends_paid + share_repurchases,16724.0,USD Millions
+JPM,2022,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,12.995,%
+JPM,2023,total_cash_returned,dividends_paid + share_repurchases,23287.0,USD Millions
+JPM,2023,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,14.729,%
+JPM,2024,total_cash_returned,dividends_paid + share_repurchases,33613.0,USD Millions
+JPM,2024,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,18.931,%
+SF,2020,total_cash_returned,dividends_paid + share_repurchases,132.019,USD Millions
+SF,2020,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,3.519,%
+SF,2021,total_cash_returned,dividends_paid + share_repurchases,274.664,USD Millions
+SF,2021,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,5.798,%
+SF,2022,total_cash_returned,dividends_paid + share_repurchases,276.859,USD Millions
+SF,2022,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,6.305,%
+SF,2023,total_cash_returned,dividends_paid + share_repurchases,644.141,USD Millions
+SF,2023,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,14.811,%
+SF,2024,total_cash_returned,dividends_paid + share_repurchases,371.38,USD Millions
+SF,2024,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,7.472,%
+EVR,2020,total_cash_returned,dividends_paid + share_repurchases,254.0,USD Millions
+EVR,2020,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,11.22,%
+EVR,2020,net_cash_or_net_debt,cash - debt,453.1,USD Millions
+EVR,2021,total_cash_returned,dividends_paid + share_repurchases,848.5,USD Millions
+EVR,2021,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,25.794,%
+EVR,2021,net_cash_or_net_debt,cash - debt,202.1,USD Millions
+EVR,2022,total_cash_returned,dividends_paid + share_repurchases,677.6,USD Millions
+EVR,2022,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,24.533,%
+EVR,2022,net_cash_or_net_debt,cash - debt,291.6,USD Millions
+EVR,2023,total_cash_returned,dividends_paid + share_repurchases,519.9,USD Millions
+EVR,2023,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,21.431,%
+EVR,2023,net_cash_or_net_debt,cash - debt,223.0,USD Millions
+EVR,2024,total_cash_returned,dividends_paid + share_repurchases,586.3,USD Millions
+EVR,2024,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,19.677,%
+EVR,2024,net_cash_or_net_debt,cash - debt,499.1,USD Millions
+LAZ,2020,total_cash_returned,dividends_paid + share_repurchases,291.8,USD Millions
+LAZ,2020,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,11.371,%
+LAZ,2020,net_cash_or_net_debt,cash - debt,-292.8,USD Millions
+LAZ,2021,total_cash_returned,dividends_paid + share_repurchases,602.0,USD Millions
+LAZ,2021,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,18.854,%
+LAZ,2021,net_cash_or_net_debt,cash - debt,-220.2,USD Millions
+LAZ,2022,total_cash_returned,dividends_paid + share_repurchases,873.6,USD Millions
+LAZ,2022,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,31.497,%
+LAZ,2022,net_cash_or_net_debt,cash - debt,-452.9,USD Millions
+LAZ,2023,total_cash_returned,dividends_paid + share_repurchases,275.2,USD Millions
+LAZ,2023,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,10.94,%
+LAZ,2023,net_cash_or_net_debt,cash - debt,-718.9,USD Millions
+LAZ,2024,total_cash_returned,dividends_paid + share_repurchases,238.5,USD Millions
+LAZ,2024,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,7.815,%
+LAZ,2024,net_cash_or_net_debt,cash - debt,-378.9,USD Millions
+MC,2020,total_cash_returned,dividends_paid + share_repurchases,327.2,USD Millions
+MC,2020,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,34.687,%
+MC,2020,net_cash_or_net_debt,cash - debt,202.5,USD Millions
+MC,2021,total_cash_returned,dividends_paid + share_repurchases,584.2,USD Millions
+MC,2021,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,37.92,%
+MC,2021,net_cash_or_net_debt,cash - debt,520.2,USD Millions
+MC,2022,total_cash_returned,dividends_paid + share_repurchases,322.2,USD Millions
+MC,2022,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,32.701,%
+MC,2022,net_cash_or_net_debt,cash - debt,206.8,USD Millions
+MC,2023,total_cash_returned,dividends_paid + share_repurchases,229.2,USD Millions
+MC,2023,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,26.816,%
+MC,2023,net_cash_or_net_debt,cash - debt,186.4,USD Millions
+MC,2024,total_cash_returned,dividends_paid + share_repurchases,195.0,USD Millions
+MC,2024,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,16.325,%
+MC,2024,net_cash_or_net_debt,cash - debt,412.5,USD Millions
+JEF,2020,total_cash_returned,dividends_paid + share_repurchases,977.8,USD Millions
+JEF,2020,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,16.713,%
+JEF,2021,total_cash_returned,dividends_paid + share_repurchases,492.2,USD Millions
+JEF,2021,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,6.142,%
+JEF,2022,total_cash_returned,dividends_paid + share_repurchases,1139.7,USD Millions
+JEF,2022,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,19.062,%
+JEF,2023,total_cash_returned,dividends_paid + share_repurchases,448.0,USD Millions
+JEF,2023,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,9.531,%
+JEF,2024,total_cash_returned,dividends_paid + share_repurchases,347.3,USD Millions
+JEF,2024,shareholder_distribution_ratio,total_cash_returned / net_revenue x 100,4.937,%

@@ -1,445 +1,336 @@
-# Strategic Capital Allocation in Investment Banking: A Comparative Longitudinal Study of Major U.S. Firms, 2020–2024
+# Strategic Capital Allocation in Investment Banking: A Comparative Study of Eight U.S. Firms, 2020 to 2024
 
 **Author**: Ege Umut Can  
-**Academic Level**: Independent High-School Student Research Project  
 **School**: FMV Işık High School, Istanbul (Class of 2027)  
-**Date**: September 2026  
-**Research Method**: Observational, Longitudinal, Comparative Financial Analysis  
-**Primary Data Source**: Official SEC Form 10-K Filings (U.S. Securities and Exchange Commission)  
+**Type**: Independent high-school research project  
+**Date**: September 2026 (data corrected and analysis rerun in November 2026)  
+**Primary data source**: SEC filings (Form 10-K annual reports)
 
 ---
 
 ## 1. Abstract
 
-This independent research paper examines how major U.S. investment-banking and financial advisory firms allocated capital between business investment, balance-sheet retention, and shareholder distributions over the five-year period from 2020 through 2024, and how these allocation patterns were associated with subsequent business performance. The study investigates an eight-firm candidate universe structured into two distinct panels: Panel A consists of four large bank holding companies (Goldman Sachs, Morgan Stanley, JPMorgan Chase, and Stifel Financial), and Panel B consists of three independent advisory boutiques (Evercore, Lazard, and Moelis & Company), with Jefferies Financial Group evaluated separately as a broker-dealer sensitivity context. Audited financial data comprising 540 raw observations and 70 derived records were hand-collected across 40 primary SEC Form 10-K filings. 
+I studied how eight U.S. investment-banking and advisory firms divided their money between paying shareholders, keeping capital and running the business from 2020 to 2024, and whether these choices were linked to performance in the following year. Panel A has four bank holding companies (Goldman Sachs, Morgan Stanley, JPMorgan Chase, Stifel Financial). Panel B has three advisory boutiques (Evercore, Lazard, Moelis & Company). Jefferies is kept separate as a comparison case. The first version of my dataset contained transcription errors, so I re-collected 380 values from SEC filings and reran every table, chart and test on the corrected data.
 
-Descriptive findings reveal that the eight firms returned an aggregate of $233.3 billion to shareholders ($113.9 billion in cash dividends and $119.4 billion in share repurchases). Across all firms, cash dividends functioned as a comparatively stable or increasing payout component, while share repurchases exhibited wide year-to-year variation that coincided with cyclical revenue shifts. For Goldman Sachs, Morgan Stanley, and JPMorgan Chase, reported standardized CET1 ratios ranged from 13.0% to 17.4% during 2020 to 2024. Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework. In contrast, advisory boutique compensation expense ratios increased from 60.1%–64.0% during the 2021 market peak to 66.0%–71.6% during the 2023 revenue contraction, coinciding with operating margin compression from 20%–28% down to 5.1%–15.0%. 
+The eight firms returned $233.3 billion to shareholders: $113.9 billion in dividends and $119.5 billion in buybacks. Bank dividends rose over the period, while buybacks changed a lot from year to year. Goldman Sachs, Morgan Stanley and JPMorgan Chase reported standardized CET1 ratios between 13.1% and 17.4%; Stifel's were between 14.2% and 16.5%. At the boutiques, GAAP compensation took 56.2% to 59.4% of net revenue in 2021 and 68.3% to 83.6% in 2023. Operating margins fell from 22.7% to 33.5% in 2021 to between -4.7% and 14.8% in 2023, and Lazard and Moelis made GAAP operating losses in 2023.
 
-In an exploratory one-year lagged analysis ($t \to t+1$), the two panels displayed divergent empirical relationship patterns: Panel A showed a near-zero linear association between prior-year share repurchases and next-year return on common equity (Pearson $r = -0.049$, $p = 0.858$; Spearman $\rho = -0.035$, $p = 0.897$, $N = 16$), whereas Panel B showed a negative association between prior-year repurchases and next-year operating margins (Pearson $r = -0.403$, $p = 0.194$; Spearman $\rho = -0.385$, $p = 0.217$, $N = 12$). The author's central interpretation is that financial outputs may reflect the interaction between financial conditions and the mechanisms through which firms make capital-allocation decisions. Because organizational structures, regulatory constraints, and balance-sheet characteristics differ fundamentally across business models, similar financial variables should not be assumed to carry identical economic meanings across different firm types. The primary limitations of the study include small lagged sample sizes ($N = 12$ to $16$), a five-year observational horizon capturing a unique macroeconomic cycle, and the absence of direct data on executive decision-making. No causal claims are asserted.
+In a one-year lagged test, Panel A buybacks had a weak negative and not significant link with next-year return on equity (Pearson r = -0.246, p = 0.359; Spearman rho = -0.324; N = 16). In Panel B, buybacks also had a weak negative and not significant link with next-year operating margin (r = -0.254, p = 0.426; N = 12). So I found no clear link between buybacks and later performance in either panel. The samples are small, the period is short and unusual, I ran 24 tests without a multiple-testing correction, and I have no data on how managers made decisions, so none of these results show cause and effect.
 
 ---
 
 ## 2. Introduction
 
-Capital allocation—the process by which corporate leadership decides how to deploy net revenues between reinvestment in the business, balance-sheet capital retention, and shareholder distributions—is one of the most consequential functions in corporate finance. How capital is allocated determines a firm's solvency buffer against unexpected losses, shapes its capacity to invest in human and technological capabilities, and dictates the volume of cash returned to equity holders.
+Capital allocation is how a firm decides what to do with the money it earns: put it back into the business, keep it as a buffer against losses, or pay it to shareholders through dividends and buybacks.
 
-The investment-banking and financial advisory industry provides an especially compelling setting for studying capital allocation. Between 2020 and 2024, the sector experienced an extraordinary sequence of macroeconomic and financial shocks:
-1. In 2020, the sudden onset of the COVID-19 pandemic introduced acute market uncertainty, prompting emergency fiscal stimulus and unprecedented Federal Reserve monetary interventions.
-2. In 2021, an unprecedented global surge in mergers and acquisitions (M&A), initial public offerings (IPOs), and debt financing generated record fee revenues across Wall Street.
-3. In 2022 and 2023, rapid monetary policy tightening—characterized by over 500 basis points of Federal Reserve interest-rate increases—sharply curtailed global capital-markets underwriting and advisory activity.
-4. In 2024, market activity began a gradual recovery, accompanied by changing regulatory debates surrounding the proposed Basel III Endgame capital revisions.
+I chose investment banking because 2020 to 2024 moved through very different conditions:
 
-Despite operating within the same broad sector, firms that provide investment-banking and financial advisory services do not share identical corporate structures. Some operate as massive, balance-sheet-intensive universal bank holding companies (BHCs) that take deposits, extend commercial loans, finance multi-hundred-billion-dollar trading inventories, and maintain regulatory capital buffers under Federal Reserve supervision. Others operate as asset-light advisory boutiques that specialize strictly in strategic advisory assignments, maintain zero commercial loan portfolios or deposit bases, and rely primarily on professional talent rather than balance-sheet leverage.
+1. 2020: the COVID-19 pandemic, followed by government stimulus and emergency Federal Reserve action.
+2. 2021: a boom in mergers and acquisitions (M&A), IPOs and debt issuance, with very high fee revenue.
+3. 2022 and 2023: the Federal Reserve raised rates by more than 500 basis points, and underwriting and advisory activity fell.
+4. 2024: deal activity began to recover, while regulators debated the proposed Basel III Endgame capital rules.
 
-Comparing capital allocation across these distinct organizational forms requires caution. A capital-allocation metric that appears straightforward on a corporate income statement—such as dollars returned through share repurchases or capital retained on the balance sheet—may perform fundamentally different economic roles depending on whether it is executed by a bank holding company subject to strict regulatory solvency mandates or by an advisory boutique managing cash liquidity against deal-flow volatility.
+The firms are not built the same way. Bank holding companies take deposits, make loans and must keep regulatory capital under Federal Reserve supervision. Advisory boutiques mainly sell advice and depend on their bankers rather than their balance sheet. So "dollars spent on buybacks" may mean something different in each.
 
-This study investigates this comparative setting through a structured empirical inquiry. Specifically, the paper addresses the following primary research question:
+> **Research question**: How do major investment-banking firms allocate capital between business investment, capital retention and shareholder distributions, and how are these patterns associated with later business performance?
 
-> **Primary Research Question**:  
-> *How do major investment-banking firms allocate capital between business investment, capital retention, and shareholder distributions, and how are these patterns associated with subsequent business performance?*
-
-To maintain analytical discipline, this investigation is structured as an **observational, longitudinal, and comparative study**. It does not attempt to prove causation or run complex econometric regressions. Rather, its objective is to document what primary SEC filings actually show, analyze how capital decisions differ across business models, and present a student framework for understanding the results.
+This is an observational study. I did not run regressions or try to prove causes; I recorded what the filings show and kept data and opinion apart.
 
 ---
 
-## 3. Research Questions and Conceptual Framework
+## 3. Research Questions and Framework
 
-To evaluate the primary research question, the study investigates three interrelated sub-questions:
-1. **Longitudinal Distribution Patterns**: How did regular cash dividends and common share repurchases behave over the 2020–2024 cycle, and to what extent did payout channels vary across market regimes?
-2. **Capital Bounds and Operating Flexibility**: How did regulatory capital requirements bound bank holding company balance sheets, and how did advisory boutique expense structures (specifically compensation ratios) adjust during industry downturns?
-3. **Exploratory Lagged Associations**: How were capital-allocation decisions in year $t$ associated with operating performance in year $t+1$, and did these relationships differ across business models?
+1. **Dividends and buybacks**: How did they change over 2020 to 2024?
+2. **Capital and cost flexibility**: What capital ratios did the banks keep, and how did the boutiques' compensation ratios change in the downturn?
+3. **Lagged associations**: Were capital-allocation choices in year t associated with performance in year t+1, and did this differ between panels?
 
-### Student Conceptual Framework: Understanding Capital Allocation
-
-To interpret the connection between observable financial figures and the external macroeconomic environment, I formulated the following conceptual chain:
+I organised my thinking with this chain:
 
 ```
-+-------------------------------------------------------------+
-|                     FINANCIAL CONDITIONS                    |
-|   (Macro deal cycles, interest rates, regulatory rules,     |
-|              market volatility, fee revenue)                |
-+-------------------------------------------------------------+
-                              |
-                              v
-+-------------------------------------------------------------+
-|          POSSIBLE DECISION-MAKING CONSIDERATIONS            |
-|   (Unobserved factors: risk tolerance, talent retention,    |
-|      balance-sheet considerations, liquidity needs, etc.)   |
-+-------------------------------------------------------------+
-                              |
-                              v
-+-------------------------------------------------------------+
-|                 CAPITAL-ALLOCATION DECISIONS                |
-|   (Setting dividend rates, executing share repurchases,     |
-|      allocating compensation pools, retaining capital)      |
-+-------------------------------------------------------------+
-                              |
-                              v
-+-------------------------------------------------------------+
-|                  OBSERVABLE FINANCIAL OUTPUTS               |
-|      (Cash dividends paid, common share buybacks, CET1,     |
-|      compensation ratios, operating margins, ROE)           |
-+-------------------------------------------------------------+
+Financial conditions (deal cycle, interest rates, regulation, fee revenue)
+        |
+        v
+Decision considerations (NOT observed: risk tolerance, keeping staff, liquidity needs)
+        |
+        v
+Capital-allocation decisions (dividends, buybacks, pay pools, retained capital)
+        |
+        v
+Observable outputs (dividends paid, buybacks, CET1, compensation ratio, margins, ROE)
 ```
 
-### Distinguishing Recorded Financial Facts from Student Interpretation
-
-It is vital to state clearly what this framework is and what it is not:
-- **It is my analytical perspective**: It provides a conceptual structure for thinking about how financial outputs relate to external conditions through the lens of organizational decision-making.
-- **It is NOT an empirically measured causal mechanism**: The dataset collected in this study observes **financial conditions** (such as interest rates and revenues) and **observable financial outputs** (such as dividends paid, shares repurchased, reported CET1 ratios, and operating margins).
-- **Unobserved internal processes**: The SEC Form 10-K filings used as primary sources record financial amounts; they do not record boardroom deliberations, executive strategy sessions, management risk preferences, or internal debates. 
-
-Therefore, any reference to firm decision-making in this paper is treated as a possible connecting link and an interpretive perspective, not as a proven empirical fact.
+This is not a tested model. My data cover only the first and last boxes. A 10-K does not record board discussions or management's reasons, so whenever I talk about decisions it is interpretation, not measured fact.
 
 ---
 
 ## 4. Research Design
 
-### 4.1 Firm Selection
-The candidate universe was constructed to evaluate major U.S. investment-banking and advisory organizations that maintained continuous, audited reporting under U.S. GAAP across the entire 2020–2024 period. Eight firms were identified and classified based on their primary operational profile.
+### 4.1 Firms and panels
 
-### 4.2 Panel Construction
-Because combining diverse financial institutions into a single pooled sample would mask structural distinctions, the study implements a locked two-panel architecture alongside one sensitivity firm:
+I chose major U.S. investment-banking and advisory firms that reported under U.S. GAAP for all five years. Pooling all eight would mix very different businesses, so I used two panels and one separate comparison firm.
 
-1. **Panel A (Bank Holding Companies)**:
-   - **The Goldman Sachs Group, Inc. (`GS`)**: Global bank holding company and Category I Global Systemically Important Bank (G-SIB), with major operations in investment banking, global markets, and asset & wealth management.
-   - **Morgan Stanley (`MS`)**: Global bank holding company and Category I G-SIB, with substantial operations in wealth management, institutional securities, and investment banking.
-   - **JPMorgan Chase & Co. (`JPM`)**: Largest U.S. bank holding company and Category I G-SIB, operating across consumer & community banking, commercial banking, asset management, and corporate & investment banking.
-   - **Stifel Financial Corp. (`SF`)**: Financial holding company operating as a Category IV banking organization, combining mid-market investment banking with a sizable retail wealth-management network.
+**Table 1: Firms and panels**
 
-2. **Panel B (Independent Advisory Boutiques)**:
-   - **Evercore Inc. (`EVR`)**: Premier independent investment-banking advisory boutique, specializing in strategic M&A advice, capital-raising advisory, and restructuring.
-   - **Lazard, Inc. (`LAZ`)**: Global financial advisory and asset management firm with corporate origins dating to 1848, converting to a U.S. C-Corporation in 2024.
-   - **Moelis & Company (`MC`)**: Pure-play independent global financial advisory boutique founded in 2007, operating across M&A, recapitalizations, and restructuring.
+| Ticker | Firm | Panel | Business model | Fiscal year-end |
+| :--- | :--- | :--- | :--- | :--- |
+| GS | The Goldman Sachs Group, Inc. | A | Bank holding company, Category I G-SIB | Dec 31 |
+| MS | Morgan Stanley | A | Bank holding company, Category I G-SIB | Dec 31 |
+| JPM | JPMorgan Chase & Co. | A | Bank holding company, Category I G-SIB | Dec 31 |
+| SF | Stifel Financial Corp. | A | Financial holding company, Category IV | Dec 31 |
+| EVR | Evercore Inc. | B | Independent advisory boutique | Dec 31 |
+| LAZ | Lazard, Inc. | B | Advisory and asset management (C-Corporation from 2024) | Dec 31 |
+| MC | Moelis & Company | B | Independent advisory boutique | Dec 31 |
+| JEF | Jefferies Financial Group Inc. | Separate | Broker-dealer and investment bank | Nov 30 |
 
-3. **Sensitivity / Context Comparison**:
-   - **Jefferies Financial Group Inc. (`JEF`)**: Full-service investment bank and broker-dealer. Jefferies is analyzed separately because of its non-standard fiscal year-end (November 30) and its regulatory status under SEC broker-dealer capital rules rather than Federal Reserve bank holding company supervision.
+Jefferies is outside both panels because its year ends on 30 November and it falls under SEC broker-dealer capital rules (Rule 15c3-1), not Federal Reserve bank holding company rules. It appears in the revenue and payout tables but not in the lagged tests.
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                                    TABLE 1: FIRM AND PANEL OVERVIEW                                |
-+--------+---------------------------------+-------------+------------------------------+------------+
-| Ticker | Full Entity Name                | Research    | Business Model               | Fiscal     |
-|        |                                 | Panel       | Classification               | Year-End   |
-+--------+---------------------------------+-------------+------------------------------+------------+
-| GS     | The Goldman Sachs Group, Inc.   | Panel A     | Bank Holding Company / G-SIB | Dec 31     |
-| MS     | Morgan Stanley                  | Panel A     | Bank Holding Company / G-SIB | Dec 31     |
-| JPM    | JPMorgan Chase & Co.            | Panel A     | Bank Holding Company / G-SIB | Dec 31     |
-| SF     | Stifel Financial Corp.          | Panel A     | Financial Holding Company    | Dec 31     |
-| EVR    | Evercore Inc.                   | Panel B     | Independent Advisory Boutique| Dec 31     |
-| LAZ    | Lazard, Inc.                    | Panel B     | Advisory & Asset Management  | Dec 31     |
-| MC     | Moelis & Company                | Panel B     | Pure Independent Advisory    | Dec 31     |
-| JEF    | Jefferies Financial Group Inc.  | SENSITIVITY | Broker-Dealer / Inv. Bank    | Nov 30     |
-+--------+---------------------------------+-------------+------------------------------+------------+
-```
+### 4.2 Period and methods
 
-### 4.3 Study Period
-The study covers five full fiscal years (2020, 2021, 2022, 2023, and 2024). This multi-year horizon spans four discrete annual transitions:
-- Transition 1: $2020 \to 2021$ (COVID shock to historic liquidity and deal boom)
-- Transition 2: $2021 \to 2022$ (Peak market activity to aggressive Federal Reserve rate tightening)
-- Transition 3: $2022 \to 2023$ (Prolonged underwriting drought and banking stress)
-- Transition 4: $2023 \to 2024$ (Initial market recovery and advisory stabilization)
+The study covers fiscal years 2020 to 2024, giving four transitions: 2020 to 2021 (pandemic to boom), 2021 to 2022 (peak to rate rises), 2022 to 2023 (weak underwriting and banking stress) and 2023 to 2024 (early recovery).
 
-### 4.4 Observational Design
-The analysis utilizes two complementary methodologies:
-1. **Longitudinal Descriptive Analysis**: Tracking levels, within-firm absolute changes ($\Delta$), and percentage changes ($\%\Delta$) for revenue, shareholder distributions, balance-sheet capital, and operating margins.
-2. **Exploratory One-Year Lagged Analysis ($t \to t+1$)**: Assessing how capital allocation choices in year $t$ relate to performance in year $t+1$. Bivariate linear associations are measured using both **Pearson product-moment correlation coefficients ($r$)** and **Spearman rank-order correlation coefficients ($\\rho$)**. Pearson and Spearman correlations were both reported as complementary measures of association.
+1. **Descriptive analysis**: levels and changes in revenue, payouts, capital and margins for each firm.
+2. **Lagged analysis**: I paired a capital-allocation measure in year t with a performance measure in year t+1 and calculated the Pearson correlation (r) and the Spearman rank correlation (rho). Spearman uses ranks, so it is less affected by one or two extreme values, which matters in small samples.
 
-### 4.5 Variable Structure
-Variables were chosen to capture the core dimensions of strategic capital allocation:
-- **Top-Line Scale**: Net Revenues ($M)
-- **Sector Activity**: Investment Banking / Advisory Revenue ($M)
-- **Shareholder Distributions**: Cash Dividends Paid ($M), Common Share Repurchases ($M), Total Cash Returned ($M), Shareholder Distribution Ratio (%)
-- **Regulatory Solvency**: Standardized Common Equity Tier 1 (CET1) Capital Ratio (%), Tier 1 Leverage Ratio (%), Supplementary Leverage Ratio (SLR, %)
-- **Operating Performance**: Return on Common Equity (ROE, %), Return on Tangible Common Equity (ROTCE, %), Operating Income ($M), Operating Margin (%), Compensation Expense Ratio (%)
-- **Balance-Sheet Liquidity**: Cash and Cash Equivalents ($M), Funded Long-Term Debt ($M), Net Liquid Cushion ($M)
+### 4.3 Variables
+
+I used revenue (net revenue, investment-banking revenue), payout (dividends, buybacks), capital (standardized CET1 and supplementary leverage ratios), performance (ROE, efficiency ratio, operating income and margin, compensation ratio) and, for the boutiques, cash and funded debt. Appendix A gives the definitions.
 
 ---
 
 ## 5. Data and Provenance
 
-### 5.1 Primary Sources
-All empirical data were extracted directly from official **SEC Form 10-K Annual Reports** filed with the U.S. Securities and Exchange Commission via the EDGAR system. No secondary financial databases, commercial market terminals, or synthetic data generators were utilized.
+### 5.1 Data correction
 
-### 5.2 SEC Form 10-K Data Collection
-The primary dataset incorporates 40 distinct annual filings (8 firms $\times$ 5 years). A total of **540 raw observations** were hand-verified and recorded in `PHASE3_RAW_DATA.csv`. Each observation was retrieved from audited financial sections, including:
-- Consolidated Statements of Earnings / Income
-- Consolidated Statements of Financial Condition / Balance Sheets
-- Consolidated Statements of Cash Flows (Financing Activities)
-- Item 7 Management's Discussion and Analysis (MD&A) Capital Resources disclosures
+The first version of the dataset contained transcription errors. For example, for Stifel, Evercore, Lazard and Jefferies I had recorded total revenues before interest expense instead of net revenue; the Morgan Stanley ROE values were not ROE; the boutiques' compensation ratios and operating margins did not match the firms' GAAP figures; Evercore's senior notes were recorded as zero debt; and Stifel's CET1 ratios were wrong. I therefore re-collected all values used in the analysis from SEC filings in November 2026. The corrected values, with the filing term used and a source link for each one, are in `corrected_raw.csv`. All tables, charts and correlations in this paper were recalculated from that file, and several findings of the first version changed (Sections 6 and 7).
 
-### 5.3 Derived Variables
-To evaluate capital allocation efficiency, **70 derived observations** were calculated using standardized mathematical formulas locked in `PHASE3_DERIVED_DATA.csv`:
-$$\text{Total Cash Returned} = \text{Cash Dividends Paid} + \text{Common Share Repurchases}$$
-$$\text{Shareholder Distribution Ratio} = \frac{\text{Total Cash Returned}}{\text{Net Revenue}}$$
-$$\text{Operating Margin} = \frac{\text{Operating Income}}{\text{Net Revenue}}$$
-$$\text{Net Liquid Cushion} = \text{Cash and Equivalents} - \text{Funded Long-Term Debt}$$
+### 5.2 Dataset
 
-### 5.4 Missing, Unavailable, and Non-Applicable Data
-To maintain empirical consistency, this project established rigorous classifications for non-standard data:
-- **`DIRECT`**: Fully disclosed and audited in the primary 10-K.
-- **`NOT_APPLICABLE`**: A variable that is legally or structurally non-existent for that entity. For example, Stifel Financial is a Category IV banking organization exempt from Supplementary Leverage Ratio (SLR) calculations under Federal Reserve rules. Marking SLR as `NOT_APPLICABLE` for Stifel correctly reflects regulatory law; it is not treated as zero or missing.
-- **`STRUCTURALLY_NON_COMPARABLE`**: Variables that cannot be compared across panels due to structural definitions. For instance, boutique partnership tax-withholding units were excluded from common share buybacks to ensure semantic comparability with bank corporate repurchases.
+The corrected dataset has 380 re-collected values for the eight firms over 2020 to 2024. Each value has a status label: **VERIFIED_SEC** (375 values, checked against the filing) and **NOT_APPLICABLE** (5, Stifel's supplementary leverage ratio, which Stifel does not report; not treated as zero). Variables from the first version that I did not re-collect are kept in the file with the label **NOT_RECOLLECTED** and are not used anywhere in this paper: return on tangible common equity, tangible common equity, the Tier 1 leverage ratio, technology spending, the banks' cash and debt, and Jefferies's ROE, efficiency ratio and capital ratios.
 
-### 5.5 Provenance and Quality Assurance
-Every data cell is cross-referenced to its official SEC filing date, accession number, and statement table. A structured review confirmed that 100% of reported figures reconcile directly with primary SEC Form 10-K filings.
+I calculated these derived values (`corrected_derived.csv`):
+
+- Total cash returned = cash dividends paid + share repurchases
+- Shareholder distribution ratio = total cash returned / net revenue
+- Net liquid cushion = cash and cash equivalents - funded long-term debt (Panel B)
+
+For Panel B I used the operating margins the firms report on a GAAP basis (operating income / net revenue).
+
+### 5.3 Definitions and caveats
+
+- **Share repurchases, Panel A.** For Goldman Sachs, Morgan Stanley and JPMorgan Chase I used figures that exclude shares withheld to cover employees' tax when stock awards vest. Goldman Sachs and Stifel show the withholding as a separate cash-flow line. Morgan Stanley's cash-flow line includes it, so for Morgan Stanley I used the Share Repurchase Program figure from the filing instead (the cash-flow figure is recorded in `corrected_raw.csv`). JPMorgan Chase's cash-flow line does not mention tax withholding and shows no separate line. Using Morgan Stanley's cash-flow figure instead changes the main Panel A result very little (r = -0.265, p = 0.322).
+- **Share repurchases, Panel B.** The boutiques do not report on one basis. Lazard's figure excludes tax withholding; Evercore's includes it and also includes purchases of noncontrolling interests; Moelis's cash-flow statement does not split it out. Moelis's dividend line also includes tax distributions to its partnership unitholders. So Panel B payout figures are less comparable than Panel A's.
+- **Stifel.** Stifel reports full-year return on common equity only on a non-GAAP basis, so its ROE is not directly comparable with the GAAP ROE of the other three banks. Stifel also does not report an efficiency ratio; as a substitute I used the GAAP expense percentage from its 10-K results table, which is defined differently from the other banks' efficiency ratios. I kept Stifel in Panel A, but both caveats apply to every Panel A result that uses ROE or the efficiency ratio.
+- **Operating income, Panel B.** Lazard's GAAP operating income equals its income before income taxes; Evercore's is net revenues less total expenses.
+- **Recast figures.** Some 2020 and 2021 values are as originally reported; later filings recast a few of them (for example Goldman Sachs's investment-banking revenue). I kept the originally reported figures.
 
 ---
 
 ## 6. Descriptive Findings
 
-### 6.1 Revenue and Business Activity
-Across 2020–2024, all eight firms reported higher net revenues in 2024 than in 2020. However, the trajectory and sources of revenue growth diverged substantially between bank holding companies and advisory boutiques.
+### 6.1 Revenue
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                               TABLE 2: 2020–2024 NET REVENUE (USD MILLIONS)                        |
-+--------+------------------------+---------+------------+------------+------------+------------+----+
-| Ticker | Firm Name              | Panel   | 2020       | 2021       | 2022       | 2023       | 2024
-+--------+------------------------+---------+------------+------------+------------+------------+----+
-| GS     | Goldman Sachs          | Panel A | $44,560.0  | $59,339.0  | $47,365.0  | $46,253.0  | $53,510.0
-| MS     | Morgan Stanley         | Panel A | $48,197.0  | $59,755.0  | $53,668.0  | $54,187.0  | $61,814.0
-| JPM    | JPMorgan Chase         | Panel A | $119,543.0 | $121,649.0 | $128,695.0 | $158,104.0 | $170,154.0
-| SF     | Stifel Financial       | Panel A | $3,817.8   | $4,783.1   | $4,592.8   | $5,159.3   | $5,951.7
-| EVR    | Evercore Inc.          | Panel B | $2,285.3   | $3,307.1   | $2,778.9   | $2,442.7   | $2,996.4
-| LAZ    | Lazard, Inc.           | Panel B | $2,646.8   | $3,273.8   | $2,855.1   | $2,593.2   | $3,139.9
-| MC     | Moelis & Company       | Panel B | $943.3     | $1,540.6   | $985.3     | $854.7     | $1,194.5
-| JEF    | Jefferies Financial    | SENSIT. | $6,880.4   | $8,945.5   | $7,149.3   | $7,441.4   | $10,515.1
-+--------+------------------------+---------+------------+------------+------------+------------+----+
-```
+All eight firms had higher net revenue in 2024 than in 2020, from +18.9% at Lazard to +48.5% at JPMorgan Chase (Table 2, Figure 3).
 
-As shown in Table 2 and Figure 3, large commercial and universal banks benefited from higher net interest income following the Federal Reserve's 525-basis-point interest-rate hiking cycle. JPMorgan Chase's net revenue expanded by +42.3% ($119.5B to $170.2B), partly supported by its acquisition of First Republic Bank in May 2023.
+**Table 2: Net revenue, 2020 to 2024 (USD millions)**
 
-In contrast, pure investment-banking revenues (Table 3, Figure 1) surged to historic highs in 2021 across all firms ($14.9B at Goldman Sachs, $13.2B at JPMorgan, $3.3B at Evercore, and $1.5B at Moelis) before contracting by 40% to 60% during the 2022–2023 downturn. In 2024, advisory revenues rebounded across all boutiques, exceeding 2020 levels (+31.2% at Evercore, +25.7% at Lazard, and +26.6% at Moelis), whereas bank underwriting revenues remained below their 2020 totals (-17.9% at Goldman Sachs and -12.6% at Morgan Stanley).
+| Ticker | Panel | 2020 | 2021 | 2022 | 2023 | 2024 | Change 2020 to 2024 |
+| :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
+| GS | A | 44,560.0 | 59,339.0 | 47,365.0 | 46,254.0 | 53,512.0 | +20.1% |
+| MS | A | 48,198.0 | 59,755.0 | 53,668.0 | 54,143.0 | 61,761.0 | +28.1% |
+| JPM | A | 119,543.0 | 121,649.0 | 128,695.0 | 158,104.0 | 177,556.0 | +48.5% |
+| SF | A | 3,752.1 | 4,737.1 | 4,391.4 | 4,348.9 | 4,970.3 | +32.5% |
+| EVR | B | 2,263.9 | 3,289.5 | 2,762.0 | 2,425.9 | 2,979.6 | +31.6% |
+| LAZ | B | 2,566.1 | 3,193.0 | 2,773.6 | 2,515.5 | 3,051.8 | +18.9% |
+| MC | B | 943.3 | 1,540.6 | 985.3 | 854.7 | 1,194.5 | +26.6% |
+| JEF | Separate | 5,850.5 | 8,013.8 | 5,978.8 | 4,700.4 | 7,034.8 | +20.2% |
 
-![Figure 1: Investment Banking Revenue 2020–2024](PHASE4_CHARTS/chart1_investment_banking_revenue.png)
-*Figure 1: Investment Banking Revenue across candidate firms (USD Millions, 2020–2024). Source: Audited SEC Form 10-K filings.*
+JPMorgan Chase grew from $119.5 billion to $177.6 billion (+48.5%). I think part of this came from higher net interest income after the Federal Reserve's 525-basis-point rate rises and part from its purchase of First Republic Bank in May 2023, but my data do not separate the two.
 
-![Figure 3: Net Revenue 2020–2024](PHASE4_CHARTS/chart3_net_revenue.png)
-*Figure 3: Total Net Revenue trajectories across candidate firms (USD Millions, 2020–2024). Source: Audited SEC Form 10-K filings.*
+Investment-banking revenue peaked in 2021 at every firm (Figure 1), for example $14,168M at Goldman Sachs, $13,216M at JPMorgan Chase, $2,998.7M at Evercore and $1,540.6M at Moelis. By 2023 it had fallen to $6,218M, $6,519M, $2,074.9M and $854.7M respectively. In 2024 the boutiques' investment-banking revenue was above its 2020 level (+27.9% at Evercore, +23.2% at Lazard, +26.6% at Moelis), while at Goldman Sachs (-15.4%), Morgan Stanley (-12.6%) and JPMorgan Chase (-6.1%) it was still below 2020.
 
-### 6.2 Shareholder Distributions: Dividends vs. Repurchases
-Over the five-year period, the eight firms returned a combined **$233.3 billion** to equity holders:
-- **Cash Dividends Paid**: $113.9 billion (48.8% of total distributions)
-- **Common Share Repurchases**: $119.4 billion (51.2% of total distributions)
+![Figure 1: Investment Banking Revenue 2020 to 2024](CHARTS_V2/chart1_investment_banking_revenue.png)
+*Figure 1: Investment-banking revenue by firm (USD millions, 2020 to 2024). Source: SEC filings, `corrected_raw.csv`.*
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                         TABLE 4: 2020–2024 SHAREHOLDER DISTRIBUTIONS (USD MILLIONS)                |
-+--------+------------------------+------------+------------+------------+-------------+-------------+
-| Ticker | Firm Name              | 5-Yr Divs  | 5-Yr Repur | 5-Yr Total | Div Growth  | Repur Range |
-+--------+------------------------+------------+------------+------------+-------------+-------------+
-| GS     | Goldman Sachs          | $17,429.0  | $24,424.0  | $41,853.0  | +92.5%      | $1.9B-$8.0B |
-| MS     | Morgan Stanley         | $24,212.0  | $31,226.0  | $55,438.0  | +124.1%     | $1.3B-$11.5B|
-| JPM    | JPMorgan Chase         | $67,356.0  | $56,741.0  | $124,097.0 | +16.5%      | $3.2B-$18.8B|
-| SF     | Stifel Financial       | $774.3     | $924.8     | $1,699.1   | +208.0%     | $58M-$444M  |
-| EVR    | Evercore Inc.          | $616.4     | $2,223.3   | $2,839.7   | +27.4%      | $147M-$721M |
-| LAZ    | Lazard, Inc.           | $926.5     | $1,354.6   | $2,281.1   | -9.0%       | $60M-$692M  |
-| MC     | Moelis & Company       | $1,303.9   | $353.8     | $1,657.7   | -34.9%      | $11M-$148M  |
-| JEF    | Jefferies Financial    | $1,245.4   | $2,159.6   | $3,405.0   | +88.3%      | $44M-$860M  |
-+--------+------------------------+------------+------------+------------+-------------+-------------+
-```
+![Figure 3: Net Revenue 2020 to 2024](CHARTS_V2/chart3_net_revenue.png)
+*Figure 3: Net revenue by firm (USD millions, 2020 to 2024). Source: SEC filings, `corrected_raw.csv`.*
 
-As detailed in Table 4 and Figure 2, the longitudinal behaviors of dividends and repurchases were strikingly asymmetric:
-1. **Dividend Stability**: Cash dividend payments followed a stable or upward path throughout the cycle. Between 2020 and 2024, annual dividend payments grew by +92.5% at Goldman Sachs ($1,254M to $2,414M), +124.1% at Morgan Stanley ($999M to $2,239M), +16.5% at JPMorgan Chase ($10,950M to $12,757M), and +208.0% at Stifel ($50M to $154M).
-2. **Repurchase Variation**: Common share buybacks varied substantially year by year. In 2021, when advisory and underwriting fees reached historic highs, common share repurchases expanded dramatically to $18,449M at JPMorgan Chase (up from $6,456M in 2020) and $11,540M at Morgan Stanley (up from $1,280M in 2020). During the 2022–2023 downturn, share buybacks contracted steeply before recovering in 2024.
+### 6.2 Dividends and buybacks
 
-![Figure 2: Total Shareholder Cash Returned 2020–2024](PHASE4_CHARTS/chart2_total_cash_returned.png)
-*Figure 2: Total Shareholder Cash Returned across candidate firms (USD Millions, 2020–2024). Source: Audited SEC Form 10-K Consolidated Statements of Cash Flows.*
+Over the five years the eight firms returned **$233.3 billion** to shareholders: $113.9 billion in cash dividends (48.8%) and $119.5 billion in share repurchases (51.2%).
 
-### 6.3 Bank Holding Company Capital Ratios
-For Goldman Sachs, Morgan Stanley, and JPMorgan Chase, reported standardized CET1 ratios ranged from 13.0% to 17.4% during 2020 to 2024 (Table 5, Figure 4). Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework:
-- Morgan Stanley maintained the highest average CET1 ratio (15.82%), starting at 17.4% in 2020 and adjusting to 15.2% by 2024.
-- Goldman Sachs averaged 14.66% CET1, moving from 14.7% in 2020 to 15.0% in 2024.
-- JPMorgan Chase averaged 13.92% CET1, rising from 13.1% in 2020 to 15.3% in 2024.
-- Stifel Financial, operating under Category IV regional rules, averaged 11.24% CET1.
+**Table 3: Shareholder distributions, 2020 to 2024 (USD millions)**
 
-These figures document the observed regulatory capital ratios maintained by the bank holding companies under their respective regulatory frameworks across the five-year period.
+| Ticker | 5-year dividends | 5-year buybacks | 5-year total | Dividend change 2020 to 2024 | Yearly buyback range |
+| :--- | ---: | ---: | ---: | ---: | :--- |
+| GS | 17,429.0 | 24,424.0 | 41,853.0 | +92.5% | $1.9B to $8.0B |
+| MS | 24,212.0 | 31,226.0 | 55,438.0 | +124.1% | $1.3B to $11.5B |
+| JPM | 67,356.0 | 56,741.0 | 124,097.0 | +16.5% | $3.2B to $18.8B |
+| SF | 774.3 | 924.8 | 1,699.1 | +208.1% | $58M to $444M |
+| EVR | 616.4 | 2,269.9 | 2,886.3 | +27.4% | $147M to $730M |
+| LAZ | 926.5 | 1,354.6 | 2,281.1 | -9.0% | $60M to $692M |
+| MC | 1,304.0 | 353.8 | 1,657.8 | -34.9% | $11M to $148M |
+| JEF | 1,245.4 | 2,159.6 | 3,405.0 | +88.3% | $44M to $860M |
 
-Supplementary Leverage Ratios (SLRs) were temporarily elevated in 2020 (6.9% to 7.4% among Category I G-SIBs) due to emergency Federal Reserve regulatory relief that excluded U.S. Treasuries and central bank deposits from total leverage exposure. When this temporary relief expired on March 31, 2021, reported SLRs adjusted to 5.2%–6.2%. Return on common equity (ROE) peaked in 2021 (ranging from 15.2% at Morgan Stanley to 23.0% at Goldman Sachs; Figure 5), compressed in 2023 (7.5% at Goldman Sachs and 9.4% at Morgan Stanley), and recovered in 2024 (11.0% to 18.0%).
+1. **Dividends** rose at all four banks: Goldman Sachs from $2,336M to $4,497M, Morgan Stanley from $2,739M to $6,138M, JPMorgan Chase from $12,690M to $14,783M and Stifel from $73.8M to $227.3M. Only JPMorgan Chase had a small dip (in 2023). The boutiques were mixed: Evercore's dividends rose, but Lazard's and Moelis's fell (Moelis paid $480.0M in 2021 and $174.7M in 2022; its figure includes tax distributions to unitholders, Section 5.3).
+2. **Buybacks** moved much more (Figure 2). In 2021, the strongest revenue year, they jumped at JPMorgan Chase ($6,517M to $18,408M), Morgan Stanley ($1,347M to $11,464M) and Goldman Sachs ($1,928M to $5,200M). After that the paths split. Morgan Stanley cut buybacks every year, to $3,250M in 2024. JPMorgan Chase fell to $3,162M in 2022 and then rose to $18,830M in 2024. Goldman Sachs bought back more in 2023 ($5,796M) and 2024 ($8,000M), even though its ROE fell to 7.5% in 2023. So buybacks were high in the boom year, but after that they did not simply follow revenue or profit.
 
-![Figure 4: Panel A Standardized CET1 Ratios 2020–2024](PHASE4_CHARTS/chart4_panel_a_cet1_ratios.png)
-*Figure 4: Standardized Common Equity Tier 1 (CET1) Ratios for Panel A Bank Holding Companies (2020–2024). Source: SEC Form 10-K Item 7 Capital Resources.*
+![Figure 2: Total Shareholder Cash Returned 2020 to 2024](CHARTS_V2/chart2_total_cash_returned.png)
+*Figure 2: Total cash returned to shareholders by firm (USD millions, 2020 to 2024). Source: SEC filings, `corrected_raw.csv`.*
 
-![Figure 5: Panel A Return on Common Equity 2020–2024](PHASE4_CHARTS/chart5_panel_a_roe.png)
-*Figure 5: Return on Common Equity (ROE, %) for Panel A Bank Holding Companies (2020–2024). Source: SEC Form 10-K Financial Highlights.*
+### 6.3 Bank capital ratios and returns (Panel A)
 
-### 6.4 Advisory Boutique Compensation and Margins
-In Panel B, independent advisory boutiques exhibited a distinctive cost structure centered on personnel expenses (Table 6):
-- Compensation expense ratios averaged between 63.5% (Evercore) and 65.4% (Moelis). During the 2021 revenue peak, compensation ratios were at their lowest levels (60.1% to 64.0%; Figure 6).
-- During the 2023 advisory revenue contraction, compensation ratios rose to cycle highs: 66.0% at Evercore, 70.0% at Moelis, and 71.6% at Lazard.
-- Operating margins (Figure 7) moved in the opposite direction of compensation ratios, expanding to 20.1%–30.2% in 2021, contracting to 5.1%–15.0% in 2023 (-3.4% at Lazard on a GAAP basis due to restructuring charges), and recovering to 10.9%–19.7% in 2024.
+**Table 4: Panel A standardized CET1 ratio, ROE and efficiency ratio (%)**
 
-The data show that compensation ratios increased while revenue declined during the 2023 downturn, coinciding with compressed operating margins.
+| Ticker | Measure | 2020 | 2021 | 2022 | 2023 | 2024 | 5-year mean |
+| :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
+| GS | CET1 | 14.7 | 14.2 | 15.0 | 14.4 | 15.0 | 14.66 |
+| GS | ROE | 11.1 | 23.0 | 10.2 | 7.5 | 12.7 | 12.90 |
+| GS | Efficiency ratio | 65.0 | 53.8 | 65.8 | 74.6 | 63.1 | 64.46 |
+| MS | CET1 | 17.4 | 16.0 | 15.3 | 15.2 | 15.9 | 15.96 |
+| MS | ROE | 13.1 | 15.0 | 11.2 | 9.4 | 14.0 | 12.54 |
+| MS | Efficiency ratio | 70.1 | 67.0 | 73.0 | 77.0 | 71.0 | 71.62 |
+| JPM | CET1 | 13.1 | 13.1 | 13.2 | 15.0 | 15.7 | 14.02 |
+| JPM | ROE | 12.0 | 19.0 | 14.0 | 17.0 | 18.0 | 16.00 |
+| JPM | Efficiency ratio | 56.0 | 59.0 | 59.0 | 55.0 | 52.0 | 56.20 |
+| SF | CET1 | 16.5 | 15.2 | 14.6 | 14.2 | 15.4 | 15.18 |
+| SF | ROE (non-GAAP) | 15.4 | 21.0 | 15.0 | 11.5 | 15.9 | 15.76 |
+| SF | Expense ratio (substitute) | 82.6 | 77.5 | 79.8 | 83.8 | 81.3 | 81.00 |
 
-![Figure 6: Panel B Compensation Expense Ratio 2020–2024](PHASE4_CHARTS/chart6_panel_b_compensation_ratio.png)
-*Figure 6: Compensation Expense Ratio (%) for Panel B Advisory Boutiques (2020–2024). Source: SEC Form 10-K Statements of Earnings.*
+For Goldman Sachs, Morgan Stanley and JPMorgan Chase, CET1 ratios stayed between 13.1% and 17.4% (Figure 4). Morgan Stanley had the highest average (15.96%) but fell from 17.4% to 15.9%; JPMorgan Chase rose from 13.1% to 15.7%. Stifel's CET1 ratio was between 14.2% and 16.5%, higher than Goldman Sachs's and JPMorgan Chase's in most years. The first version of this paper said Stifel had the lowest ratios (about 11%); that was a data error.
 
-![Figure 7: Panel B Operating Margin 2020–2024](PHASE4_CHARTS/chart7_panel_b_operating_margin.png)
-*Figure 7: Operating Margin (%) for Panel B Advisory Boutiques (2020–2024). Source: SEC Form 10-K Statements of Earnings.*
+Supplementary leverage ratios at the three G-SIBs were higher in 2020 (6.9% to 7.4%), when a temporary Federal Reserve rule left U.S. Treasuries and central bank deposits out of the calculation. After the rule expired on 31 March 2021, they were between 5.4% and 6.1%.
 
-### 6.5 Balance-Sheet Differences
-The balance sheets of the two panels represent fundamentally different financial structures:
-- **Evercore and Moelis** maintained zero funded long-term debt across all five years. Both firms held substantial net cash cushions: in 2024, Evercore held $687.4M in cash against $0 debt, and Moelis held $432.8M in cash against $0 debt.
-- **Lazard** carried funded senior notes averaging $1,682.2M alongside cash averaging $1,222.5M, reflecting its dual historical operations in asset management and advisory.
-- In contrast, **Panel A bank holding companies** carried balance-sheet assets ranging from $35B (Stifel) to over $4.0 trillion (JPMorgan Chase), funded by commercial deposits, repurchase agreements, and extensive wholesale senior and subordinated debt portfolios.
+ROE peaked in 2021 at all four banks, from 15.0% at Morgan Stanley to 23.0% at Goldman Sachs (Figure 5). In 2023 it fell to 7.5% at Goldman Sachs, 9.4% at Morgan Stanley and 11.5% at Stifel, while JPMorgan Chase's rose to 17.0%. In 2024 it ranged from 12.7% to 18.0%. JPMorgan Chase had the lowest efficiency ratio in every year except 2021 (52.0% to 59.0%; a lower ratio means costs take a smaller share of revenue).
+
+![Figure 4: Panel A Standardized CET1 Ratios 2020 to 2024](CHARTS_V2/chart4_panel_a_cet1_ratios.png)
+*Figure 4: Standardized CET1 ratios for Panel A (2020 to 2024). Source: SEC filings, `corrected_raw.csv`.*
+
+![Figure 5: Panel A Return on Common Equity 2020 to 2024](CHARTS_V2/chart5_panel_a_roe.png)
+*Figure 5: Return on common equity (%) for Panel A (2020 to 2024); Stifel's is non-GAAP. Source: SEC filings, `corrected_raw.csv`.*
+
+### 6.4 Boutique compensation and margins (Panel B)
+
+**Table 5: Panel B GAAP compensation ratio and operating margin (%)**
+
+| Ticker | Measure | 2020 | 2021 | 2022 | 2023 | 2024 | 5-year mean |
+| :--- | :--- | ---: | ---: | ---: | ---: | ---: | ---: |
+| EVR | Compensation ratio | 60.6 | 56.2 | 61.5 | 68.3 | 66.3 | 62.6 |
+| EVR | Operating margin | 23.3 | 33.5 | 25.2 | 14.8 | 17.7 | 22.9 |
+| LAZ | Compensation ratio | 60.4 | 59.4 | 59.7 | 77.4 | 65.6 | 64.5 |
+| LAZ | Operating margin | 19.6 | 22.7 | 18.6 | -3.2 | 12.7 | 14.1 |
+| MC | Compensation ratio | 59.5 | 59.3 | 62.7 | 83.6 | 69.5 | 66.9 |
+| MC | Operating margin | 28.2 | 32.2 | 21.9 | -4.7 | 14.5 | 18.4 |
+
+Pay is the boutiques' biggest cost (Figure 6). In 2021 compensation ratios were 56.2% to 59.4%; in 2023 they rose to 68.3% at Evercore, 77.4% at Lazard and 83.6% at Moelis. From 2022 to 2023 net revenue fell by 12.2% at Evercore, 9.3% at Lazard and 13.3% at Moelis. Compensation did not follow it down: it fell only 2.4% at Evercore ($1,697.5M to $1,656.9M) and it rose 17.5% at Lazard ($1,656.5M to $1,946.0M) and 15.6% at Moelis ($618.2M to $714.7M).
+
+Operating margins moved the other way (Figure 7): 22.7% to 33.5% in 2021, then 14.8% (Evercore), -3.2% (Lazard) and -4.7% (Moelis) in 2023, and 12.7% to 17.7% in 2024. Lazard had a GAAP operating loss of $80.0M in 2023 and Moelis one of $40.4M. I did not study in the filings what made up the higher 2023 pay costs, so I cannot say why compensation rose at two firms while revenue fell. What the data do show is that in the 2023 slowdown the boutiques did not cut pay in line with revenue, and the fall in revenue showed up in much lower margins, and at two firms in losses.
+
+![Figure 6: Panel B Compensation Expense Ratio 2020 to 2024](CHARTS_V2/chart6_panel_b_compensation_ratio.png)
+*Figure 6: GAAP compensation ratio (%) for Panel B (2020 to 2024). Source: SEC filings, `corrected_raw.csv`.*
+
+![Figure 7: Panel B Operating Margin 2020 to 2024](CHARTS_V2/chart7_panel_b_operating_margin.png)
+*Figure 7: GAAP operating margin (%) for Panel B (2020 to 2024). Source: SEC filings, `corrected_raw.csv`.*
+
+### 6.5 Balance sheets
+
+Moelis had no funded debt in any year; its cash was between $186.4M and $520.2M ($412.5M in 2024). Evercore, which the first version wrongly showed as debt-free, carried senior notes of $371.8M to $376.5M; with cash of $578.3M to $873.0M its net liquid cushion was positive every year ($202.1M to $499.1M). Lazard carried senior notes averaging $1,686.6M against average cash of $1,273.8M, so its net liquid cushion was negative every year (between -$220.2M and -$718.9M). I think this reflects its asset-management business. The banks fund themselves with deposits, repurchase agreements and long-term debt as part of their lending and trading, so I did not compare their cash and debt with the boutiques'.
 
 ---
 
 ## 7. Comparative and Lagged Analysis
 
-### 7.1 Why the Panels Are Analysed Separately
-Because the two panels operate under distinct balance-sheet constraints, direct pooling of bank holding companies and advisory boutiques into a single statistical model would obscure the underlying economic realities:
-1. **Capital Definition**: For bank holding companies, "capital" represents regulatory solvency buffers (CET1, Tier 1 Leverage, SLR) required to absorb balance-sheet credit and trading losses. For advisory boutiques, "capital" represents operational cash liquidity to fund payroll and office infrastructure through advisory downturns.
-2. **Regulatory Mandates**: Bank holding company shareholder distributions are restricted by annual Federal Reserve supervisory stress tests (CCAR). Advisory boutique payouts are determined by partnership committees and public board governance without bank regulatory capital constraints.
-3. **Cost Inflexibility**: Bank holding company cost structures include substantial non-compensation expenses (interest expense, credit provisions, technology infrastructure), whereas advisory boutique costs are dominated by professional compensation.
+### 7.1 Why the panels are analysed separately
 
-### 7.2 Lagged Associations ($t \to t+1$)
-To explore whether capital allocation choices in year $t$ were associated with operating performance in year $t+1$, the study evaluated one-year lagged transitions. With five fiscal years per firm, each firm provides four transition pairs:
-- $2020 \to 2021$
-- $2021 \to 2022$
-- $2022 \to 2023$
-- $2023 \to 2024$
+For a bank, capital is the regulatory buffer that absorbs losses, and payouts are limited by the Federal Reserve's annual stress tests (CCAR). For a boutique, capital is mainly cash to pay staff through slow periods, and its board faces no bank capital rules. Banks also have large non-pay costs such as interest, credit provisions and technology, while boutique costs are mostly compensation. Pooling the two would mix these differences.
 
-This yields a maximum sample size of $N = 16$ for Panel A (4 firms $\times$ 4 transitions) and $N = 12$ for Panel B (3 firms $\times$ 4 transitions).
+### 7.2 Lagged associations (t to t+1)
 
-```
-+----------------------------------------------------------------------------------------------------+
-|                         TABLE 8: EXPLORATORY LAGGED ASSOCIATIONS (t -> t+1)                        |
-+---------+------------------------+-------------------+----+-----------+---------+-----------+------+
-| Panel   | Predictor ($t$)        | Outcome ($t+1$)   | N  | Pearson r | p-value | Spearm. ρ | p-val|
-+---------+------------------------+-------------------+----+-----------+---------+-----------+------+
-| Panel A | Share Repurchases      | ROE               | 16 | -0.049    | 0.858   | -0.035    | 0.897|
-| Panel A | Cash Dividends Paid    | ROE               | 16 | +0.266    | 0.319   | +0.159    | 0.557|
-| Panel A | Cash Dividends Paid    | Efficiency Ratio  | 16 | -0.483    | 0.058   | -0.218    | 0.418|
-| Panel A | Standardized CET1      | ROE               | 16 | +0.174    | 0.520   | +0.162    | 0.549|
-+---------+------------------------+-------------------+----+-----------+---------+-----------+------+
-| Panel B | Share Repurchases      | Operating Margin  | 12 | -0.403    | 0.194   | -0.385    | 0.217|
-| Panel B | Total Cash Returned    | Operating Margin  | 12 | -0.371    | 0.234   | -0.224    | 0.484|
-| Panel B | Compensation Ratio     | Operating Margin  | 12 | -0.036    | 0.912   | -0.102    | 0.753|
-| Panel B | IB Revenue             | Operating Income  | 12 | +0.470    | 0.123   | +0.503    | 0.095|
-+---------+------------------------+-------------------+----+-----------+---------+-----------+------+
-```
+Each firm gives four pairs (2020 to 2021 through 2023 to 2024), so N = 16 for Panel A (4 firms x 4) and N = 12 for Panel B (3 firms x 4). I tested 24 pairs in total (12 per panel; all are in `corrected_correlations.csv`). Table 6 shows nine of them.
 
-### 7.3 Pearson and Spearman Results
-As presented in Table 8, the empirical results show notable contrasts across panels:
+**Table 6: Selected lagged associations (t to t+1)**
 
-1. **Panel A: Repurchases and Subsequent ROE**:
-   In Panel A, the correlation between prior-year share repurchases and next-year ROE was near zero ($r = -0.049$, $p = 0.858$; $\rho = -0.035$, $p = 0.897$, $N = 16$; Figure 8). In this sample, the near-zero association provides little evidence of a systematic positive relationship between prior-year repurchases and next-year ROE.
+| Panel | Year t measure | Year t+1 outcome | N | Pearson r | p | Spearman rho | p |
+| :--- | :--- | :--- | ---: | ---: | ---: | ---: | ---: |
+| A | Share repurchases | ROE | 16 | -0.246 | 0.359 | -0.324 | 0.221 |
+| A | Cash dividends paid | ROE | 16 | +0.160 | 0.555 | -0.025 | 0.927 |
+| A | Cash dividends paid | Efficiency ratio | 16 | -0.749 | 0.001 | -0.696 | 0.003 |
+| A | Standardized CET1 | ROE | 16 | -0.046 | 0.865 | -0.113 | 0.677 |
+| B | Share repurchases | Operating margin | 12 | -0.254 | 0.426 | -0.189 | 0.557 |
+| B | Total cash returned | Operating margin | 12 | -0.225 | 0.481 | -0.070 | 0.829 |
+| B | Compensation ratio | Operating margin | 12 | -0.206 | 0.520 | -0.545 | 0.067 |
+| B | IB revenue | Operating income | 12 | +0.438 | 0.155 | +0.441 | 0.152 |
+| B | Distribution ratio | Operating income | 12 | -0.661 | 0.019 | -0.622 | 0.031 |
 
-2. **Panel B: Repurchases and Subsequent Operating Margins**:
-   In Panel B, prior-year share repurchases showed a negative association with next-year operating margins ($r = -0.403$, $p = 0.194$; $\rho = -0.385$, $p = 0.217$, $N = 12$). This negative association coincided with peak share buybacks in 2021 and a subsequent decline in operating margins in 2022. This timing pattern is strictly observational and does not establish an economic explanation or a causal relationship.
+### 7.3 Results
 
-3. **Panel B: Investment Banking Fee Continuity**:
-   Prior-year advisory fee revenue showed a moderate positive association with next-year operating income ($r = +0.470$, $p = 0.123$; $\rho = +0.503$, $p = 0.095$, $N = 12$; Figure 9).
+1. **Panel A, buybacks and next-year ROE**: weak and negative, not significant (r = -0.246, p = 0.359; rho = -0.324; Figure 8). In this sample there is no clear link between buybacks and next-year ROE. The first version reported r = -0.049; the direction is the same, but the corrected value is somewhat more negative, mainly because the corrected Morgan Stanley ROE values are lower and Stifel's (non-GAAP) values are higher, and Stifel made small buybacks.
+2. **Panel A, dividends and next-year efficiency ratio**: strongly negative (r = -0.749, p = 0.001; rho = -0.696, p = 0.003). This is now the strongest result in the study, but I do not read it as a year-to-year link. It mostly reflects differences between firms: Stifel pays by far the smallest dividends and its substitute expense ratio (77.5% to 83.8%) sits well above the other banks' efficiency ratios, while JPMorgan Chase pays the largest dividends and has the lowest ratios. Without Stifel the result is much weaker (r = -0.579, p = 0.048; rho = -0.340, p = 0.280). Because Stifel's ratio is defined differently (Section 5.3), part of this result may come from the measure, not from the firms.
+3. **Panel A, dividends and next-year ROE, and CET1 and next-year ROE**: both close to zero (r = +0.160 and r = -0.046). The first version reported a small positive link for CET1 (r = +0.174); with corrected data there is none.
+4. **Panel B, buybacks and next-year operating margin**: weak and negative, not significant (r = -0.254, p = 0.426; rho = -0.189). The first version reported r = -0.403; the corrected link is weaker. Evercore's buybacks peaked in 2021 ($729.7M) and Lazard's and Moelis's in 2022 ($691.7M and $147.5M), and margins at all three fell in 2022 and again in 2023. This is a timing pattern, not evidence that buybacks lowered margins.
+5. **Panel B, compensation ratio and next-year margin**: Pearson is weak (r = -0.206, p = 0.520), but Spearman is more negative (rho = -0.545, p = 0.067; Figure 9). When the two disagree this much I do not rely on either.
+6. **Panel B, investment-banking revenue and next-year operating income**: moderately positive (r = +0.438, p = 0.155; rho = +0.441, p = 0.152). A strong fee year tended to be followed by another fairly strong year, but the result is not significant at the 5% level.
+7. **Panel B, distribution ratio and next-year operating income**: negative and below the 5% level (r = -0.661, p = 0.019; rho = -0.622, p = 0.031). Years in which a boutique paid out more relative to its revenue were followed by lower operating income. This is one test among many, and I did not correct for multiple testing. Operating income is in dollars, and Moelis is both the smallest boutique and the one with the highest distribution ratio in 2020 to 2023, so this result may also reflect differences between firms rather than changes over time.
 
-![Figure 8: Panel A Lagged Repurchases vs Next-Year ROE](PHASE4_CHARTS/chart8_panel_a_lagged_repurchases_roe.png)
-*Figure 8: Exploratory scatter plot of prior-year share repurchases ($t$) against next-year Return on Common Equity ($t+1$) in Panel A ($N=16$). Source: SEC Form 10-K filings.*
+![Figure 8: Panel A Lagged Repurchases vs Next-Year ROE](CHARTS_V2/chart8_panel_a_lagged_repurchases_roe.png)
+*Figure 8: Share repurchases in year t against ROE in year t+1, Panel A (N = 16). Source: SEC filings, `corrected_raw.csv`.*
 
-![Figure 9: Panel B Lagged Compensation Ratio vs Next-Year Margin](PHASE4_CHARTS/chart9_panel_b_lagged_comp_margin.png)
-*Figure 9: Exploratory scatter plot of prior-year compensation ratio ($t$) against next-year operating margin ($t+1$) in Panel B ($N=12$). Source: SEC Form 10-K filings.*
+![Figure 9: Panel B Lagged Compensation Ratio vs Next-Year Margin](CHARTS_V2/chart9_panel_b_lagged_comp_margin.png)
+*Figure 9: GAAP compensation ratio in year t against GAAP operating margin in year t+1, Panel B (N = 12). Source: SEC filings, `corrected_raw.csv`.*
 
-### 7.4 Interpretation Boundaries
-Given sample sizes of $N = 16$ and $N = 12$, these correlation coefficients must be understood as descriptive indicators of co-movement over four annual transitions. They do not constitute formal hypothesis tests and cannot be generalized beyond the observed sample.
+### 7.4 How to read these numbers
+
+These correlations only describe how the numbers moved together over four transitions. Pairs from the same firm are not independent, so the p-values are a rough guide only. Several of the stronger results compare firms of very different size, so they say more about differences between firms than about what happens to one firm from one year to the next.
 
 ---
 
-## 8. Author-Led Discussion
+## 8. Discussion
 
-To provide rigorous analysis, this Discussion distinguishes between three levels of discourse:
-- **Level 1 — Direct Observation**: What the empirical data directly shows.
-- **Level 2 — Author Interpretation**: What the author takes from the findings.
-- **Level 3 — Possible Explanation**: Hypotheses and external factors that could account for the observed patterns.
+**Buybacks were not clearly linked to later performance in either panel.** In the first version I argued that the two panels behaved differently: almost no link for the banks and a weak negative link for the boutiques. With corrected data that contrast is gone. Both links are weak, negative and not significant (r = -0.246 for bank buybacks and next-year ROE, r = -0.254 for boutique buybacks and next-year margin). My honest reading is that, with this sample, I cannot see any link between buybacks and next-year performance. A buyback by a regulated bank and a buyback by a boutique may still be different decisions, but my data do not show it.
 
-### 8.1 Different Patterns Across the Two Panels
-- **Direct Observation**: Panel A showed a near-zero correlation between prior-year share repurchases and next-year ROE ($r = -0.049$, $p = 0.858$, $N = 16$), whereas Panel B showed a negative association between prior-year share repurchases and next-year operating margin ($r = -0.403$, $p = 0.194$, $N = 12$).
-- **Author Interpretation**: The most interesting observation in this study was not simply whether a correlation was positive or negative, but that the two panels exhibited distinct association patterns even when examining similar financial variables. This suggests that the same broad capital-allocation measure may appear differently across firms with different organizational structures.
-- **Possible Explanation**: The observed patterns may reflect differences in how market cycles affect the timing of capital distributions relative to operating returns across diverse business models.
+**Dividends and buybacks.** Bank dividends rose between 2020 and 2024 (+16.5% to +208.1%), while buybacks jumped in 2021 and then went different ways at each firm. This is consistent with banks treating dividends as a regular payment they avoid cutting and buybacks as the flexible part. Firms may buy back shares to return extra capital, to offset shares issued to staff, or because they think their shares are cheap; the filings do not tell me which.
 
-### 8.2 Context-Dependent Meaning of Financial Variables
-- **Direct Observation**: Bank holding companies reported balance-sheet capital where Goldman Sachs, Morgan Stanley, and JPMorgan Chase maintained standardized CET1 ratios of 13.0%–17.4% and Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework, alongside multi-hundred-billion-dollar debt liabilities, while independent boutiques operated with net cash cushions ($274M–$688M) and zero funded debt.
-- **Author Interpretation**: A financial variable cannot be evaluated in isolation from the organization that generates it. In bank holding companies, retained equity operates as a regulatory solvency measure; in advisory boutiques, capital is observed primarily as liquidity reserves to navigate deal slowdowns.
-- **Possible Explanation**: These structural distinctions mean that the same accounting metric reflects different operational requirements depending on the underlying business model.
+**Pay at the boutiques did not fall with revenue.** This is the clearest pattern in the corrected data, and it is stronger than in the first version. From 2022 to 2023 boutique revenue fell by 9% to 13%, but compensation fell only 2.4% at Evercore and rose 17.5% at Lazard and 15.6% at Moelis. Compensation ratios rose to 68.3% to 83.6%, margins fell to between -4.7% and 14.8%, and Lazard and Moelis made GAAP operating losses. My interpretation is that a boutique's main asset is its bankers, so it may protect pay in a slow year to keep them; the filings do not show this motive, and I did not study what made up the 2023 pay costs.
 
-### 8.3 Business Model and Financial Structure
-- **Direct Observation**: During the 2023 market contraction, advisory boutique compensation ratios rose to 66%–71% while operating margins compressed to 5%–15%. Over the same period, bank holding company efficiency ratios remained comparatively stable (53%–77%).
-- **Author Interpretation**: Advisory boutiques operate with expense profiles that are heavily concentrated in professional compensation, whereas bank holding companies operate diversified business segments (consumer banking, commercial lending, wealth management) that experience differing revenue cycles.
-- **Possible Explanation**: Differences in revenue diversification and expense flexibility may explain why profitability metrics adjusted differently during the 2022–2023 industry slowdown.
+**Capital and costs mean different things in each model.** The three large banks kept CET1 ratios of 13.1% to 17.4%, and Stifel's were 14.2% to 16.5%. Moelis had no funded debt, Evercore had senior notes but more cash than debt, and Lazard had net debt every year. Bank efficiency ratios moved less at JPMorgan Chase (52.0% to 59.0%) than at Goldman Sachs (53.8% to 74.6%). At a bank, retained capital is mainly a regulatory buffer, and stress tests and capital rules limit how much it can pay out. At a boutique, cash is a reserve for slow years and pay is the main cost to manage. Banks also have several business lines with different cycles, while boutiques depend almost fully on advisory fees, which may explain why boutique profits fell more sharply in 2023. I did not measure these factors directly.
 
-### 8.4 Regulatory Environment
-- **Direct Observation**: For Goldman Sachs, Morgan Stanley, and JPMorgan Chase, reported standardized CET1 ratios ranged from 13.0% to 17.4% during 2020–2024. Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework.
-- **Author Interpretation**: Regulatory capital requirements provide an important institutional context for interpreting bank holding company capital ratios.
-- **Possible Explanation**: Supervisory stress testing (such as CCAR) and capital adequacy rules establish an institutional framework that shapes the timing and scale of bank capital distributions.
-
-### 8.5 Decision-Making as an Interpretive Framework
-- **Direct Observation**: The eight candidate firms reported aggregate shareholder distributions of $233.3 billion over the five-year period, with cash dividends growing steadily and share repurchases fluctuating across years.
-- **Author Interpretation**: To conceptualize how external conditions relate to observable data, I formulated a conceptual chain:
-  $$\text{Financial Conditions} \longrightarrow \text{Decision-Making Considerations} \longrightarrow \text{Capital-Allocation Decisions} \longrightarrow \text{Financial Outputs}$$
-- **Possible Explanation**: Observable financial outputs may reflect how firms navigate financial conditions through their decision-making processes. Possible decision-making considerations could include risk tolerance, talent retention, liquidity needs, balance-sheet considerations, and shareholder expectations. However, because internal deliberations are not recorded in SEC Form 10-K filings, these factors are not directly measured in this study.
-
-### 8.6 Dividends and Repurchases
-- **Direct Observation**: Annual cash dividends increased across 2020–2024 (+92.5% at GS, +124.1% at MS, +16.5% at JPM, +208.0% at SF), whereas annual share repurchases fluctuated widely between peak and trough years.
-- **Author Interpretation**: This comparison provides an empirical example showing that related financial variables within the same broad category can behave in distinct ways. The observed pattern is consistent with dividends functioning as a recurring payout component, while repurchases varied more across years.
-- **Possible Explanation**: Repurchase variations coincided with fluctuations in net revenue and broader market conditions, whereas cash dividend payments followed a more continuous trajectory.
-
-### 8.7 What the Cross-Panel Differences May Suggest
-- **Direct Observation**: Across all eight firms, financial performance metrics moved in general alignment with broad market conditions, while cross-variable associations diverged between panels.
-- **Author Interpretation**: These observations suggest that similar capital-allocation measures can have different operational meanings across the two business models. Both business models represent coherent financial architectures designed for different activities within the financial sector; no ranking or superiority is implied.
-- **Possible Explanation**: Capital allocation is not a uniform formula applied identically across Wall Street, but rather a context-dependent process reflecting business model, financial structure, and regulatory environment.
+**Decisions as an interpretive link.** Considerations such as risk tolerance, keeping staff, liquidity needs and shareholder expectations probably sit between conditions and outputs (Section 3), but they are not in 10-K filings, so this is interpretation, not a finding. I do not rank the two business models.
 
 ---
 
 ## 9. Limitations
 
-To ensure research transparency and intellectual honesty, this study explicitly identifies ten limitations:
-
-1. **Small Exploratory Sample Sizes**: The exploratory lagged analysis ($t \to t+1$) contains only four annual transitions per firm ($N = 16$ for Panel A; $N = 12$ for Panel B). These small sample sizes mean all calculated correlation coefficients are exploratory and cannot support definitive statistical inferences.
-2. **Five-Year Time Period**: The study covers five fiscal years (2020–2024). While this window captured substantial cyclical variation, five years is a comparatively short period that cannot evaluate multi-decade secular trends.
-3. **Exceptional Macroeconomic Context**: The 2020–2024 period featured historically unusual events, including emergency COVID-19 pandemic relief, zero-interest-rate monetary policy, record 2021 capital-markets issuance, and rapid 525-basis-point interest-rate hikes. These conditions may not reflect ordinary market regimes.
-4. **Observational Study Design**: This project is observational. It tracks financial disclosures across time without controlled experiments, and it does not make claims of causation.
-5. **Unobserved Management Decision-Making**: Audited SEC Form 10-K filings record financial outcomes; they do not document boardroom deliberations, executive debates, or management decision-making processes.
-6. **Unobserved Executive Motives**: The data cannot determine whether share repurchases were executed to signal undervaluation, offset employee stock dilution, or return surplus capital.
-7. **Unobserved Deal Pipelines and Timing**: SEC filings report annual recognized revenues but do not disclose confidential deal backlogs or client transaction milestones. While advisory transactions can span multiple fiscal periods, this study does not contain deal-level timing data to test that explanation.
-8. **Shared Macroeconomic Movements**: Because revenues and deal activity moved in similar directions across all firms, common macroeconomic movements coincided with firm-level observations. The data cannot cleanly separate broad market forces from firm-specific capital-allocation choices.
-9. **Within-Panel Business-Model Heterogeneity**: Even within panels, firms are not entirely homogeneous. JPMorgan Chase maintains an extensive commercial and consumer deposit franchise, Stifel operates a mid-market wealth network, and Lazard combines asset management with advisory.
-10. **One-Year Lag Horizon**: The analysis examined one-year lags ($t \to t+1$). Capital-allocation decisions, particularly retained equity investments, may exert multi-year or decade-long effects that cannot be captured in a one-year window.
+1. **Small samples**: only four transitions per firm (N = 16 and N = 12), so all correlations are exploratory.
+2. **Many tests, no correction**: I tested 24 lagged pairs and did not correct for multiple testing. Four had a Pearson p-value below 0.05: in Panel A, dividends, total cash returned and investment-banking revenue against the next-year efficiency ratio; in Panel B, the distribution ratio against next-year operating income. Three of the four use the efficiency ratio, where Stifel's substitute measure sits far above the other banks'. I do not treat any single result as established.
+3. **Comparability of measures**: Stifel's ROE is non-GAAP and its efficiency ratio is a substitute; the boutiques' buyback figures are on different bases; Moelis's dividends include tax distributions.
+4. **Data errors in the first version**: the first dataset had transcription errors (Section 5.1). I re-collected the values I use, but variables I did not re-collect were dropped, so the study now covers fewer measures (for example, no return on tangible equity).
+5. **Short period**: five years cannot show long-term trends.
+6. **Unusual years**: pandemic relief, near-zero rates, a record 2021 deal year and 525 basis points of rate rises. Normal years may look different.
+7. **Observational design**: I track reported numbers, so I cannot claim causes.
+8. **No data on decisions or motives**: filings report results, not board discussions, and cannot tell me why a firm bought back shares.
+9. **No deal-level data**: I cannot test whether deals that run across two years explain the lagged results.
+10. **Common market movements and firm size**: revenue moved the same way at most firms, and the firms differ greatly in size, so I cannot separate market-wide effects or size differences from each firm's choices.
+11. **Differences inside panels**: JPMorgan Chase has a large deposit business, Stifel a wealth-management network and Lazard an asset-management arm.
+12. **One-year lag**: some capital decisions may take several years to affect results.
 
 ---
 
 ## 10. Conclusion
 
-This independent research study examined how eight major U.S. investment-banking and financial advisory firms allocated capital between 2020 and 2024, analyzing primary data from 40 official SEC Form 10-K filings across two distinct business models.
+Across the eight firms, $233.3 billion was returned to shareholders from 2020 to 2024. Bank dividends rose while buybacks changed a lot, and the three largest banks kept CET1 ratios of 13.1% to 17.4%. At the boutiques, the 2023 slowdown showed up in much lower margins and, at Lazard and Moelis, operating losses, because pay did not fall with revenue. Buybacks had no clear link with next-year performance in either panel (r = -0.246 for bank ROE, r = -0.254 for boutique margins).
 
-### Synthesis of Core Questions:
-1. **What did the study examine?**: The capital-allocation practices of eight major Wall Street firms across five years, evaluating how shareholder distributions, balance-sheet capital retention, and operating expenses related to subsequent financial performance.
-2. **What was observed?**: An aggregate of $233.3 billion returned to equity holders ($113.9B dividends, $119.4B repurchases); dividend stability alongside repurchase fluctuation; standardized CET1 ratios ranging from 13.0% to 17.4% for Goldman Sachs, Morgan Stanley, and JPMorgan Chase, alongside an 11.24% five-year average for Stifel Financial under Category IV rules; advisory boutique compensation ratios rising to 66%–71% during the 2023 downturn; and divergent exploratory lagged association patterns across panels ($r = -0.049$ for repurchases $\to$ ROE in Panel A vs. $r = -0.403$ for repurchases $\to$ operating margin in Panel B).
-3. **What interpretation does the author take?**: 
-   > **The main economic insight I take from this study is that financial outputs cannot always be understood by looking at individual financial variables in isolation. The factors and mechanisms considered in a firm's decision-making process may interact differently depending on its business model, regulatory environment, and financial structure, producing different capital-allocation outcomes.**
-   
-   From this perspective, business model, financial structure, and regulatory environment may help explain why similar financial variables appear differently across the two panels. Furthermore, firm decision-making may provide one possible connecting link between changing financial conditions and observable financial outputs.
-4. **What can the study NOT establish?**: The study cannot establish causality, observe internal management motives, support definitive statistical generalization, or determine an optimal capital allocation strategy.
-
-The evidence suggests that financial outputs are better interpreted in context rather than by looking at isolated financial variables.
+Correcting the data changed several of my findings: the contrast between the panels that I described in the first version disappeared, the boutiques' pay pattern became clearer, and Stifel turned out to hold more capital than I had reported. My main takeaway is that measures such as buybacks or capital should be read in the context of the firm's business model, balance sheet and regulation, and that a small study like this depends heavily on getting each number right. The study cannot show causes, observe motives, be generalised with confidence or say what the best capital-allocation strategy is.
 
 ---
 
 ## 11. Future Research
 
-As an independent student researcher, I identified several promising extensions for future quantitative research:
-1. **Expanded Longitudinal Horizon**: Extending the study window to 10 or 20 years (such as 2005–2025) would allow researchers to compare capital allocation during the 2008 Global Financial Crisis with the 2020–2024 pandemic and inflation cycle across multiple economic regimes.
-2. **Quarterly Data Granularity**: Collecting quarterly Form 10-Q disclosures would enable researchers to track intra-year adjustments in share repurchases, compensation pools, and regulatory capital ratios relative to quarterly earnings surprises.
-3. **Cross-Border Comparative Analysis**: Extending the panel architecture to include major European investment banks (such as Barclays, Deutsche Bank, and UBS) would permit investigation of how different regulatory jurisdictions (such as the European Central Bank and Bank of England) influence capital allocation.
-4. **Deal-Level Transaction Backlog Data**: Incorporating deal-level announcement and completion dates from transaction databases would allow empirical testing of whether transaction duration explains lagged fee recognition across consecutive fiscal years.
-5. **Market Conditions**: Future work could examine market indicators like interest-rate spreads and market volatility (VIX) to separate general economic swings from firm-specific capital choices.
-6. **Detailed Business-Model Segmentation**: Disaggregating investment-banking revenues into discrete product lines (mergers and acquisitions, equity underwriting, debt underwriting, and restructuring) would clarify whether product mix explains performance differences within panels.
+Useful next steps would be a longer period (about 2005 to 2025, to include the 2008 crisis), quarterly 10-Q data, European banks such as Barclays, Deutsche Bank and UBS under the European Central Bank and Bank of England, deal-level timing data, market indicators such as interest-rate spreads and the VIX, and investment-banking revenue split into M&A, equity underwriting, debt underwriting and restructuring.
 
 ---
 
 ## 12. References
 
-This study relies strictly on verified primary-source financial filings and official regulatory releases directly from the SEC EDGAR system.
+### Primary regulatory and statutory sources
 
-### Primary Regulatory & Statutory Sources
 1. **U.S. Securities and Exchange Commission (SEC)**:
    - Form 10-K Annual Reports (2020, 2021, 2022, 2023, 2024) for:
      - The Goldman Sachs Group, Inc. (CIK: 0000886982)
@@ -463,38 +354,25 @@ This study relies strictly on verified primary-source financial filings and offi
 
 ## 13. Appendix
 
-### Appendix A: Candidate Firm Universe
-The eight candidate firms evaluated in this study represent three distinct institutional arrangements:
-- **Panel A (Bank Holding Companies)**: Goldman Sachs (`GS`), Morgan Stanley (`MS`), JPMorgan Chase (`JPM`), Stifel Financial (`SF`).
-- **Panel B (Independent Advisory Boutiques)**: Evercore (`EVR`), Lazard (`LAZ`), Moelis & Company (`MC`).
-- **Sensitivity Context**: Jefferies Financial Group (`JEF`).
+### Appendix A: Variable definitions
 
-### Appendix B: Variable Dictionary and Formulas
-- **Net Revenue**: Net revenues after interest expense as reported on the Consolidated Statements of Earnings / Income.
-- **Investment Banking Revenue**: Revenues derived from financial advisory, equity underwriting, and debt underwriting.
-- **Cash Dividends Paid**: Cash distributions paid to common and preferred shareholders, extracted from financing cash flows.
-- **Common Share Repurchases**: Total cash paid for the open-market repurchase of common stock, extracted from financing cash flows.
-- **Total Cash Returned**: Cash Dividends Paid + Common Share Repurchases.
-- **Shareholder Distribution Ratio**: Total Cash Returned divided by Net Revenue.
-- **Standardized CET1 Ratio**: Common Equity Tier 1 capital divided by standardized risk-weighted assets under Basel III.
-- **Operating Margin**: Operating Income divided by Net Revenue.
-- **Compensation Expense Ratio**: Total compensation and employee benefits expense divided by Net Revenue.
-- **Net Liquid Cushion**: Cash and cash equivalents minus funded long-term senior and subordinated debt.
+- **Net revenue**: net revenues after interest expense, from the income statement (Moelis reports revenues with no interest expense line).
+- **Investment-banking revenue**: financial advisory, equity underwriting and debt underwriting revenue.
+- **Cash dividends paid** and **share repurchases**: cash amounts from financing cash flows; for Morgan Stanley, the Share Repurchase Program figure (see Section 5.3 for the treatment of employee tax withholding).
+- **Standardized CET1 ratio**: Common Equity Tier 1 capital / standardized risk-weighted assets under Basel III.
+- **ROE**: return on common equity as reported (non-GAAP for Stifel).
+- **Efficiency ratio**: non-interest expenses / net revenue as reported (a substitute expense percentage for Stifel).
+- **Compensation ratio**: GAAP compensation and benefits expense / net revenue.
+- **Operating margin**: GAAP operating income / net revenue.
+- Other derived measures are defined in Section 5.2.
 
-### Appendix C: Descriptive Statistics Summary
-Summary statistics across the five-year study period (2020–2024):
-- **Aggregate Cash Returned**: $233,270.6M across all eight firms.
-- **Panel A Average CET1 Ratios**: Goldman Sachs 14.66%; Morgan Stanley 15.82%; JPMorgan Chase 13.92%; Stifel Financial 11.24%.
-- **Panel B Average Compensation Ratios**: Evercore 63.5%; Lazard 64.0%; Moelis & Company 65.4%.
-- **Panel B Average Operating Margins**: Evercore 20.8%; Lazard 12.5%; Moelis & Company 21.4%.
+### Appendix B: Provenance
 
-### Appendix D: Data Provenance Register
-All raw data observations are permanently cross-referenced to SEC EDGAR accession numbers, balance-sheet line items, and filing timestamps in `PHASE3_PROVENANCE_MAP.csv` and `PHASE3_SOURCE_REGISTER.csv`.
+Each value used in this paper is in `corrected_raw.csv`, with the filing term used, a status label and a `source_url` linking to the SEC data it was taken from. Derived values are in `corrected_derived.csv` and all 24 lagged tests in `corrected_correlations.csv`.
 
-### Appendix E: Statistical Notes and Formulas
-- **Pearson Product-Moment Correlation ($r$)**:
-  $$r = \frac{\sum (X_i - \bar{X})(Y_i - \bar{Y})}{\sqrt{\sum (X_i - \bar{X})^2 \sum (Y_i - \bar{Y})^2}}$$
-- **Spearman Rank Correlation ($\rho$)**:
-  $$\rho = 1 - \frac{6 \sum d_i^2}{n(n^2 - 1)}$$
-  where $d_i = \text{rank}(X_i) - \text{rank}(Y_i)$.
-- **Small-Sample Caveat**: In samples of $N = 16$ and $N = 12$, correlation estimates are sensitive to individual pair movements. Directional stability between Pearson $r$ and Spearman $\rho$ was assessed to identify whether associations were driven by non-linear relationships or leverage points.
+### Appendix C: Statistical notes
+
+- **Pearson r** = sum((x - mean of x)(y - mean of y)) / sqrt(sum((x - mean of x)^2) x sum((y - mean of y)^2))
+- **Spearman rho** = 1 - 6 x sum(d^2) / (n(n^2 - 1)), where d is the difference between the ranks of x and y in each pair.
+- I compared the direction and size of Pearson r and Spearman rho for each pair to see whether a result depended on a few extreme values.
+- As a check, I reran the Panel A tests without Stifel and the main Panel A buyback test with Morgan Stanley's cash-flow buyback figure; these results are also in `corrected_correlations.csv`.

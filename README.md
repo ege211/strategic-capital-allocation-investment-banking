@@ -52,16 +52,13 @@ To avoid comparing fundamentally incomparable institutions, the eight firms were
 
 ## 3. Key Findings & Takeaways
 
-1. **$233.3 Billion in Shareholder Distributions:**
-   Across the eight firms over the 2020–2024 period, a combined **$233.3 billion** was returned to equity holders ($113.9 billion in regular cash dividends and $119.4 billion in share repurchases).
-2. **Dividends as a Stable Anchor vs. Cyclical Buybacks:**
-   Bank dividends rose over the period and worked as a baseline payout (Lazard and Moelis cut theirs). Common share repurchases fluctuated widely: they jumped in the 2021 boom, but afterwards they did not track profits closely.
-3. **Regulatory Capital (Panel A):**
-   Goldman Sachs, Morgan Stanley and JPMorgan kept Common Equity Tier 1 (CET1) capital ratios between **13.0% and 17.4%**, which is consistent with regulatory buffers (set by Federal Reserve CCAR stress tests) limiting how much capital these banks return.
-4. **Pay Squeezed Margins at Advisory Boutiques (Panel B):**
-   In the 2023 slowdown the boutiques' pay fell less than their revenue. Compensation expense ratios rose from 60% to 64% in the 2021 boom to 66% to 72% in 2023 (as much as 71.6% of revenue), and operating margins fell.
-5. **Lagged Associations ($t \to t+1$):**
-   Prior-year share repurchases showed almost no linear association with next-year return on equity for the banks in Panel A ($r = -0.049$), so buybacks did not predict how profitable the banks would be.
+> **Data correction (November 2026).** The first version of this dataset contained transcription errors. I re-collected every variable used in the results from SEC filings (10-K statements and XBRL data at data.sec.gov) and rebuilt the paper, tables and charts. The verified values, with a source URL for each, are in `corrected_raw.csv`; the recomputed tests are in `corrected_correlations.csv`; the new charts are in `CHARTS_V2/`. The original files are kept for transparency but should not be used.
+
+1. **$233.3 billion returned to shareholders:** $113.9 billion in dividends and $119.5 billion in share repurchases across the eight firms, 2020 to 2024.
+2. **Dividends steady, buybacks volatile:** bank dividends rose over the period, while buybacks jumped in 2021 and then moved differently at each firm.
+3. **Regulatory capital (Panel A):** Goldman Sachs, Morgan Stanley and JPMorgan kept standardized CET1 ratios between 13.1% and 17.4%.
+4. **Pay at the advisory boutiques (Panel B):** from 2022 to 2023 revenue fell 9% to 13%, while compensation fell 2.4% at Evercore and rose about 16% to 18% at Lazard and Moelis. GAAP compensation reached 68.3% (Evercore), 77.4% (Lazard) and 83.6% (Moelis) of revenue, and Lazard and Moelis made operating losses.
+5. **Lagged associations (t to t+1):** buybacks had no clear link with next-year return on equity in Panel A (r = -0.246, p = 0.359, N = 16). With 24 tests and small samples, none of the results show cause and effect.
 
 ---
 
