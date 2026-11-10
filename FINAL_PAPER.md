@@ -1,8 +1,8 @@
 # Strategic Capital Allocation in Investment Banking: A Comparative Longitudinal Study of Major U.S. Firms, 2020–2024
 
-**Author**: Ege Can  
+**Author**: Ege Umut Can  
 **Academic Level**: Independent High-School Student Research Project  
-**School**: FMV Özel Ispartakule Işık High School, Istanbul (Class of 2027)  
+**School**: FMV Işık High School, Istanbul (Class of 2027)  
 **Date**: September 2026  
 **Research Method**: Observational, Longitudinal, Comparative Financial Analysis  
 **Primary Data Source**: Official SEC Form 10-K Filings (U.S. Securities and Exchange Commission)  
@@ -13,7 +13,7 @@
 
 This independent research paper examines how major U.S. investment-banking and financial advisory firms allocated capital between business investment, balance-sheet retention, and shareholder distributions over the five-year period from 2020 through 2024, and how these allocation patterns were associated with subsequent business performance. The study investigates an eight-firm candidate universe structured into two distinct panels: Panel A consists of four large bank holding companies (Goldman Sachs, Morgan Stanley, JPMorgan Chase, and Stifel Financial), and Panel B consists of three independent advisory boutiques (Evercore, Lazard, and Moelis & Company), with Jefferies Financial Group evaluated separately as a broker-dealer sensitivity context. Audited financial data comprising 540 raw observations and 70 derived records were hand-collected across 40 primary SEC Form 10-K filings. 
 
-Descriptive findings reveal that the eight firms returned an aggregate of $233.2 billion to shareholders ($113.8 billion in cash dividends and $119.3 billion in share repurchases). Across all firms, cash dividends functioned as a comparatively stable or increasing payout component, while share repurchases exhibited wide year-to-year variation that coincided with cyclical revenue shifts. For Goldman Sachs, Morgan Stanley, and JPMorgan Chase, reported standardized CET1 ratios ranged from 13.1% to 17.4% during 2020–2024. Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework. In contrast, advisory boutique compensation expense ratios increased from 60.1%–64.0% during the 2021 market peak to 66.0%–71.6% during the 2023 revenue contraction, coinciding with operating margin compression from 20%–28% down to 5.1%–15.0%. 
+Descriptive findings reveal that the eight firms returned an aggregate of $233.3 billion to shareholders ($113.9 billion in cash dividends and $119.4 billion in share repurchases). Across all firms, cash dividends functioned as a comparatively stable or increasing payout component, while share repurchases exhibited wide year-to-year variation that coincided with cyclical revenue shifts. For Goldman Sachs, Morgan Stanley, and JPMorgan Chase, reported standardized CET1 ratios ranged from 13.0% to 17.4% during 2020 to 2024. Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework. In contrast, advisory boutique compensation expense ratios increased from 60.1%–64.0% during the 2021 market peak to 66.0%–71.6% during the 2023 revenue contraction, coinciding with operating margin compression from 20%–28% down to 5.1%–15.0%. 
 
 In an exploratory one-year lagged analysis ($t \to t+1$), the two panels displayed divergent empirical relationship patterns: Panel A showed a near-zero linear association between prior-year share repurchases and next-year return on common equity (Pearson $r = -0.049$, $p = 0.858$; Spearman $\rho = -0.035$, $p = 0.897$, $N = 16$), whereas Panel B showed a negative association between prior-year repurchases and next-year operating margins (Pearson $r = -0.403$, $p = 0.194$; Spearman $\rho = -0.385$, $p = 0.217$, $N = 12$). The author's central interpretation is that financial outputs may reflect the interaction between financial conditions and the mechanisms through which firms make capital-allocation decisions. Because organizational structures, regulatory constraints, and balance-sheet characteristics differ fundamentally across business models, similar financial variables should not be assumed to carry identical economic meanings across different firm types. The primary limitations of the study include small lagged sample sizes ($N = 12$ to $16$), a five-year observational horizon capturing a unique macroeconomic cycle, and the absence of direct data on executive decision-making. No causal claims are asserted.
 
@@ -219,9 +219,9 @@ In contrast, pure investment-banking revenues (Table 3, Figure 1) surged to hist
 *Figure 3: Total Net Revenue trajectories across candidate firms (USD Millions, 2020–2024). Source: Audited SEC Form 10-K filings.*
 
 ### 6.2 Shareholder Distributions: Dividends vs. Repurchases
-Over the five-year period, the eight firms returned a combined **$233.2 billion** to equity holders:
-- **Cash Dividends Paid**: $113.8 billion (48.8% of total distributions)
-- **Common Share Repurchases**: $119.3 billion (51.2% of total distributions)
+Over the five-year period, the eight firms returned a combined **$233.3 billion** to equity holders:
+- **Cash Dividends Paid**: $113.9 billion (48.8% of total distributions)
+- **Common Share Repurchases**: $119.4 billion (51.2% of total distributions)
 
 ```
 +----------------------------------------------------------------------------------------------------+
@@ -248,7 +248,7 @@ As detailed in Table 4 and Figure 2, the longitudinal behaviors of dividends and
 *Figure 2: Total Shareholder Cash Returned across candidate firms (USD Millions, 2020–2024). Source: Audited SEC Form 10-K Consolidated Statements of Cash Flows.*
 
 ### 6.3 Bank Holding Company Capital Ratios
-For Goldman Sachs, Morgan Stanley, and JPMorgan Chase, reported standardized CET1 ratios ranged from 13.1% to 17.4% during 2020–2024 (Table 5, Figure 4). Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework:
+For Goldman Sachs, Morgan Stanley, and JPMorgan Chase, reported standardized CET1 ratios ranged from 13.0% to 17.4% during 2020 to 2024 (Table 5, Figure 4). Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework:
 - Morgan Stanley maintained the highest average CET1 ratio (15.82%), starting at 17.4% in 2020 and adjusting to 15.2% by 2024.
 - Goldman Sachs averaged 14.66% CET1, moving from 14.7% in 2020 to 15.0% in 2024.
 - JPMorgan Chase averaged 13.92% CET1, rising from 13.1% in 2020 to 15.3% in 2024.
@@ -357,7 +357,7 @@ To provide rigorous analysis, this Discussion distinguishes between three levels
 - **Possible Explanation**: The observed patterns may reflect differences in how market cycles affect the timing of capital distributions relative to operating returns across diverse business models.
 
 ### 8.2 Context-Dependent Meaning of Financial Variables
-- **Direct Observation**: Bank holding companies reported balance-sheet capital where Goldman Sachs, Morgan Stanley, and JPMorgan Chase maintained standardized CET1 ratios of 13.1%–17.4% and Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework, alongside multi-hundred-billion-dollar debt liabilities, while independent boutiques operated with net cash cushions ($274M–$688M) and zero funded debt.
+- **Direct Observation**: Bank holding companies reported balance-sheet capital where Goldman Sachs, Morgan Stanley, and JPMorgan Chase maintained standardized CET1 ratios of 13.0%–17.4% and Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework, alongside multi-hundred-billion-dollar debt liabilities, while independent boutiques operated with net cash cushions ($274M–$688M) and zero funded debt.
 - **Author Interpretation**: A financial variable cannot be evaluated in isolation from the organization that generates it. In bank holding companies, retained equity operates as a regulatory solvency measure; in advisory boutiques, capital is observed primarily as liquidity reserves to navigate deal slowdowns.
 - **Possible Explanation**: These structural distinctions mean that the same accounting metric reflects different operational requirements depending on the underlying business model.
 
@@ -367,12 +367,12 @@ To provide rigorous analysis, this Discussion distinguishes between three levels
 - **Possible Explanation**: Differences in revenue diversification and expense flexibility may explain why profitability metrics adjusted differently during the 2022–2023 industry slowdown.
 
 ### 8.4 Regulatory Environment
-- **Direct Observation**: For Goldman Sachs, Morgan Stanley, and JPMorgan Chase, reported standardized CET1 ratios ranged from 13.1% to 17.4% during 2020–2024. Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework.
+- **Direct Observation**: For Goldman Sachs, Morgan Stanley, and JPMorgan Chase, reported standardized CET1 ratios ranged from 13.0% to 17.4% during 2020–2024. Stifel Financial reported a five-year average CET1 ratio of 11.24% under its Category IV framework.
 - **Author Interpretation**: Regulatory capital requirements provide an important institutional context for interpreting bank holding company capital ratios.
 - **Possible Explanation**: Supervisory stress testing (such as CCAR) and capital adequacy rules establish an institutional framework that shapes the timing and scale of bank capital distributions.
 
 ### 8.5 Decision-Making as an Interpretive Framework
-- **Direct Observation**: The eight candidate firms reported aggregate shareholder distributions of $233.2 billion over the five-year period, with cash dividends growing steadily and share repurchases fluctuating across years.
+- **Direct Observation**: The eight candidate firms reported aggregate shareholder distributions of $233.3 billion over the five-year period, with cash dividends growing steadily and share repurchases fluctuating across years.
 - **Author Interpretation**: To conceptualize how external conditions relate to observable data, I formulated a conceptual chain:
   $$\text{Financial Conditions} \longrightarrow \text{Decision-Making Considerations} \longrightarrow \text{Capital-Allocation Decisions} \longrightarrow \text{Financial Outputs}$$
 - **Possible Explanation**: Observable financial outputs may reflect how firms navigate financial conditions through their decision-making processes. Possible decision-making considerations could include risk tolerance, talent retention, liquidity needs, balance-sheet considerations, and shareholder expectations. However, because internal deliberations are not recorded in SEC Form 10-K filings, these factors are not directly measured in this study.
@@ -412,7 +412,7 @@ This independent research study examined how eight major U.S. investment-banking
 
 ### Synthesis of Core Questions:
 1. **What did the study examine?**: The capital-allocation practices of eight major Wall Street firms across five years, evaluating how shareholder distributions, balance-sheet capital retention, and operating expenses related to subsequent financial performance.
-2. **What was observed?**: An aggregate of $233.2 billion returned to equity holders ($113.8B dividends, $119.3B repurchases); dividend stability alongside repurchase fluctuation; standardized CET1 ratios ranging from 13.1% to 17.4% for Goldman Sachs, Morgan Stanley, and JPMorgan Chase, alongside an 11.24% five-year average for Stifel Financial under Category IV rules; advisory boutique compensation ratios rising to 66%–71% during the 2023 downturn; and divergent exploratory lagged association patterns across panels ($r = -0.049$ for repurchases $\to$ ROE in Panel A vs. $r = -0.403$ for repurchases $\to$ operating margin in Panel B).
+2. **What was observed?**: An aggregate of $233.3 billion returned to equity holders ($113.9B dividends, $119.4B repurchases); dividend stability alongside repurchase fluctuation; standardized CET1 ratios ranging from 13.0% to 17.4% for Goldman Sachs, Morgan Stanley, and JPMorgan Chase, alongside an 11.24% five-year average for Stifel Financial under Category IV rules; advisory boutique compensation ratios rising to 66%–71% during the 2023 downturn; and divergent exploratory lagged association patterns across panels ($r = -0.049$ for repurchases $\to$ ROE in Panel A vs. $r = -0.403$ for repurchases $\to$ operating margin in Panel B).
 3. **What interpretation does the author take?**: 
    > **The main economic insight I take from this study is that financial outputs cannot always be understood by looking at individual financial variables in isolation. The factors and mechanisms considered in a firm's decision-making process may interact differently depending on its business model, regulatory environment, and financial structure, producing different capital-allocation outcomes.**
    
@@ -483,7 +483,7 @@ The eight candidate firms evaluated in this study represent three distinct insti
 
 ### Appendix C: Descriptive Statistics Summary
 Summary statistics across the five-year study period (2020–2024):
-- **Aggregate Cash Returned**: $233,169.5M across all eight firms.
+- **Aggregate Cash Returned**: $233,270.6M across all eight firms.
 - **Panel A Average CET1 Ratios**: Goldman Sachs 14.66%; Morgan Stanley 15.82%; JPMorgan Chase 13.92%; Stifel Financial 11.24%.
 - **Panel B Average Compensation Ratios**: Evercore 63.5%; Lazard 64.0%; Moelis & Company 65.4%.
 - **Panel B Average Operating Margins**: Evercore 20.8%; Lazard 12.5%; Moelis & Company 21.4%.
